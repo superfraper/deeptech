@@ -36,5 +36,8 @@ USER appuser
 
 EXPOSE 8000
 
+# PORT is set by Railway, default to 8000 for local development
+ENV PORT=8000
+
 # Start via uv run without syncing at runtime (dependencies were installed at build time)
-CMD ["uv", "run", "--no-sync", "uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000", "--workers", "4", "--log-level", "info"]
+CMD uv run --no-sync uvicorn main:app --host 0.0.0.0 --port $PORT --workers 4 --log-level info
