@@ -55,7 +55,9 @@ class Settings:
 
     @property
     def DATA_CONTEXT_DB(self) -> str:
-        return self._db_name("data_context")
+        if self.DB_BACKEND == "postgres":
+            return self.POSTGRES_DB
+        return str(self.DATABASE_DIR / "data_context.db")
 
     @property
     def postgres_dsn(self) -> str:

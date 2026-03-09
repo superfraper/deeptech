@@ -18,7 +18,8 @@ def get_pg_dsn(default_db: str | None = None) -> str:
     host = os.getenv("POSTGRES_HOST", "postgres")
     port = os.getenv("POSTGRES_PORT", "5432")
     db = default_db or os.getenv("POSTGRES_DB", "postgres")
-    return f"postgresql://{user}:{password}@{host}:{port}/{db}"
+    sslmode = os.getenv("POSTGRES_SSLMODE", "prefer")
+    return f"postgresql://{user}:{password}@{host}:{port}/{db}?sslmode={sslmode}"
 
 
 def _derive_db_name(db_name_or_path: str) -> str:
