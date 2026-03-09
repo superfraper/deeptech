@@ -1,0 +1,105 @@
+[project]
+name = "ESF"
+version = "0.0.1"
+description = "FastAPI backend for ESF Dash RAG"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aws-requests-auth>=0.4.3",
+    "boto3>=1.40.45",
+    "cryptography>=46.0.2",
+    "fastapi[standard]>=0.118.0",
+    "firecrawl-py>=4.3.6",
+    "numpy>=2.3.3",
+    "openai>=2.1.0",
+    "opensearch-py>=3.0.0",
+    "psycopg[binary]>=3.2.10",
+    "pydantic[email]>=2.11.10",
+    "pyjwt>=2.10.1",
+    "python-dotenv>=1.1.1",
+    "pyyaml>=6.0.3",
+    "tiktoken>=0.11.0",
+]
+
+[dependency-groups]
+dev = [
+    "deepeval>=3.6.6",
+    "mypy>=1.18.2",
+    "pytest>=8.4.2",
+    "ruff>=0.13.3",
+    "types-pyyaml>=6.0.12.20250915",
+    "types-requests>=2.32.4.20250913",
+]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 150
+extend-exclude = [
+    "data/test_data/dummy_data.py",
+]
+
+[tool.ruff.lint]
+# Enable pycodestyle (`E`), Pyflakes (`F`), and isort (`I`) codes by default.
+select = [
+"E", "F", "I", "B", "C4", "UP", "ARG", "SIM", "TCH", "TID", "Q", "RUF",
+"UP031", "UP032"]
+ignore = [
+    "B008"
+]
+# Allow autofix for all enabled rules (when `--fix`) is provided.
+fixable = ["ALL"]
+unfixable = []
+
+# Allow unused variables when underscore-prefixed.
+dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"
+
+# Exclude a variety of commonly ignored directories.
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".mypy_cache",
+    ".nox",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "venv",
+    "backend/data/test_data",
+]
+
+[tool.ruff.lint.mccabe]
+max-complexity = 10
+
+[tool.ruff.lint.isort]
+known-first-party = ["app"]
+
+[tool.ruff.lint.per-file-ignores]
+"__init__.py" = ["F401"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+exclude = ["data*", "eval*"]
+
+[[tool.mypy.overrides]]
+module = [
+    "boto3",
+    "botocore.*",
+    "aws_requests_auth.*",
+    "firecrawl",
+]
+ignore_missing_imports = true

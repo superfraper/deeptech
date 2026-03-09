@@ -1,0 +1,79 @@
+{
+  "id": "general_it_contract",
+  "name": "General IT Services Contract Checklist",
+  "description": "Standard checklist for IT service agreements and vendor contracts",
+  "questions": [
+    {
+      "id": "it_1",
+      "question": "Does the contract clearly define the scope of IT services to be provided?",
+      "category": "scope",
+      "required": true
+    },
+    {
+      "id": "it_2",
+      "question": "Are Service Level Agreements (SLAs) clearly defined with measurable metrics?",
+      "category": "sla",
+      "required": true
+    },
+    {
+      "id": "it_3",
+      "question": "Does the contract specify uptime guarantees and availability requirements?",
+      "category": "availability",
+      "required": true
+    },
+    {
+      "id": "it_4",
+      "question": "Are response times for support and incident resolution clearly defined?",
+      "category": "support",
+      "required": true
+    },
+    {
+      "id": "it_5",
+      "question": "Does the contract include data backup and recovery procedures?",
+      "category": "backup",
+      "required": true
+    },
+    {
+      "id": "it_6",
+      "question": "Are security requirements and compliance standards specified?",
+      "category": "security",
+      "required": true
+    },
+    {
+      "id": "it_7",
+      "question": "Does the contract address intellectual property rights and ownership?",
+      "category": "ip_rights",
+      "required": true
+    },
+    {
+      "id": "it_8",
+      "question": "Are pricing terms and payment schedules clearly defined?",
+      "category": "pricing",
+      "required": true
+    },
+    {
+      "id": "it_9",
+      "question": "Does the contract include confidentiality and non-disclosure provisions?",
+      "category": "confidentiality",
+      "required": true
+    },
+    {
+      "id": "it_10",
+      "question": "Are termination conditions and notice periods specified?",
+      "category": "termination",
+      "required": true
+    },
+    {
+      "id": "it_11",
+      "question": "Does the contract include liability limitations and indemnification clauses?",
+      "category": "liability",
+      "required": true
+    },
+    {
+      "id": "it_12",
+      "question": "Are change management procedures defined for service modifications?",
+      "category": "change_management",
+      "required": false
+    }
+  ]
+}

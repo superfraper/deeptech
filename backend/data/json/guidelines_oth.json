@@ -1,0 +1,1353 @@
+[
+  {
+    "no": "I.00",
+    "field": "Table of contents",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "I. Compliance with duties of information\nII. Summary \nPart A: Information about the offeror or the person seeking admission to trading \nPart B: Information about the issuer, if different from the offeror or person seeking admission to trading \nPart C: Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 6(1), second subparagraph, of Regulation (EU) 2023/1114 \nPart D: Information about the crypto-asset project\nPart E: Information about the offer to the public of crypto-assets or their admission to trading\nPart F: Information about the crypto-assets \nPart G: Information on the rights and obligations attached to the crypto-assets \nPart H: Information on the underlying technology \nPart I: Information on the risks \nPart J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.01",
+    "field": "Date of notification",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "dateOfNotification",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "I.02",
+    "field": "Statement in accordance with Article 6(3) of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "if personType = offeror, write:\nThis crypto-asset white paper has not been approved by any competent authority in any Member State of the European Union. \nThe offeror of the crypto-asset is solely responsible for the content of this crypto-asset white paper.\nif personType = person, write:\nThis crypto-asset white paper has not been approved by any competent authority in any Member State of the European Union. \nThe person seeking admission to trading of the crypto-asset is solely responsible for the content of this crypto-asset white paper.\nif personType = operator, write:\nThis crypto-asset white paper has not been approved by any competent authority in any Member State of the European Union. \nThe operator of the trading platform of the crypto-asset is solely responsible for the content of this crypto-asset white paper.",
+    "form_and_standards": "Conditional alphanumerical text"
+  },
+  {
+    "no": "I.03",
+    "field": "Compliance statement in accordance with Article 6(6) of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "This crypto-asset white paper complies with Title II of Regulation (EU) 2023/1114 of the European Parliament and of the Council and, to the best of the knowledge of the management body, the information presented in the crypto-asset white paper is fair, clear and not misleading and the crypto-asset white paper makes no omission likely to affect its import.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.04",
+    "field": "Statement in accordance with Article 6(5), points (a), (b), (c), of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "The crypto-asset referred to in this crypto-asset white paper may lose its value in part or in full, may not always be transferable and may not be liquid.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.05",
+    "field": "Statement in accordance with Article 6(5), point (d), of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "If the value of tokenClassification is OTH_UTILITY then write 'The utility token referenced in this white paper may not be redeemable for the goods or services described herein, particularly in the event of project failure or discontinuation of the crypto-asset initiative.' \\nElse, write FALSE",
+    "form_and_standards": "Conditional alphanumerical text"
+  },
+  {
+    "no": "I.06",
+    "field": "Statement in accordance with Article 6(5), points (e) and (f), of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "The crypto-asset referred to in this white paper is not covered by the investor compensation schemes under Directive 97/9/EC of the European Parliament and of the Council or the deposit guarantee schemes under Directive 2014/49/EU of the European Parliament and of the Council.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.07",
+    "field": "Warning in accordance with Article 6(7), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "Warning\nThis summary should be read as an introduction to the crypto-asset white paper. The prospective holder should base any decision to purchase this crypto-asset on the content of the crypto-asset white paper as a whole and not on the summary alone. The offer to the public of this crypto-asset does not constitute an offer or solicitation to purchase financial instruments and any such offer or solicitation can be made only by means of a prospectus or other documents pursuant to the applicable national law.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.08",
+    "field": "Characteristics of the crypto-asset",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "A brief, clear and non-technical description of the characteristics of the crypto asset including information about rights and obligations of the purchaser, procedure and conditions for the exercise of those rights and conditions, if any, under which these rights and obligations may be modified. ● Consensus Mechanism: Describe the consensus\nmechanism used by the crypto asset.\n○ Example: \"\"Hedera utilises a novel\nhashgraph consensus mechanism that\nsupports high-throughput, low-latency,\nlow-cost transactions.”\n● Rights and Obligations: Outline the rights and\nobligations of the purchaser, including how these\ncan be exercised and any conditions or\nprocedures.\n○ Example: \"\"HBAR holders can use the\ntokens to pay for network services and to\nstake them to network nodes for\nconsensus validation.”\n● Modification Conditions: Specify any conditions\nunder which the rights and obligations of the\ncrypto asset can be modified.\n○ Example: \"\"Conditions for modifying rights\nand obligations are governed by the\nHedera network protocols and community\ngovernance.\"\" ● Utility Token Information: For utility tokens,\nprovide details about the goods or services\naccessible through the tokens and any restrictions\non transferability.\n○ Example: \"\"HBAR tokens provide access to\nvarious Hedera services, such as the\nToken Service, Consensus Service, and\nSmart Contract Service. Transferability\nmay be restricted based on network rules\nand regulatory requirements.\"\" ● Security and Staking: Describe how the crypto\nasset contributes to network security and any\nstaking mechanisms. ○ Example: \"\"HBAR are used to secure the\nnetwork through staking, which involves\nOTH\nlocking tokens to nodes to achieve a\nweighted influence on consensus.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.09",
+    "field": "Quality and quantity of goods/services linked to utility tokens",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "If 05 is FALSE write N/A. If the token classification is Oth_NON_UTILITY (doesnt concern utility tokens) This is N/A. Else, you should provide a summary of fields G.7 and G.11, if they are applicable resembling this format.: Access to Goods and Services:",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.10",
+    "field": "Key information about the offer to the public or admission to trading",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "A brief and non-technical description of the offer to the public including information about the amount of the offer, including, where applicable, any minimum and maximum target subscription goals, issue price of the crypto-asset and subscription fees, the total number of crypto-assets to be offered; prospective holders; description, where applicable, of the various phases of the offer to the public of crypto-assets, including information on discounted purchase price for early purchasers of crypto-assets and subscription period. nWhen applicable, the name of the crypto-asset service provider in charge of the placing of crypto-assets and the form of such placement (with or without a firm commitment basis); nWhen applicable, a brief and non-technical description of the admission to trading, including the name of the trading platform for which the admission is sought.\nContent\n● Minimum and maximum subscription goals\n● Target subscription goals\n● Issue price of the crypto-asset\n● Subscription fees\n● Total number of crypto-assets to be offered\n● Prospective holders\n● Description of the various phases of the offer to\nthe public of crypto-assets, including information\non discounted purchase price for early purchasers\nof crypto-assets\n● Subscription period\n● Name of the crypto-asset service provider in\ncharge of the placing of crypto-assets and the\nform of such placement (with or without a firm\ncommitment basis), when applicable\n● Name of the trading platform for which the\nadmission is sought, when applicable\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.1",
+    "field": "Name",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorName",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.2",
+    "field": "Legal form",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorLegalForm",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.3",
+    "field": "Registered address",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorRegisteredAddress",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.4",
+    "field": "Head office",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorHeadOffice",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.5",
+    "field": "Registration date",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorRegistrationDate",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.6",
+    "field": "Legal entity identifier",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorLeiNumber",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.7",
+    "field": "Another identifier required pursuant to applicable national law",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Field to be filled in only if a legal entity identifier is not provided in field A.6 if LEI provided write N/A. National identifier based on the nationality of the offeror or the person seeking admission to trading, if required under the applicable national law. This field only applies to entities for which a national identifier is required in accordance with applicable national law.",
+    "form_and_standards": "Free text"
+  },
+  {
+    "no": "A.8",
+    "field": "Contact telephone number",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorPhone",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.9",
+    "field": "E-mail address",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorEmail",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.10",
+    "field": "Response time (Days)",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "responseTime",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.11",
+    "field": "Parent company",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "offerorParentCompanyName",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.12",
+    "field": "Members of the management body",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Identity, business address and functions of each person that is a member of the management body, as defined in Article 3(1), point (27), of Regulation (EU) 2023/1114, of the offeror or the person seeking admission to trading",
+    "form_and_standards": "Identity (names or other identifiers), business address and functions of members \nof the management body of the offeror or the person seeking admission to trading\nFree alphanumerical text"
+  },
+  {
+    "no": "A.13",
+    "field": "Business activity",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Business or professional activity of the offeror or person seeking admission to trading",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.14",
+    "field": "Parent company business activity",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": " If a parent company is not provided in field A.11 write: N/A. Else, Where applicable, business or professional activity of the parent company, including principal activities and principal markets",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.15",
+    "field": "Newly established",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Indication as to whether the offeror or person seeking admission to trading has been established for the past three years\nTRUE if registration date (A.5) > 3 years from today or publication date.",
+    "form_and_standards": "‘TRUE’ - Yes n ‘FALSE’ - No"
+  },
+  {
+    "no": "A.16",
+    "field": "Financial condition for the past three years",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Is A.15 true? If true: N/A, else please Provide: Financial condition of the offeror or\nperson seeking admission to trading\nover the past three years.\nThis shall be assessed based on a\nfair review of the development and\nperformance of the business of the\nofferor or person seeking admission\nto trading and of its position for each\nyear and interim period for which\nhistorical financial information is\nrequired, including the causes of\nmaterial changes.\nThe review shall be a balanced and\ncomprehensive analysis of the\ndevelopment and performance of the\nbusiness of the offeror or person\nseeking admission to trading and of\nits position, consistent with the size\nand complexity of the business.\nThe analysis shall include both\nfinancial and, where appropriate,\nnon-financial Key Performance\nIndicators relevant to the business.\nThe analysis shall, where appropriate,\ninclude references to, and additional\nexplanations of, amounts reported in\nthe annual financial statements\n(where available), information\nregarding unusual or infrequent\nevents or new developments,\nmaterially affecting the income from\noperations and indicate the extent to\nwhich income was so affected,\ninformation concerning capital\nresources (both short term and long\nterm) and an explanation of the\nsources and amounts of and a\nnarrative description of the cash\nflows.\n[Suggested structure below]\n[to fill] started its activities on [to\nfill]. The share capital of [to fill] is [to\nfill].\n[Description of original capital\nresources, additional capital\ninjections and cash flows]\nAs of December 31, [year], its\nfinancial condition was [to fill], with\na treasury position of [to fill], with\n[to fill] debt and [to fill] total assets.\n[to fill]’s net operating income… [to\nfill].\nFull year figures can be found\navailable on [to fill].\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.17",
+    "field": "Financial condition since registration",
+    "section_name": "Part A Information about the offeror or the person seeking admission to trading",
+    "content_to_be_reported": "Is A.15 false? If false: N/A, else: Where the offeror or person seeking\nadmission to trading has not been\nestablished for the past three years,\ndescription of its financial condition\nsince the date of its registration.\nThis shall be assessed based on a\nfair review of the development and\nperformance of the business of the\nofferor or person seeking admission\nto trading and of its position for each\nyear and interim period for which\nhistorical financial information is\navailable, including the causes of\nmaterial changes.\nThe review shall be a balanced and\ncomprehensive analysis of the\ndevelopment and performance of the\nbusiness of the offeror or person\nseeking admission to trading and of\nits position, consistent with the size\nand complexity of the business.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.1",
+    "field": "Issuer different from offeror or person seeking admission to trading",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "issuerType",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.2",
+    "field": "Name",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Name.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.3",
+    "field": "Legal form",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Field to be filled in only if an LEI is not provided in field B.7. Legal form\nIf issuerLeiNumber contains a LEI, replace the entire field content with:\n“N/A – LEI is provided in B.7.”\nIf B.1 = false set to N/A.",
+    "form_and_standards": "ISO standard 20275 Financial Services – Entity Legal Forms (ELF)"
+  },
+  {
+    "no": "B.4",
+    "field": "Registered address",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Field to be filled in only if an LEI is not provided in field B.7. Address and country of registration.\nIf issuerLeiNumber contains a LEI, replace the entire field content with:\n“N/A – LEI is provided in B.7.”\nIf B.1 = false set to N/A.",
+    "form_and_standards": "ISO standard 3166-1 alpha 2 country codes and codes for their subdivisions and Free alphanumerical text"
+  },
+  {
+    "no": "B.5",
+    "field": "Head office",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Field to be filled in only if an LEI is not provided in field B.7. Address of the Head office, where different than registered address.\nIf issuerLeiNumber contains a LEI, replace the entire field content with:\n“N/A – LEI is provided in B.7.”\nIf B.1 = false set to N/A.",
+    "form_and_standards": "ISO standard 3166-1 alpha 2 country codes and codes for their subdivisions and Free alphanumerical text"
+  },
+  {
+    "no": "B.6",
+    "field": "Registration date",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Date of the registration.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "ISO 8601 date format (YYYY-MM-DD)"
+  },
+  {
+    "no": "B.7",
+    "field": "Legal entity identifier",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Legal entity identifier of the issuer, where available.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "LEI"
+  },
+  {
+    "no": "B.8",
+    "field": "Another identifier required pursuant to applicable national law",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "National identifier based on the nationality of the\nissuer, if required under the applicable national law.\nThis field only applies to entities for which a\nnational identifier exists under applicable national\nlaw.\nIf issuerLeiNumber contains a LEI, replace the entire field content with:\n“N/A – LEI is provided in B.7.”\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free text"
+  },
+  {
+    "no": "B.9",
+    "field": "Parent company",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Legal entity identifier as defined in ISO 17442 or\nanother identifier required pursuant to applicable\nnational law, e.g. 254900ARU0VC1WY6GJ71\nIf issuerLeiNumber contains a LEI, replace the entire field content with:\n“N/A – LEI is provided in B.7.”\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.10",
+    "field": "Members of the management body",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Identity, business address and functions of each of\nthe persons that are members of the management\nbody, as defined in Article 3(1) point (27) of\nRegulation (EU) 2023/1114, of the issuer.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free alphanumerical text presented in a tabular format"
+  },
+  {
+    "no": "B.11",
+    "field": "Business activity",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Business or professional activity of the issuer,\nincluding principal activities, principal markets and\nrecent financial condition.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.12",
+    "field": "Parent company business activity",
+    "section_name": "Part B Information about the issuer, if different from the offeror or person seeking admission to trading",
+    "content_to_be_reported": "Where applicable, business or professional activity\nof the parent company, including principal\nactivities and principal markets.\nIf B.1 = false set to N/A.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.1",
+    "field": "Name",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorName",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "C.2",
+    "field": "Legal form",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorLegalForm",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "C.3",
+    "field": "Registered address",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorRegisteredAddress",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "C.4",
+    "field": "Head office",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorHeadOffice",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "C.5",
+    "field": "Registration date",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorRegistrationDate",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "C.6",
+    "field": "Legal entity identifier",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorLeiNumber",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "C.7",
+    "field": "Another identifier required pursuant to applicable national law",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Field to be filled in only if a legal entity identifier is not provided in field C.6 if LEI provided write N/A. National identifier based on the nationality of the operator, if required under the applicable national law. This field only applies to entities for which a national identifier is required in accordance with applicable national law.",
+    "form_and_standards": "Free text"
+  },
+  {
+    "no": "C.8",
+    "field": "Parent company",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "operatorParentCompanyName",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "C.9",
+    "field": "Reason for crypto-Asset white paper Preparation",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "The reason why the operator of the trading platform drew up the crypto-asset white paper.\n N/A unless the user selects that the operator of the trading platform is drawing up the white paper\nIf OperatorType == 'Different' This is N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.10",
+    "field": "Members of the Management body",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Identity (name or other identifier), business address, and functions of each of the persons that are members of the management body, as defined in Article 3(1), point (27), of Regulation (EU) 2023/1114, of the operator of the trading platform.\n N/A unless the user selects that the operator of the trading platform is drawing up the white paper\nIf OperatorType == 'Different' This is N/A",
+    "form_and_standards": "Free alphanumerical text presented in a tabular format"
+  },
+  {
+    "no": "C.11",
+    "field": "Operator business activity",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Business or professional activity of the operator, including principal activities and principal markets.\n N/A unless the user selects that the operator of the trading platform is drawing up the white paper\nIf OperatorType == 'Different' This is N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.12",
+    "field": "Parent company business activity",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Where applicable, business or professional activity of the parent company, including principal activities and principal markets.\n N/A unless the user selects that the operator of the trading platform is drawing up the white paper\nIf OperatorType == 'Different' This is N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.13",
+    "field": "Other persons drawing up the crypto-asset white paper according to Article 6(1), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Write: \"N/A\"",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.14",
+    "field": "Reason for drawing up the white paper by persons referred to in Article 6(1), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "Part C Information about the operator of the trading platform in cases where it draws up the crypto-asset white paper and information about other persons drawing the crypto-asset white paper pursuant to Article 61, second subparagraph, of Regulation EU 2023/1114",
+    "content_to_be_reported": "Write: \"N/A\"",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.1",
+    "field": "Crypto-asset project name",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "cryptoProjectName",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "D.2",
+    "field": "Crypto-assets name",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "If F.13 has a DTI, should read \"\"N/A as DTI is provided in F.13\"\" else please  provide the exact name of the crypto-assets.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.3",
+    "field": "Abbreviation",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Field to be filled in only if a DTI is not provided in field F.13.Provide  Abbreviation or ticker handler.\nIf F.13 has a DTI, should read \"\"N/A as DTI is provided in F.13\"\"",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.4",
+    "field": "Crypto-asset project description",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "A brief description of the crypto-asset project.\nFor a L1:\n[Crypto-asset project] is a [description of the\nnetwork] that utilises [consensus algorithm] to\nachieve [benefits such as high throughput, low\nlatency, or enhanced security]. It supports various\napplications including [list of applications]. The\nnetwork is governed by [description of governing\nbody], which oversees [list of responsibilities such\nas establishing policies, managing treasury,\nsetting network rules, and maintaining a\ntransaction history].”\nFor a token:\n“[Token Name] is a token built on [blockchain\nnetworks], designed to enhance the [platform\nname] ecosystem by providing users with access\nto [list of benefits such as fee reductions, loyalty\nrewards, or premium features]. The underlying\nnetworks operate on [consensus mechanism],\nensuring [key advantages such as security,\ntransparency, and efficiency].\n[Token Name] integrates with decentralized\nfinance (DeFi) protocols and leverages smart\ncontract capabilities to maintain its functionality\nand scalability. Its utility is limited to the [platform\nname] ecosystem, where it facilitates [specific use\ncases]. Unlike general-purpose cryptocurrencies,\n[Token Name] is not a payment token but a\nplatform-specific asset used exclusively for\naccessing services and benefits within [platform\nname].\nGovernance and implementation of [Token Name]\nare overseen by [governing entity], with support\nfrom [stakeholders such as strategic partners,\nindependent developers, or the platform’s\ncommunity]. These entities collaborate to manage\nthe token’s infrastructure and ensure its\nsustainable operation.”",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.5",
+    "field": "Details of all natural or legal persons involved in the implementation of the crypto-asset project",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Tabular format with Name in one column and\naddress/docimile in the other\nContext below:\n\n1. Who are the professional advisors involved in the\nimplementation of the crypto-asset project?\n- Who are the legal advisors?\n- Who are the financial advisors?\n- Who are the compliance advisors?\n- Who are the business consulting advisors?\n- Are there any other professional advisors?\n2, Who are the technical advisors involved in the\nimplementation of the crypto-asset project?\n- Who are the development team?\n- Who are the founder(s)?\n- Who are the key developers?\n- Who are the financiers?\n3. Are there any other key members of the\ndevelopment team?\n- Who are the crypto-asset service providers involved in\nthe implementation of the crypto-asset project?\n- Who provides exchange and trading and related\nservices?\n- Who provides custody services?\n- Who provides administrative services?\n- Who provides operational services?\n4. Are there any other crypto-asset service providers?\n- Are there any other persons involved in the\nimplementation of the crypto-asset project?\n- Who are the parties responsible for the administration\nor management of the project?\n- Are there any other parties with a significant financial\ninterest in the project as a whole?\nFor each of these persons, present answers in tabular\nformat with three columns: NAME, ROLE;\nADDRESS/DOMICILE\n",
+    "form_and_standards": "Free alphanumerical text presented in a tabular format"
+  },
+  {
+    "no": "D.6",
+    "field": "Utility Token Classification",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Indication as to whether the crypto-asset project concerns utility tokens. Expected response: True/False (Yes/No).",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.7",
+    "field": "Key Features of Goods/Services for Utility Token Projects",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "If C.6 is N/A then this is N/A, Otherwise: \nIf D.6 is false, this is N/A, otherwise:\nExample:\n“[Token Name] serves as a [payment/value\nvoucher/utility] within the [platform name]\necosystem, granting access to specific functions\nand enabling the exchange of value for certain\nservices. It does not represent ownership, equity,\nor participation in [Issuer Name]\nCurrent Key Features:\n[Feature 1]: [Brief description of how the token is\nused, e.g., loyalty rewards, discounts, access to\npremium services].\n[Feature 2]: [Further description of functionality,\nsuch as cashback incentives, trading benefits, or\nplatform rewards].\nFuture Features:\n[Feature 3]: [Planned integrations, expanded\ntrading capabilities, additional reward\nmechanisms, or enhanced token utility].\n[Feature 4]: [Additional feature supporting\necosystem growth and user engagement].\n[Token Name] is designed to support the\nlong-term development of [platform name] by\nincentivizing participation, improving access to\nservices, and expanding its role within the\nbroader ecosystem.”",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.8",
+    "field": "Plans for the token",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Information about the crypto-asset project, including the description of the past and future milestones.\nExample:\n● Past Milestones:\n○ [Year-Year]: [Description of research or\ndevelopment activities].\n○ [Date]: [Publication or release of significant\ndocuments or software].\n○ [Quarter Year]: [Important events,\npartnerships, or achievements].\n● Future Milestones:\n○ [Quarter Year]: [Description of planned\ndevelopments or launches].\n○ [Year]: [Long-term goals and strategic plans].",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.9",
+    "field": "Resource allocation",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Where applicable, information about resources, including financial resources, already allocated to the project.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.10",
+    "field": "Planned use of Collected funds or crypto-assets",
+    "section_name": "Part D Information about the crypto-asset project",
+    "content_to_be_reported": "Guidelines:\n1. Introduction:\n● Provide a brief statement about the\npurpose of the collected funds or\ncrypto-assets.\n● Highlight the importance of strategic\nallocation to support the project’s\nobjectives.\n2. Unallocated Funds:\n● Specify the amount or percentage of funds\nor crypto-assets that remain unallocated.\n● Explain that these are reserved for future\nstrategic uses.\n3. Planned Allocations:\n● List potential uses for the unallocated\nfunds or crypto-assets.\n● Include specific categories and examples\nof how these funds may be utilised.\n● Mention that these allocations are subject\nto adjustment based on strategic reviews\nand market conditions.\n4. Detail Specific Allocations:\n Operational Continuity: Funds used for\ncompensation structures and operational\nexpenses.\n● Outstanding Agreements: Funds allocated\nfor fulfilling existing agreements such as\nSAFTs and TPAs.\n● Staking Rewards: Funds reserved to\nsubsidise staking rewards.\n● Ecosystem Development: Funds\ndesignated for independent ecosystem\ndevelopment organisations or initiatives.\n5. Organise Clearly:\n● Use bullet points or a list format for clarity.\n● Ensure each category is distinct and easy\nto understand.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.1",
+    "field": "Public offering or admission to trading",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nCheck the cryptoAssetSituation variable and respond as follows:\nIf it indicates admission to trading, write “ATTR”.\nIf it indicates offer to the public, write “OTPC”.\nIf it covers both admission to trading and offer to the public, write “BOTH”.",
+    "form_and_standards": "ATTR or OTPC or BOTH or N/A. These 4 options are the only correct ones"
+  },
+  {
+    "no": "E.2",
+    "field": "Reasons for public offer or admission to trading",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nThe reasons for the offer to the public or for seeking admission to trading, including the planned use of the funds or other crypto-assets collected.\nInsert the user’s answer reasonForOffer form questionnaire.\nif the user selects in the initial questionnaire that they are looking for an offer or admission to trading or both, they should be asked for their reason for the offer or admission to trading",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.3",
+    "field": "Fundraising target",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nWhere applicable, the amount that the offer to the public intends to raise in funds or in any other crypto-asset in an official currency or any other crypto-assets.\n",
+    "form_and_standards": "Amount in monetary value (DECIMAL-18/3) or Numerical (INTEGER-n)"
+  },
+  {
+    "no": "E.4",
+    "field": "Minimum subscription goals",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nWhere applicable, minimum subscription goals set for the offer to the public of the crypto-assets in an official currency or any other crypto-assets.",
+    "form_and_standards": "Amount in monetary value (DECIMAL-18/3) or Numerical (INTEGER-n)"
+  },
+  {
+    "no": "E.5",
+    "field": "Maximum subscription goals",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nWhere applicable, any maximum target subscription goals set for the offer to the public of the crypto-assets in an official currency or any other crypto-assets.\n",
+    "form_and_standards": "Amount in monetary value (DECIMAL-18/3) or Numerical (INTEGER-n)"
+  },
+  {
+    "no": "E.6",
+    "field": "Oversubscription acceptance",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nIndication whether oversubscriptions are accepted.\n",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "E.7",
+    "field": "Oversubscription allocation",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nWhere oversubscriptions are accepted, a description of how they are allocated.\nIf E.6 = false, then write N/A.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.8",
+    "field": "Issue price",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\r\nif cryptoAssetSituation = admission, this is N/A, else:\r\nThe issue price of the crypto-asset being offered to the public in an official currency or any other crypto-assets.\r \nIf E.7 = false, then write N/A.\n",
+    "form_and_standards": "Amount in monetary value (DECIMAL-18/3) or Numerical (INTEGER-n)"
+  },
+  {
+    "no": "E.9",
+    "field": "Official currency or any other crypto-assets determining the issue price",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nThe official currency or any other crypto-assets on the basis of which the issue price of the crypto-asset is being offered to the public.\n",
+    "form_and_standards": "CURRENCYCODE_3 or DTI"
+  },
+  {
+    "no": "E.10",
+    "field": "Subscription fee",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nAny applicable subscription fee in an official currency or any other crypto-assets.\n",
+    "form_and_standards": "Amount in monetary value (DECIMAL-18/3) or Numerical (INTEGER-n)"
+  },
+  {
+    "no": "E.11",
+    "field": "Offer price determination method",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nMethod in accordance with which the offer price will be determined.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.12",
+    "field": "Total number of offered/traded crypto-assets",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, the total number of crypto-assets to be offered to the public or admitted to trading.\n",
+    "form_and_standards": "Numerical"
+  },
+  {
+    "no": "E.13",
+    "field": "Targeted holders",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nIf the user selects in the initial questionnaire that they are looking for offer or admission to trading or both, please ask the user to disclose their prospective holders targeted by the offer or admission to trading: retail investors, professional investors or all. Indication of the prospective holders targeted by the offer to the public of the crypto-asset or admission of such crypto-asset to trading.\nPopulate with the user’s selection: “Retail” / “Professional” / “All”.\n",
+    "form_and_standards": "‘RETL’ = retail investors ‘PROF’ = professional investors ‘ALL’ = all types of investors"
+  },
+  {
+    "no": "E.14",
+    "field": "Holder restrictions",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nIndication of any restriction as regards the type of holders for such crypto-asset.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.15",
+    "field": "Reimbursement notice",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:if cryptoAssetSituation = admission, this is N/A, else: Purchasers participating in the offer to the public of crypto-assets will be able to be reimbursed if the minimum target subscription goal is not reached at the end of the offer to the public, if they exercise the right to withdrawal provided for in Article 13 of Regulation (EU) 2023/1114 of the European Parliament and of the Council or if the offer is cancelled.",
+    "form_and_standards": "Conditional alphanumerical text"
+  },
+  {
+    "no": "E.16",
+    "field": "Refund mechanism",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nDetailed description of the refund mechanism.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.17",
+    "field": "Refund timeline",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nExpected timeline of when the refunds will be completed.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.18",
+    "field": "Offer phases",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nInformation about the various phases of the offer to the public of the crypto-asset.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.19",
+    "field": "Early purchase discount",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nInformation on discounted purchase price for early purchasers of the crypto-asset (pre-public sale) and in the case of discounted purchase price for some purchasers, an explanation as to why the purchase prices may be different and a description of the impact on the other investors.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.20",
+    "field": "Time-limited offer",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nIndication whether the offer is time-limited.\n",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "E.21",
+    "field": "Subscription period beginning",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nFor time-limited offers, the beginning of the subscription period during which the offer to the public is open.",
+    "form_and_standards": "ISO 8601 date format (YYYY-MM-DD)"
+  },
+  {
+    "no": "E.22",
+    "field": "Subscription period end",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nFor time-limited offers, the end of the subscription period during which the offer to the public is open.\n",
+    "form_and_standards": "ISO 8601 date format (YYYY-MM-DD)"
+  },
+  {
+    "no": "E.23",
+    "field": "Safeguarding arrangements for offered funds/crypto-assets",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nThe arrangements to safeguard funds or other crypto-assets as referred to in Article 10 of Regulation (EU) 2023/1114 during the time-limited offer to the public or during the withdrawal period.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.24",
+    "field": "Payment methods for crypto-asset purchase",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nMethods of payment to purchase the crypto-assets.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.25",
+    "field": "Value transfer methods for reimbursement",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nMethods of transfer of the value to the purchasers when they are entitled to be reimbursed.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.26",
+    "field": "Right of withdrawal",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "CONDITION LOGIC: 1. IF cryptoAssetSituation = \"compliance\" → SET to \"N/A\" 2. IF cryptoAssetSituation = \"admission\" → SET to \"N/A\" 3. IF cryptoAssetSituation = \"offer\" → SET to \"N/A\" 4. ELSE → Generate text using template below. TEMPLATE VARIABLES: [CRYPTO_NAME] = Use DTI if available, otherwise use cryptoAssetName; [OFFEROR_NAME] = Use offerorName from field A.1. TEMPLATE TEXT: \"Retail holders who purchase [CRYPTO_NAME] either directly from [OFFEROR_NAME] or from a CASP placing crypto-assets on behalf of [OFFEROR_NAME] shall have a right of withdrawal.\" CONDITIONAL ADDITION: IF field E.20 = true, THEN append: \" until the subscription period end referred to in E.22.\" SECOND PARAGRAPH: \"Retail holders have a period of 14 calendar days within which to withdraw from their agreement to purchase [CRYPTO_NAME] without incurring any fees or costs and without being required to give reasons. The period of withdrawal shall begin from the date of the agreement of the retail holder to purchase [CRYPTO_NAME]. All payments received from a retail holder including, if applicable, any charges, shall be reimbursed without undue delay and in any event no later than 14 days from the date on which [OFFEROR_NAME] or the CASP placing crypto-assets on behalf of [OFFEROR_NAME] is informed of the retail holder's decision to withdraw from the agreement to purchase those crypto-assets. Such reimbursement shall be carried out using the same means of payment as that used by the retail holder for the initial transaction, unless the retail holder expressly agrees otherwise and provided that the retail holder does not incur any fees or costs as a result of such reimbursement.\"",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.27",
+    "field": "Transfer of purchased crypto-assets",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nManner of transferring purchased crypto-assets to the holders.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.28",
+    "field": "Transfer time schedule",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nif cryptoAssetSituation = admission, this is N/A, else:\nTime schedule of transferring purchased crypto-assets to the holders.\n",
+    "form_and_standards": "ISO 8601 date format (YYYY-MM-DD)"
+  },
+  {
+    "no": "E.29",
+    "field": "Purchaser’s technical requirements",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nInformation about technical requirements that the purchaser is required to fulfil to hold the crypto-assets.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.30",
+    "field": "Crypto-asset service provider (CASP) name",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, the name of the crypto-asset service provider (CASP) in charge of the placing of crypto-assets.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.31",
+    "field": "CASP identifier",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nThe legal entity identifier of the crypto-asset service provider in charge of the placing of crypto-assets.\n",
+    "form_and_standards": "LEI"
+  },
+  {
+    "no": "E.32",
+    "field": "Placement form",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, the form of the placement.\n",
+    "form_and_standards": "‘WITH’ = with a firm commitment basis ‘WOUT’ = without a firm commitment basis ‘NTAV’ = Not applicable"
+  },
+  {
+    "no": "E.33",
+    "field": "Trading platforms name",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, the name of the trading platforms for crypto-assets where admission to trading is sought.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.34",
+    "field": "Trading platforms Market identifier code (MIC)",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nSegment MIC for the trading platform where the admission to trading of the crypto-asset is sought.\n",
+    "form_and_standards": "Conditional alphanumerical text"
+  },
+  {
+    "no": "E.35",
+    "field": "Trading platforms access",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, information about how investors can access the trading platforms.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.36",
+    "field": "Involved costs",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nWhere applicable, information about the costs involved in relation to the access of investors to the trading platforms.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.37",
+    "field": "Offer expenses",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\r\nExpenses related to the offer to the public of crypto-assets, in an official currency or any other crypto-assets.",
+    "form_and_standards": "Free alphanumerical text and Amount in monetary value {DECIMAL-18/3}"
+  },
+  {
+    "no": "E.38",
+    "field": "Conflicts of interest",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nPotential conflicts of interest of the persons involved in the offer to the public or admission to trading, arising in relation to the offer or admission to trading.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.39",
+    "field": "Applicable law",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nThe law applicable to the offer to the public of the crypto-asset.\n",
+    "form_and_standards": "Drop-down list of applicable laws"
+  },
+  {
+    "no": "E.40",
+    "field": "Competent court",
+    "section_name": "Part E Information about the offer to the public of crypto-assets or their admission to trading",
+    "content_to_be_reported": "if cryptoAssetSituation = compliance, this is N/A, else:\nCompetent court.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.1",
+    "field": "Crypto-asset type",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "The type of crypto-asset that will be offered to the public or for which admission to trading is sought.\nIf tokenClassification is:\n'ART', Write ART\n'EMT', Write EMT\n'OTH_UTILITY', Write OTH\n'OTH_NON_UTILITY', Write OTH",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.2",
+    "field": "Crypto-asset functionality",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": " If all functionalities have been already applied, write \"All main crypto asset functionalities have already been deployed\" else .A description of the functionality of the crypto-assets being offered or admitted to trading.\nExample:\nCrypto-Asset Functionality Description\n[Token Name] enables users to [perform\nspecific actions] on the [network name],\nsuch as [list actions/services]. The\ntoken’s utility is designed to ensure\n[goal/purpose] across the network.\nPlanned Application of Functionalities All\nfunctionalities have been deployed,\nexcept [pending functionality], which is\nscheduled for [year].”\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.3",
+    "field": "Planned application of functionalities",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Information about when the\nfunctionalities of the cryptoassets being\noffered or admitted to trading are\nplanned to apply",
+    "form_and_standards": "Free alphanumerical text] + [YYYY-MM-DD]"
+  },
+  {
+    "no": "F.4",
+    "field": "Type of crypto-asset white paper",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "OTHR",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "F.5",
+    "field": "The type of submission",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Type of submission.",
+    "form_and_standards": "NEWT = New, MODI = Modify, ERROR = Error, CORR = Correction"
+  },
+  {
+    "no": "F.6",
+    "field": "Crypto-asset characteristics",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "A description of the characteristics of the crypto-asset.\nExample:\n● Characteristics: [Brief description\nof unique technological features\nand specifications]\n● Functionality: [Explanation of\nprimary uses and roles within the\nnetwork]\n● Data for Classification:\n○ ISO 24165 DTI: [Code]\n○ ISO 24165 FFG DTI:\n[Code]\n○ ISIN: [Code]\n● Planned Functionalities:\n● [Details on future functionalities\nand implementation timeline]\n",
+    "form_and_standards": "[ISO 24165 DTI code + ISO 24165 FFG DTI + Free alphanumerical text]"
+  },
+  {
+    "no": "F.7",
+    "field": "Commercial name or trading name",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Field to be filled in only if a DTI is not provided in field F.13. Commercial name or trading name of the issuer.\nIf F.13 has a DTI, should read \"\"N/A as DTI is provided in F.13\"\"",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.8",
+    "field": "Website of the issuer",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Website of the issuer.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.9",
+    "field": "Starting date of offer to the public or admission to trading",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Starting date or, if not available at the time of the notification by the competent authority, the intended starting date of offer to the public or admission to trading.",
+    "form_and_standards": "YYYY-MM-DD"
+  },
+  {
+    "no": "F.10",
+    "field": "Publication date",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Effective or intended publication date of the crypto-asset white paper or of the modified white paper.",
+    "form_and_standards": "YYYY-MM-DD"
+  },
+  {
+    "no": "F.11",
+    "field": "Any other services provided by the issuer",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "If section B is applicable read activities written in Field B.11 and write any other services provided by the issuer not covered in the field B.11 and by  Regulation (EU) 2023/1114, with a reference to the applicable Union or national legal acts regulating those services.  If section B is not applicable read activities written in Field A.13 and write any other services provided by the issuer not covered in the field A.13 and by  Regulation (EU) 2023/1114, with a reference to the applicable Union or national legal acts regulating those services.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.12",
+    "field": "Language or languages of the crypto-asset white paper",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Language or languages in which the crypto-asset white paper is drafted. When multiple languages have been used, this field shall be reported as many times as necessary.",
+    "form_and_standards": "Closed list of EU languages"
+  },
+  {
+    "no": "F.13",
+    "field": "Digital token identifier code used to uniquely identify the crypto-asset or each of the several crypto-assets to which the white paper relates, where available",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Code used to uniquely identify the crypto-asset or each of the several crypto-assets to which the crypto-asset white paper relates, where available. If not available write N/A",
+    "form_and_standards": "ISO 24165 Digital Token Identifier"
+  },
+  {
+    "no": "F.14",
+    "field": "Functionally fungible group digital token identifier, where available",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Code used to uniquely identify the functionally fungible group to which the digital asset belongs (i.e., common to each of the several assets to which the white paper relates). E.g., Code used to identify the white paper ISO 24165 DTI of type 3 (i.e., functionally fungible group), where available. If not available write N/A",
+    "form_and_standards": "ISO 24165 FFG DTI"
+  },
+  {
+    "no": "F.15",
+    "field": "Voluntary data flag",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Flag indicating the mandatory or voluntary nature of the crypto-asset white paper provided for in Article 4(8) of Regulation (EU) 2023/1114.\nIf there is a name of at least one natural person in A.12, B.10 (or in the strange case that B.2 is a natural person), \"\"True\"\"",
+    "form_and_standards": "‘TRUE’ = voluntary, ‘FALSE’ = mandatory"
+  },
+  {
+    "no": "F.16",
+    "field": "Personal data flag",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Flag indicating if the submitted white paper contains personal data.",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "F.17",
+    "field": "LEI eligibility",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Indication that the issuer is eligible for a Legal Entity Identifier.\nIf B.7 has a LEI, then this is true.\nIf A.6 has a LEI, AND B.1 is true, then this is true.\nIf these are N/a, but B.3 and B.4 have values, then this is true.\nIf these are N/a, but A.2 and A.3 have values AND B.1 is true, then this is true.",
+    "form_and_standards": "‘TRUE’ = eligible, ‘FALSE’ = not eligible"
+  },
+  {
+    "no": "F.18",
+    "field": "Home Member State",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Home Member State as defined in Article 3(1), point (33), of Regulation (EU) 2023/1114.",
+    "form_and_standards": "Closed list of EU Member States"
+  },
+  {
+    "no": "F.19",
+    "field": "Host Member States",
+    "section_name": "Part F Information about the crypto-assets",
+    "content_to_be_reported": "Host Member State as defined in Article 3(1), point (34), of Regulation (EU) 2023/1114.",
+    "form_and_standards": "Closed list of EU Member States"
+  },
+  {
+    "no": "G.1",
+    "field": "Purchaser rights and obligations",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is N/A else:\n[A description of the rights and obligations, if any, of the purchaser] Sample structure Rights: ● Purchasers of [Token Name] have the right to use them for [paying for network services, participating in governance, staking, etc.]. ● Rights are determined by [stake, specific governance mechanisms, etc.]. Obligations: ● Purchasers must comply with [network rules, legal and regulatory requirements]. Additional Compliance Requirements: ● Developers and enterprises may be subject to AML reporting requirements. ● Identity verification through on-network certificates and data from mirror nodes may be used for compliance. ● Mirror nodes provide \"\"read-only\"\" access to all public data on the network, facilitating investigations and detection of suspicious\nactivities",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.2",
+    "field": "Exercise of rights and obligations",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is N/A else:\nIf G.1 = N/A then this is also N/A else: Procedure and conditions for the exercise of rights.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.3",
+    "field": "Conditions for modifications of rights and obligations",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is N/A else:\nIf G.1 = N/A then this is also N/A. else: Description of the conditions under which the rights and obligations may be modified",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.4",
+    "field": "Future public offers",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if futureCryptoOffers = Yes answer questions:\n● - What are the minimum target\nsubscription goals?\n● - What are the maximum target\nsubscription goals?\n● - What is the issue price of the\ncrypto-asset?\n● - What are the subscription fees?\n● - How many crypto-assets will be offered?\n● - Who will the offer be made to (e.g. retail\ninvestors, professional investors, current\nholders, etc)?\n● - Will any conditions or restrictions attach\nto the offer?\n● - Will the offer be phased, e.g. will there be\ndiscounts for early purchasers?\n● - Who is the CASP in charge of placing the\ncrypto-assets?\n● - When will the offer be made?\n● - In which jurisdictions will the offer be\nmade?\n● - What is the planned use of collected\nfunds",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.5",
+    "field": "Issuer retained crypto-assets",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Where applicable, information on the number of crypto-assets retained by the issuer itself.",
+    "form_and_standards": "Numerical"
+  },
+  {
+    "no": "G.6",
+    "field": "Utility token classification",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Indication as to whether the offer to the public of crypto-assets or their admission to trading concerns utility tokens.\nIf part E is indeed applicable and D.6 is True, default to True",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "G.7",
+    "field": "Key features of goods/services of utility tokens",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Information about the quality and quantity of goods or services to which the utility tokens give access.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.8",
+    "field": "Utility tokens redemption",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "[Where the offers to the public of crypto-assets or their admission to trading concerns utility tokens, information on how utility tokens can be redeemed for goods or services to which they relate]",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.9",
+    "field": "Non-trading request",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Indication whether an admission to trading is sought.\nMapping from questionnaire variable cryptoAssetSituation:\n- If 'admission to trading' (ATTR) or BOTH are selected, write TRUE.\n- If 'offer to the public' (OTPC) only is selected, write FALSE.\n- If 'compliance' only is selected or the variable is not provided, write N/A.\nNote: Downstream fields (e.g., G.10) should follow their own applicability rules.",
+    "form_and_standards": "‘TRUE’ = sought, ‘FALSE’ = not sought, ‘N/A’ = not applicable (compliance-only or not provided)"
+  },
+  {
+    "no": "G.10",
+    "field": "Crypto-assets purchase or sale modalities",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "[Where an admission to trading is not sought, information on how and where the crypto-assets can be purchased or sold after the offer to the public]\nif admission to trading or both not selected, set G.10 to N/A.\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.11",
+    "field": "Crypto-assets transfer restrictions",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is None else:\n[Restrictions on the transferability of the crypto-assets that are being offered or admitted to trading] Suggested structure: 1. Provide a brief statement about the general\nrules governing the transfer of the\ncrypto-assets.\n2. Explain any specific network rules that\napply to the transfer of the crypto-assets.\n3. Mention any relevant laws and regulations\nthat govern the transfer, such as AML and\nCTF laws.\n[Free alphanumerical text]\nOur legal partner provided the following advice\nQ.1 Is there a smart contract or legal contract or\nother set of legal terms provided by the issuer that\ngovern how token-holders may hold or use the\ncrypto-asset tokens? (Y/N) If \"\"Y\"\", go to Q2.\nIf \"\"N\"\", answer field \"\"None\"\".\nQ.2 Are there any restrictions on the transferability\nof the crypto-assets?\nFor example, do any of the following restrictions\napply:\n● Restrictions on transferring the\ncrypto-assets to other holders?\n● Restrictions on where crypto-assets may\nbe used to purchase goods or services?\n● Time limits on transferring the\ncrypto-assets?",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.12",
+    "field": "Supply adjustment protocols",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Indication as to whether the crypto-asset has protocols for the increase or decrease of its supply in response to changes in demand.\nFor the OTH whitepaper type, if you do not find enough info to respond confidently, default to False.\n",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "G.13",
+    "field": "Supply adjustment mechanisms",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "If G.12 is TRUE then [Where the crypto-assets has protocols for the increase or decrease of their supply in response to changes in demand, a description of the functioning of such protocols] Suggested structure:\n1. Fixed Supply Overview: State if the total\nsupply is fixed and provide a brief overview\nof the supply schedule.\n2. Influencing Factors: Describe the factors\nthat influence the supply, such as release\nschedules, agreements, and reward rates.\n3. Role of Governance: Explain how the\ngoverning body or protocol can influence\nsupply adjustments through decisions on\nreward rates or other mechanisms.\nIf G.12 is false, then field is N/A. ",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.14",
+    "field": "Token value protection schemes",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Indication as to whether the crypto-asset has a protection scheme protecting the value of the crypto-asset.",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "G.15",
+    "field": "Token value protection schemes description",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Where the field G.14 is true, a description of the protection schemes protecting the value of the crypto-assets. If G.14 false then this is N/A ",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.16",
+    "field": "Compensation schemes",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Indication as to whether the crypto-asset has a compensation scheme.",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "G.17",
+    "field": "Compensation schemes description",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "Where the field G.16 is true, a description of the compensation schemes. If G.16 is false write N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "G.18",
+    "field": "Applicable law",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is \"There is no written legal agreement between the issuer and the crypto asset holder that sets out the laws that govern the legal relationship between those two parties. In the absence of such an agreement, the laws that govern that relationship will depend on the location of the issuer (to the extent that can be identified) and the given crypto asset holder and characteristic performance of the legal relationship, and any agreed intention of the issuer and crypto asset holder.\" else:\nThe law applicable to the crypto-assets.",
+    "form_and_standards": "Drop-down list of applicable laws"
+  },
+  {
+    "no": "G.19",
+    "field": "Competent court",
+    "section_name": "Part G Information on the rights and obligations attached to the crypto-assets",
+    "content_to_be_reported": "if hasContractTerms = no AND cryptoAssetSituation != offer this is \"There is no written legal agreement between the issuer and the crypto asset holder that sets out which jurisdiction's courts will have authority to deal with a dispute between the crypto asset holder and the issuer. In the absence of such an agreement, the laws that competent court will depend on the location of the issuer and the given token-holder and characteristic performance of the legal relationship, and any agreed intention of the issuer and crypto asset holder.\" else:\nCompetent court.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.1",
+    "field": "Distributed ledger technology (DLT)",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "If DTI present in F.13 set to N/A else:\n[Suggested structure for L1s and L2s] Introduction: ● [Brief overview of the unique DLT and its advantages.] Key Elements: ● Consensus Mechanism: [Description of the consensus algorithm and its uniqueness.] ● Information Propagation: [Explanation of the communication protocols.] Detailed Features: ● Information Spread: [Detail how information spreads among nodes.] ● Consensus Achievement: [Explain the process of achieving consensus within the network.] ● Transaction Structure: [Describe transaction and event structuring and timestamping.] Efficiency and Security: ● [Highlight performance, latency, and security.] ● [Explain integrity and order of transactions.] Node Types: ● Validator Nodes: [Describe their role.] ● Community Nodes: [Mention their role and status.] ● Historical Nodes: [Explain their function and benefits.] Suggested structure for tokens:\n[Token Name] operates on [list blockchain networks],\nutilizing their unique capabilities to enable secure,\ntransparent, and efficient transactions.\n● [Blockchain 1]: Supports [Token Name] as a\n[token standard, e.g., ERC-20], ensuring\ncompatibility with wallets, smart contracts,\nand DeFi applications.\n● [Blockchain 2]: Provides [key benefits such\nas high throughput, low fees, or enhanced\nscalability], facilitating fast and cost-effective\ntransactions.\n● [Blockchain 3]: Enhances [Token Name]’s\nfunctionality through [specific technology,\ne.g., zero-knowledge proofs, sidechains, or\nimproved privacy features], optimizing\nperformance and interoperability.\nBy leveraging multiple blockchain networks, [Token\nName] achieves a balance of security, efficiency, and\nscalability, ensuring a robust foundation for its use\nwithin the [platform name] ecosystem.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.2",
+    "field": "Protocols and technical standards",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Information on the protocols and technical standards used, allowing for the holding, storing and transfer of the token] [Suggested structure] Introduction: ● [Brief overview of the protocols and technical standards used.] Distributed Ledger Technology (DLT): ● [Type of DLT]: [Description of the DLT type and its key features and advantages.] Security Standards: ● [Security Protocols]: [Description of the\nsecurity protocols and standards ensuring\nnetwork robustness.]\nData Handling:\n● [Holding, Storing, and Transfer]: [Explanation\nof how the protocol manages these\nfunctions.]\n● [Technical Standards]: [Mention of any\nrelevant standards supporting data handling.]\n",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.3",
+    "field": "Technology used",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Other information on the technology used allowing for the holding, storing and transfer of asset-referenced tokens, if relevant] [If H1/E1 was left empty, follow its structure]",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.4",
+    "field": "Consensus mechanism",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Suggested structure] Introduction: ● [Overview of the consensus mechanism and its unique aspects.] Information Propagation: ● Method: [Description of the communication method used by nodes, such as gossip protocols.] ● Efficiency: [Explanation of the efficiency of how information spreads across the network.] Consensus Process: ● Algorithm: [Detail the algorithm or method\nused to achieve consensus (e.g., Proof of\nWork, Proof of Stake).]\n● Transaction Structure: [Describe how\ntransactions are structured and ordered.]\nData Structures:\n● Key Structures: [Explain the key data\nstructures used, such as linking transactions\nor events.]\n● Mechanisms: [Detail any special mechanisms\nlike voting.]\nSecurity and Fairness:\n● Protocols: [Highlight security protocols\nprotecting against malicious activities.]\n● Ordering: [Explain how transaction ordering is\nachieved.]\nNode Roles and Responsibilities:\n● Node Types: [Outline the different types of\nnodes and their roles (e.g., validator nodes,\nleader nodes).]\n● Responsibilities: [Explain the responsibilities\nof each node type.]\nAdditional Features:\n● Optimisations: [Mention additional features\nthat enhance the consensus mechanism,\nsuch as sharding.]\n● Benefits: [Explain how these features improve\nthe systems performance.]",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.5",
+    "field": "Incentive mechanisms and applicable fees",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "Information on incentive mechanisms to secure transactions and any fees applicable.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.6",
+    "field": "Use of distributed ledger technology",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Indication as to whether the crypto-assets are issued, transferred and stored using distributed ledger technology that is operated by the issuer, the\nofferor or a third-party acting on their behalf]",
+    "form_and_standards": "‘TRUE’ = Yes, DLT operated by the issuer or a third-party acting on the issuer’s behalf. ‘FALSE’ = No, DLT not operated by the issuer or a third-party acting on the issuer’s behalf."
+  },
+  {
+    "no": "H.7",
+    "field": "DLT functionality description",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Detailed description of the functioning of such distributed ledger technology] ● Introduction: [Briefly introduce the DLT and its main capabilities.] ● Core Functionalities: ○ Asset Management: Manage digital assets: creation, transfer, lifecycle. ○ Data Integrity: Ensure data integrity and immutability through cryptographic methods. ● Advanced Functionalities: ○ Smart Contract creation and execution. ○ Identity Management: Support of digital identities. ● Interoperability: How it enables the interaction with other networks and systems. ● User Interaction: ○ User Interfaces. ○ Developer Tools. ● Performance and Scalability: ○ Efficiency Measures: Features for optimising transaction speed and performance. ○ Scalability Solutions: Methods for scaling the network to support growth.\nIf H.6 is false, set to N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "H.8",
+    "field": "Audit",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "[Indication as to whether an audit of the technology used was conducted]",
+    "form_and_standards": "‘TRUE’ = Yes, ‘FALSE’ = No"
+  },
+  {
+    "no": "H.9",
+    "field": "Audit outcome",
+    "section_name": "Part H Information on the underlying technology",
+    "content_to_be_reported": "If H.8 is true: [Information on the audit outcome of the technology used] ● Introduction: [Provide a brief overview of the audit, including its purpose and scope, and highlight the significance of the audit outcome.] ● Audit Details ● Methodology: The audit employed [tools/methods], such as formal verification using [specific tool or framework]. ● Audit Findings: ○ The audit confirmed key findings, such as [key findings]. ○ Received certifications or confirmations. ● Significance: ● Independent Review: ○ The audit was conducted by [auditors/entities], known for their expertise in [relevant field]. ○ Led by [names/titles]. ● Scope of Review: ○ The review included [components/services], assessing the security, stability, and correctness of the technology. ● Outcome Summary:\nIf H.8 is false, set to N/A",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.1",
+    "field": "Offer-related risks",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "A description of the risks associated with the offer to the public of crypto-assets or their admission to trading] ● [Briefly introduce the context, mentioning if the offer to the public has already passed and the relevance of trading risks.] ● Irreversibility of Transactions: ○ Describe if payments can be reversed, deleted, or frozen by the network or governing body. ○ Describe if payments made under coercion, deceit, mistakes, or unlawfully are irreversible, similar to physical cash. ○ Describe if courts can mandate compensatory transactions, but lack the technical means to enforce such orders without private keys. ● Standard Trading Risks: ○ Pricing Volatility: Crypto-asset prices are susceptible to significant fluctuations due to market dynamics. ● Liquidity Conditions: Insufficient liquidity on exchanges or trading platforms could lead to large price swings, impacting the ability to sell assets without significant price concessions. ● Market Demand: There is a risk that the DLT may not achieve expected levels of market adoption, impacting the utility and value of the asset. ● Impact of Large Transactions: Large transactions by major holders could significantly influence the price, leading to potential manipulation or unintended price destabilisation. OTH S301b F.3 ART ● Broader Economic Conditions: Wider economic downturns or financial market instability could lead to decreased investment in crypto-assets, adversely affecting their price and liquidity. ● Regulatory Changes: Evolving regulatory landscapes may impact the offer and trading of crypto-assets. ● Mitigation Strategies: Use of intermediaries, particularly regulated ones with robust customer support, can help mitigate some of these risks, although it reintroduces conventional risks associated with dependence on third parties.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.2",
+    "field": "Issuer-related risks",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "[A description of the risks associated with the issuer, if different from the offeror or person seeking admission to trading, having regard to risks related to the issuers financial situation, risks related to the issuers business activities and industry, legal and regulatory risk, internal control risk, environmental, social and governance risks] Treasury Risks: ● Describe the reliance on financial reserves or treasury to support operations. ● Highlight the risks related to insufficient revenue generation or unexpected financial shortfalls. Internal Efficiency and Control Risks: ● Explain the importance of efficient allocation of resources for sustainable development. ● Discuss potential risks from mismanagement or inefficient use of resources. Operational Integrity: ● Highlight the need for strong internal controls to ensure operational integrity. ● Mention risks associated with weaknesses in fraud prevention, error management, and maintaining operational efficiency. OTH S302b F.1 EMT S302c F.2 ART Governance Practices: ● Discuss the significance of robust governance practices. ● Address risks related to transparency, decision-making efficiency, and the balance between centralisation and decentralisation. Partnership Dependencies: ● Describe the reliance on key partnerships for operational and strategic goals. Be specific about who these partners are. ● Highlight the risks associated with disruptions in these partnerships or failure to meet collaborative objectives. Regulatory Risks: ● Explain the need to navigate complex regulatory environments. ● Discuss risks related to non-compliance, changes in legislation, and potential legal challenges.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.3",
+    "field": "Crypto-assets-related risks",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "Introduction: [Provide a brief overview of the key risks associated with holding and trading crypto-assets.] ● Core Risks: ○ Volatility Risks: Describe susceptibility to significant price fluctuations due to market dynamics. ○ Liquidity Risks: Explain potential challenges in buying or selling assets without significant price concessions due to insufficient market liquidity. ○ Market Manipulation Risks: Highlight risks of price manipulation by large holders or coordinated activities. ○ Market Risks: Discuss broader market risks that could affect the value and stability of the asset. OTH S303b F.2 Token-related risks EMT S303c F.4 ART ○ Irreversibility Risks: Explain risks associated with the irreversibility of transactions on the blockchain. ● Specific Holder Risks: ○ Private Key Management Risks: Describe risks related to the loss, theft, or improper management of private keys, which are essential for accessing assets. ○ Custodial Risks: Explain risks associated with relying on third-party custodians for private key management, including potential losses due to custodial failures ○ Privacy Risks: Highlight risks related to the public recording of transactions on the blockchain, which could expose user activities and potentially link pseudonymous addresses to real-world identities.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.4",
+    "field": "Project implementation-related risks",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "Introduction: [Provide a brief overview of the risks associated with the implementation of the crypto-asset project.] ● Development and Operational Risks: ○ Technical Delays and Overruns: Describe risks of delays in development timelines or budget overruns due to unforeseen technical challenges, complexity in technology integration, or underestimation of resource requirements. ○ Quality Assurance: Explain potential issues with software bugs, security vulnerabilities, or performance shortfalls that could emerge despite testing. ● Dependency Risks: ○ Dependency on Third Parties: Highlight risks related to reliance on external partners or service providers, including potential delays and risks introduced by third parties’ OTH independence in setting their own communication policies. ● Adoption and Community Risks: ○ Adoption by Users: Describe the risk that new features or updates may not be adopted by users due to lack of perceived benefits, complexity in transition, or user resistance to change. ○ Community Support: Explain risks related to lack of engagement or alignment with the developer community, which can result in slower technological progress and potential negative publicity. ● Market and Human Resources Risks: ○ Market Penetration: Discuss challenges in penetrating target markets due to competition, lack of market readiness, or ineffective marketing strategies. ○ Human Resources: Highlight risks related to dependency on key personnel and maintaining a skilled workforce, including the potential impact of losing key developers or executives.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.5",
+    "field": "Technology-related risks",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "● Introduction: [Provide a brief overview of the technology-related risks associated with the crypto-asset project.] ● Specific Technology-Related Risks: ○ Majority Attacks: Describe the risk of network disruption or manipulation if a majority of the networks computational power or stake is compromised. ○ Network Proxy and Service Attacks: Highlight vulnerabilities related to network proxies and specific services, such as potential exploits in smart contracts or APIs. OTH S305b F.3 EMT S305c F.6 ART ○ Code Quality and Bugs: Explain the risk of software bugs and defects in new releases or updates that could compromise system functionality, security, and user trust. ○ Protocol Updates: Discuss risks associated with updates to the protocol, including the potential for introducing vulnerabilities or disruptions. ○ Cryptographic Risks: Describe the risks associated with current cryptographic methods, including the potential future threat posed by quantum computing. ○ Scalability Risks: Highlight the risks and technical challenges associated with scaling the network, such as implementing sharding or other scaling solutions. ○ Interoperability Risks: Discuss the importance of interoperability with other blockchain projects and traditional systems, and the risks of delays in achieving it. ○ Other Attacks: Describe other conceivable attacks, such as denial-of-service attacks or network partitioning, which could disrupt network communication.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.6",
+    "field": "Mitigation measures",
+    "section_name": "Part I Information on the risks",
+    "content_to_be_reported": "Should describe measures that match I.1 to I.6   Introduction: [Provide a brief overview of the mitigation measures in place to address various risks associated with the crypto-asset project.] Offer-Related Risks: ● Market Education: Educate holders and prospective holders about market risks. ● Treasury Management: Implement a carefully designed Treasury Allocation Plan to avoid market disruption. ● Regulatory Engagement: Engage with regulators to minimise negative impacts from regulatory changes. ● Issuer-Related Risks: OTH S306b F.4 EMT S306c F.7 ART ○ Financial Reserves: Maintain robust financial reserves and employ stringent budgeting practices. ○ Internal Audits: Conduct regular internal audits to enhance operational controls. ○ Transparency: Commit to transparency in decision-making processes and publish governance information. ● Decentralisation: Increase network decentralisation by expanding node numbers and distributing governance roles. ● Partnership Diversification: Engage with a variety of partners to spread dependency risks. ● Regulatory Compliance: Proactively engage with regulatory developments and ensure compliance. ● Operational Security: Follow strict operational security procedures for key management. Crypto-Assets-Related Risks: ● Market Education: Educate holders about best practices without influencing asset prices. Project Implementation-Related Risks: ● Security Assessments: Conduct continuous security assessments and updates. ● Community Engagement: Maintain active channels for community interaction and feedback. ● Developer Encouragement: Encourage developer activity and proposals through partnerships. ● Dependency Reduction: Work actively to reduce dependencies on particular partners. ● Human Resources: Uphold high standards in human resources and operational efficiency. Technology-Related Risks: ● Vetting and Decentralisation: Vet new council members and ensure network conditions prevent majority attacks. ● Security Audits: Conduct regular internal security audits to identify vulnerabilities. ● Code Review Process: Implement a rigorous code review process to catch potential bugs. ● Bug Bounty Programme: Maintain an active bug bounty programme to incentivise external security assessments. ● Post-Quantum Cryptography: Adhere to advanced cryptographic standards and prepare for post-quantum cryptography. ● Interoperability and Scalability: Facilitate interoperability and make technical advancements for sharding and post-quantum security",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.1",
+    "field": "Name",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Name reported in Annex II to Commission Implementing",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.2",
+    "field": "Relevant legal entity identifier",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Relevant legal entity identifier",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.3",
+    "field": "Name of the crypto-asset",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Name of the crypto-asset",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.4",
+    "field": "Consensus Mechanism",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Consensus Mechanism",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.5",
+    "field": "Incentive Mechanisms and Applicable Fees",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Incentive Mechanisms and Applicable Fees",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.6",
+    "field": "Beginning of the period to which the disclosure relates",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Start date of the period covered by the disclosed information",
+    "form_and_standards": "{DATEFORMAT}"
+  },
+  {
+    "no": "S.7",
+    "field": "End of the period to which the disclosure relates",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "End date of the period covered by the disclosed information",
+    "form_and_standards": "{DATEFORMAT}"
+  },
+  {
+    "no": "S.8",
+    "field": "Energy consumption",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of energy used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed in kilowatt-hours per calendar year",
+    "form_and_standards": "Amount in kilowatt-hours (kWh) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.9",
+    "field": "Energy consumption sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Energy consumption sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.10",
+    "field": "Renewable energy consumption",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of energy from renewable sources, used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed as a percentage of the total amount of energy used per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.11",
+    "field": "Energy intensity",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Average amount of energy used per validated transaction",
+    "form_and_standards": "Amount in kWh {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.12",
+    "field": "Scope 1 DLT GHG emissions – controlled",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 1 GHG emissions per calendar year for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in tonnes (t) carbon dioxide equivalent (CO2e) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.13",
+    "field": "Scope 2 DLT GHG emissions – purchased",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 2 GHG emissions, expressed in tCO2e per calendar year for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in tCO2e {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.14",
+    "field": "GHG intensity",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Average GHG emissions (scope 1 and scope 2) per validated transaction",
+    "form_and_standards": "Amount in kilogram (kg) CO2e (Tx) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.15",
+    "field": "Key energy course and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Key energy course and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.16",
+    "field": "Key GHG sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Key GHG sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.17",
+    "field": "Energy mix",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Description of the relative contributions of each different primary energy source used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed as percentages",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.19",
+    "field": "Carbon intensity",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Carbon intensity of the energy used for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in kgCO2e per kWh {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.22",
+    "field": "Generation of waste electrical and electronic equipment (WEEE)",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of WEEE generated for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.23",
+    "field": "Non-recycled WEEE ratio",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total amount of WEEE generated for the validation of transactions and the maintenance of the integrity of the distributed ledger, not recycled per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.24",
+    "field": "Generation of hazardous waste",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of hazardous waste generated for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.25",
+    "field": "Generation of waste (all types)",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of waste generated by the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.26",
+    "field": "Non-recycled waste ratio (all types)",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total amount of waste generated for the validation of transactions and the maintenance of the integrity of the distributed ledger not recycled per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.27",
+    "field": "Waste intensity (all types)",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of waste generated per transaction validated",
+    "form_and_standards": "Amount in grams (g) per Tx {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.29",
+    "field": "Impact of the use of equipment on natural resources",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Description of the impact on natural resources of the production, the use and the disposal of the devices of the DLT network nodes",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.31",
+    "field": "Water use",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total water consumption linked to the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed in cubic meters",
+    "form_and_standards": "Amount in cubic meters {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.32",
+    "field": "Non-recycled water ratio",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total water consumed not recycled and not reused linked to the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year, expressed as a percentage",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.33",
+    "field": "Other energy sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Data provided by the MiCA Crypto Alliance as a third party, with no deviations from the calculation guidance of Commission Delegated Regulation (EU) 2025/422, Article 6(5). Full methodology available at: www.micacryptoalliance.com/methodologies",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "S.34",
+    "field": "Other GHG sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Data provided by the MiCA Crypto Alliance as a third party, with no deviations from the calculation guidance of Commission Delegated Regulation (EU) 2025/422, Article 6(5). Full methodology available at: www.micacryptoalliance.com/methodologies",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "S.35",
+    "field": "Waste sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Data provided by the MiCA Crypto Alliance as a third party, with no deviations from the calculation guidance of Commission Delegated Regulation (EU) 2025/422, Article 6(5). As the asset runs on a decentralised network, estimates on individual node weight, hazardous components and deprecation rate are used. Full methodology available at: www.micacryptoalliance.com/methodologies",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "S.36",
+    "field": "Natural resources sources and methodologies",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Data provided by the MiCA Crypto Alliance as a third party, with no deviations from the calculation guidance of Commission Delegated Regulation (EU) 2025/422, Article 6(5). Usage of natural resources is approximated through land use metrics. Land use, water use and water recycling are calculated based on energy mix-specific estimates of purchased electricity land intensity, purchased electricity water intensity, and water recycling rates. Full methodology available at: www.micacryptoalliance.com/methodologies",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "S.18",
+    "field": "Energy use reduction",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Energy use reduction targets or commitments, expressed in absolute or relative reduction of energy use over one calendar year",
+    "form_and_standards": "Amount in kWh {DECIMAL-18/5} or Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.20",
+    "field": "Scope 3 DLT GHG emissions – Value chain",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 3 GHG emissions for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in tCO2e {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.21",
+    "field": "GHG emissions reduction targets or commitments",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "GHG emissions reduction targets or commitments, expressed in terms of absolute or relative reduction in GHG emissions over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.28",
+    "field": "Waste reduction targets or commitments (all types)",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Waste reduction targets or commitments, expressed in absolute or relative reduction in waste generation over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.30",
+    "field": "Natural resources use reduction targets or commitments",
+    "section_name": "Part J: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Natural resources use reduction targets or commitments, expressed in absolute or relative reduction in use of natural resources over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  }
+]

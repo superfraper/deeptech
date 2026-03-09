@@ -1,0 +1,877 @@
+[
+  {
+    "no": "I.00",
+    "field": "Table of contents",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "I. Compliance with duties of information\nII. Summary \nPart A- Information about the issuer of the e-money token\nPart B - Information about the e-money token\nPart C - Information about the offer to the public of the e-money token or its admission to trading\nPart D - Information on the rights and obligations attached to e-money tokens\nPart E - Information on the underlying technology\nPart F - Information on the risks\nPart G – Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts\n\n\n\n\n\n\n\n\n",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.01",
+    "field": "Date of notification",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "dateOfNotification",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "I.02",
+    "field": "Statement in accordance with Article 51(3) of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "This crypto-asset white paper has not been approved by any competent authority in any Member State of the European Union. The issuer of the crypto-asset is solely responsible for the content of this crypto-asset white paper.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.03",
+    "field": "Compliance statement in accordance with Article 51(5) of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "This crypto-asset white paper complies with Title IV of Regulation (EU) 2023/1114 of the European Parliament and of the Council and to the best of the knowledge of the management body, the information presented in this crypto-asset white paper is fair, clear and not misleading and the crypto-asset white paper makes no omission likely to affect its import.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.04",
+    "field": "Warning in accordance with Article 51(4), points (a) and (b), of Regulation (EU) 2023/1114",
+    "section_name": "I. Compliance with duties of information",
+    "content_to_be_reported": "This e-money token is not covered by the investor compensation schemes under Directive 97/9/EC of the European Parliament and of the Council or the deposit guarantee schemes under Directive 2014/49/EU of the European Parliament and of the Council.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.05",
+    "field": "Warning in accordance with Article 51(6), second subparagraph of Regulation (EU) 2023/1114",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "Warning\nThis summary should be read as an introduction to the crypto-asset white paper.\nThe prospective holder should base any decision to purchase this e-money token on the content of the crypto-asset white paper as a whole and not on the summary alone.\nThe offer to the public of this crypto-asset does not constitute an offer or solicitation to purchase financial instruments and that any such offer or solicitation can be made only by means of a prospectus or other offer documents pursuant to the applicable national law.\nThis crypto-asset white paper does not constitute a prospectus as referred to in Regulation (EU) 2017/1129 of the European Parliament and of the Council or any other offer document pursuant to Union or national law.",
+    "form_and_standards": "Predefined alphanumerical text"
+  },
+  {
+    "no": "I.06",
+    "field": "Characteristics of the crypto-asset",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "A brief, clear and non-technical description of the characteristics of the crypto-assets concerned in order to help prospective holders of the crypto-asset make an informed decision",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "I.07",
+    "field": "Right of redemption",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "‘The holders of this e-money token have a right of redemption at any time and at par value.’\nDescription of the conditions for such redemption.",
+    "form_and_standards": "Predefined alphanumerical text\nFree alphanumerical text"
+  },
+  {
+    "no": "I.08",
+    "field": "Key information about the offer and/ or admission to trading",
+    "section_name": "II. Summary",
+    "content_to_be_reported": "Key information about the offer to the public of the e-money token or the intended admission to trading of such e-money token.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.1",
+    "field": "Statutory name",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerName",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.2",
+    "field": "Trading name",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Trading Name",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.3",
+    "field": "Legal form",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerLegalForm",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.4",
+    "field": "Registered address",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerRegisteredAddress",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.5",
+    "field": "Head office",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerHeadOffice",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.6",
+    "field": "Registration date",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerRegistrationDate",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.7",
+    "field": "Legal entity identifier",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerLeiNumber",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.8",
+    "field": "Another identifier required pursuant to applicable law",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "National identifier based on the nationality of the issuer, if required under the applicable national law.\nThis field only applies to entities for which a national identifier is required under applicable national law.",
+    "form_and_standards": "Free text"
+  },
+  {
+    "no": "A.9",
+    "field": "Contact telephone number",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerPhone",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.10",
+    "field": "E-mail address",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerEmail",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.11",
+    "field": "Response time (days)",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "responseTime",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.12",
+    "field": "Parent company",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerParentCompanyName",
+    "form_and_standards": "Forwarded value ifLEI"
+  },
+  {
+    "no": "A.13",
+    "field": "Members of the management body",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Identity, business address and functions of persons (names or other identifiers) within the management body, as defined in Article 3(1), point (27), of Regulation (EU) 2023/1114, of the issuer",
+    "form_and_standards": "Free alphanumerical text presented in a tabular format"
+  },
+  {
+    "no": "A.14",
+    "field": "Business activity",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Business or professional activity of the issuer, including principal activities and principal markets",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.15",
+    "field": "Parent company business activity",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Business or professional activity of the parent company (if applicable), including principal activities and principal markets",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.16",
+    "field": "Conflicts of interest disclosure",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Potential conflicts of interest",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.17",
+    "field": "Issuance of other crypto-assets",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Indication of whether the issuer of the e-money token also issues other crypto-assets",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "A.18",
+    "field": "Activities related to other crypto-assets",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Indication of whether the issuer of the e-money token also has activities related to other crypto-assets.",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "A.19",
+    "field": "Connection between the issuer and the entity running the DLT",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Indication of whether there is any connection between the issuer and the entity running the distributed ledger technology used to issue the crypto-asset, including if the protocols are run or controlled by a person closely connected to the project participants",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "A.20",
+    "field": "Description of the connection between the issuer and the entity running the DLT",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Description of the connection between the issuer and entity running the distributed ledger technology used to issue the crypto-asset, including if the protocols are run or controlled by a person closely connected to the project participants",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.21",
+    "field": "Newly established",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "issuerRegistrationDate",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "A.22",
+    "field": "Financial condition for the past three years",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Financial condition of the issuer over the past three years.\nThis shall be assessed based on a fair review of the development and performance of the business of the issuer and of its position for each year and interim period for which historical financial information is required, including the causes of material changes.\nThe review shall be a balanced and comprehensive analysis of the development and performance of the business of the issuer and of its position, consistent with the size and complexity of the business.\nThe analysis shall include both financial and, where appropriate, non-financial Key Performance Indicators relevant to the particular business.\nThe analysis shall, where appropriate, include references to, and additional explanations of, amounts reported in the annual financial statements (when available), information regarding unusual or infrequent events or new developments, materially affecting the income from operations and indicate the extent to which income was so affected, information concerning capital resources (both short term and long term) and an explanation of the sources and amounts of and a narrative description of the cash flows.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.23",
+    "field": "Financial condition since registration",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Where the issuer has not been established for the past three years, its financial condition since the date of its registration.\nThis shall be assessed based on a fair review of the development and performance of the business of the issuer and of its position for each year and interim period for which historical financial information is required, including the causes of material changes.\nThe review shall be a balanced and comprehensive analysis of the development and performance of the business of the issuer and of its position, consistent with the size and complexity of the business.\nThe analysis shall include both financial and, where appropriate, non-financial Key Performance Indicators relevant to the particular business.\nThe analysis shall, where appropriate, include references to, and additional explanations of, amounts reported in the annual financial statements (when available), information regarding unusual or infrequent events or new developments, materially affecting the income from operations and indicate the extent to which income was so affected, information concerning capital resources (both short term and long term) and an explanation of the sources and amounts of and a narrative description of the cash flows.",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.24",
+    "field": "Exemption from authorisation",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Indication of whether the issuer of e-money token is exempted from authorisation in accordance with Article 48(4) and (5) of Regulation (EU) 2023/1114",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "A.25",
+    "field": "E-money token authorisation",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "If not exempted from authorisation in accordance with Article 48(4) and (5) of Regulation (EU) 2023/1114, details about the authorisation as an issuer of an e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "A.26",
+    "field": "Authorisation authority",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Name of the competent authority that granted the authorisation",
+    "form_and_standards": "Closed list of competent authorities – one per Member State"
+  },
+  {
+    "no": "A.27",
+    "field": "Persons other than the issuer offering to the public or seeking admission to trading of the e-money token in accordance with Article 51(1), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Where different from the issuer, indication of the identity of the person offering to the public or seeking admission to trading of the e-money token",
+    "form_and_standards": "{LEI}"
+  },
+  {
+    "no": "A.28",
+    "field": "Persons other than the issuer offering to the public or seeking admission to trading of the e-money token in accordance with Article 51(1), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Field to be filled in only if a legal entity identifier is not provided in field A.27\nNational identifier based on the nationality of the person other than the issuer offering to the public or seeking admission to trading of the e-money token, if required under the applicable national law.\nThis field only applies to entities for which a national identifier is required in accordance with applicable national law.",
+    "form_and_standards": "Another identifier required pursuant to applicable national law"
+  },
+  {
+    "no": "A.29",
+    "field": "Reason for offering to the public or seeking admission to trading of the e-money token by persons referred to in Article 51(1), second subparagraph, of Regulation (EU) 2023/1114",
+    "section_name": "Part A: Information about the issuer of the e-money token",
+    "content_to_be_reported": "Where the offeror or the person seeking admission to trading is different from the issuer, reason for offering to the public or seeking admission to trading of the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.1",
+    "field": "Name",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Field to be filled in only if a DTI is not provided in field B.12\ne-money token name",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.2",
+    "field": "Abbreviation",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Field to be filled in only if a DTI is not provided in field B.12\ne-token abbreviation",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.3",
+    "field": "Details of all natural or legal persons involved in design and development",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Details of advisors, development team members, CASPs and all natural and legal persons involved in the design and development of the crypto-asset project, including business addresses or domicile of the company, presented in a tabular format",
+    "form_and_standards": "Free alphanumerical text presented in a tabular format"
+  },
+  {
+    "no": "B.4",
+    "field": "Type of white paper",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "tokenClassification",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.5",
+    "field": "The type of submission",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "submissionType",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.6",
+    "field": "Crypto-asset characteristics",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "A description of the characteristics of the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.7",
+    "field": "Website of the issuer",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Website of the issuer",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.8",
+    "field": "Starting date of offer to the public or admission to trading",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Starting date or, if not available at the time of the notification by the competent authority, the intended starting date of offer to the public or admission to trading.",
+    "form_and_standards": "YYYY-MM-DD"
+  },
+  {
+    "no": "B.9",
+    "field": "Publication date",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "publicationDate",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.10",
+    "field": "Any other services provided by the issuer",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Any other services provided by the issuer not covered by Regulation (EU) 2023/1114, with a reference to the applicable Union or national legal acts regulating those services",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "B.11",
+    "field": "Language or languages of the white paper",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Language or languages in which the crypto-asset white paper is drafted\nWhen multiple languages have been used, this field shall be reported as many times as necessary",
+    "form_and_standards": "Closed list of EU languages"
+  },
+  {
+    "no": "B.12",
+    "field": "Digital token identifier code used to uniquely identify the crypto-asset or each of the several crypto assets to which the white paper relates, where available",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "selectedDTIs",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.13",
+    "field": "Functionally fungible group digital token identifier, where available",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "selectedFungibleDTIs",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "B.14",
+    "field": "Personal data flag",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Flag indicating if the submitted white paper contains personal data",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "B.15",
+    "field": "LEI eligibility",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Indication that the issuer is eligible for a Legal Entity Identifier",
+    "form_and_standards": "‘true’ – eligible\n‘false’ – not eligible"
+  },
+  {
+    "no": "B.16",
+    "field": "Home Member State",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Home Member State as defined in Article 3(1), point 33, of Regulation (EU) 2023/1114",
+    "form_and_standards": "Closed list of EU Member States"
+  },
+  {
+    "no": "B.17",
+    "field": "Host Member States",
+    "section_name": "Part B: Information about the e-money token",
+    "content_to_be_reported": "Host Member State as defined in Article 3(1), point (34), of Regulation (EU) 2023/1114",
+    "form_and_standards": "Closed list of EU Member States"
+  },
+  {
+    "no": "C.1",
+    "field": "Public offering or trading",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "Indication as to whether the crypto-asset white paper concerns an offer to the public of the e-money token or an admission to its trading",
+    "form_and_standards": "‘OTPC’ – offer to the public\n‘ATTR’ – admission to trading"
+  },
+  {
+    "no": "C.2",
+    "field": "Number of units",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "numberOfCryptoAssets",
+    "form_and_standards": "Forwarded value"
+  },
+  {
+    "no": "C.3",
+    "field": "Trading platforms name",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "Where applicable, the name of the trading platforms for crypto-assets where admission to trading is sought",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "C.4",
+    "field": "Trading platforms market identifier code (MIC)",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "Segment MIC for the trading platform operated by the CASP, where available, otherwise operating MIC",
+    "form_and_standards": "{MIC}"
+  },
+  {
+    "no": "C.5",
+    "field": "Applicable law",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "The law applicable to the offer to the public of the e-money token",
+    "form_and_standards": "Drop-down list of applicable laws"
+  },
+  {
+    "no": "C.6",
+    "field": "Competent court",
+    "section_name": "Part C: Information about the offer to the public of the e-money token or its admission to trading",
+    "content_to_be_reported": "Competent court",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.1",
+    "field": "Holder’s rights and obligations",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "A detailed description of the rights and obligations, if any, that the holder of the e-money token has, including the right of redemption at par value as well as the procedure and conditions for the exercise of those rights",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.2",
+    "field": "Conditions of modifications of rights and obligations",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of the conditions under which the rights and obligations may be modified",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.3",
+    "field": "Description of the rights of the holders",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of the rights of the holders when the issuer is not able to fulfil its obligations, including in insolvency",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.4",
+    "field": "Rights in implementation of recovery plan",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of rights in the context of the implementation of the recovery plan",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.5",
+    "field": "Rights in implementation of redemption plan",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of the rights in the context of the implementation of the redemption plan",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.6",
+    "field": "Complaint submission contact",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Contact details for submitting complaints",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.7",
+    "field": "Complaints handling procedures",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of the complaints-handling procedures",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.8",
+    "field": "Dispute resolution mechanism",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Description of any dispute resolution mechanism or redress procedure established by the issuer of the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.9",
+    "field": "Token value protection schemes",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Indication as to whether the crypto-asset has a protection scheme protecting the value of the crypto-asset",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "D.10",
+    "field": "Token value protection schemes description",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Where field D.9 is true, a description of protection schemes protecting the value of the crypto-asset and of compensation schemes",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.11",
+    "field": "Compensation schemes",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Indication as to whether the crypto-asset has a compensation scheme",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "D.12",
+    "field": "Compensation schemes\nDescription",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Where field D.11 is true, a description of compensation schemes",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "D.13",
+    "field": "Applicable law",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "The law applicable to the e-money token",
+    "form_and_standards": "Drop-down list of applicable laws"
+  },
+  {
+    "no": "D.14",
+    "field": "Competent court",
+    "section_name": "Part D: Information on the rights and obligations attached to e-money tokens",
+    "content_to_be_reported": "Competent court",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.1",
+    "field": "Distributed ledger technology",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Field to be filled in only if a DTI is not provided in field B.13\nInformation on the distributed ledger technology",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.2",
+    "field": "Protocols and technical standards",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Information on the protocols and technical standards used, allowing for the holding, storing and transfer of e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.3",
+    "field": "Technology used",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Other information on the technology used allowing for the holding, storing and transfer of e-money tokens, if relevant",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.4",
+    "field": "Purchaser’s technical requirements",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Information about the technical requirements that the purchaser has to fulfil to gain control over the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.5",
+    "field": "Consensus mechanism",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "The consensus mechanism, where applicable",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.6",
+    "field": "Incentive mechanisms and applicable fees",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Incentive mechanisms to secure transactions and any fees applicable",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.7",
+    "field": "Use of distributed ledger technology",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Indication as to whether the e-money tokens are issued, transferred and stored using distributed ledger technology that is operated by the issuer or a third-party acting on the issuer’s behalf",
+    "form_and_standards": "‘true’ – Yes, DLT operated by the issuer or a third-party acting on the issuer’s behalf\n‘false’ – No, DLT not operated by the issuer or a third-party acting on the issuer’s behalf"
+  },
+  {
+    "no": "E.8",
+    "field": "DLT functionality description",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "If the DLT is operated by the issuer or a third party acting on the issuer’s behalf, a detailed description of the functioning of such distributed ledger technology",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "E.9",
+    "field": "Audit",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "Indication as to whether an audit of the technology used was conducted",
+    "form_and_standards": "‘true’ – Yes\n‘false’ – No"
+  },
+  {
+    "no": "E.10",
+    "field": "Audit outcome",
+    "section_name": "Part E: Information on the underlying technology",
+    "content_to_be_reported": "If an audit was conducted, information on the outcome of the audit of the technology used",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.1",
+    "field": "Issuer-related risks",
+    "section_name": "Part F: Information on the risks",
+    "content_to_be_reported": "A description of the risks associated with the issuer of the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.2",
+    "field": "Token-related risks",
+    "section_name": "Part F: Information on the risks",
+    "content_to_be_reported": "A description of the risks associated with the e-money token",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.3",
+    "field": "Technology-related risks",
+    "section_name": "Part F: Information on the risks",
+    "content_to_be_reported": "Description of the risks associated with the technology used",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "F.4",
+    "field": "Mitigation measures",
+    "section_name": "Part F: Information on the risks",
+    "content_to_be_reported": "Mitigation measures of the risks associated with the technology used, if any",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.1",
+    "field": "Name",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Name reported in Annex II to Commission Implementing",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.2",
+    "field": "Relevant legal entity identifier",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Relevant legal entity identifier",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.3",
+    "field": "Name of the crypto-asset",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Name of the crypto-asset",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.4",
+    "field": "Consensus Mechanism",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Consensus Mechanism",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.5",
+    "field": "Incentive Mechanisms and Applicable Fees",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Incentive Mechanisms and Applicable Fees",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.6",
+    "field": "Beginning of the period to which the disclosure relates",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Start date of the period covered by the disclosed information",
+    "form_and_standards": "{DATEFORMAT}"
+  },
+  {
+    "no": "S.7",
+    "field": "End of the period to which the disclosure relates",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "End date of the period covered by the disclosed information",
+    "form_and_standards": "{DATEFORMAT}"
+  },
+  {
+    "no": "S.8",
+    "field": "Energy consumption",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of energy used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed in kilowatt-hours per calendar year",
+    "form_and_standards": "Amount in kilowatt-hours (kWh) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.9",
+    "field": "Energy consumption sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Energy consumption sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.10",
+    "field": "Renewable energy consumption",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of energy from renewable sources, used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed as a percentage of the total amount of energy used per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.11",
+    "field": "Energy intensity",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Average amount of energy used per validated transaction",
+    "form_and_standards": "Amount in kWh {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.12",
+    "field": "Scope 1 DLT GHG emissions – controlled",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 1 GHG emissions per calendar year for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in tonnes (t) carbon dioxide equivalent (CO2e) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.13",
+    "field": "Scope 2 DLT GHG emissions – purchased",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 2 GHG emissions, expressed in tCO2e per calendar year for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in tCO2e {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.14",
+    "field": "GHG intensity",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Average GHG emissions (scope 1 and scope 2) per validated transaction",
+    "form_and_standards": "Amount in kilogram (kg) CO2e (Tx) {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.15",
+    "field": "Key energy source and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Key energy source and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.16",
+    "field": "Key GHG sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Key GHG sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.17",
+    "field": "Energy mix",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Description of the relative contributions of each different primary energy source used for the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed as percentages",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.18",
+    "field": "Energy use reduction",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Energy use reduction targets or commitments, expressed in absolute or relative reduction of energy use over one calendar year",
+    "form_and_standards": "Amount in kWh {DECIMAL-18/5} or Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.19",
+    "field": "Carbon intensity",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Carbon intensity of the energy used for the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in kgCO2e per kWh {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.20",
+    "field": "Scope 3 DLT GHG emissions – Value chain",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Scope 3 GHG emissions for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in tCO2e {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.21",
+    "field": "GHG emissions reduction targets or commitments",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "GHG emissions reduction targets or commitments, expressed in terms of absolute or relative reduction in GHG emissions over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.22",
+    "field": "Generation of waste electrical and electronic equipment (WEEE)",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of WEEE generated for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.23",
+    "field": "Non-recycled WEEE ratio",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total amount of WEEE generated for the validation of transactions and the maintenance of the integrity of the distributed ledger, not recycled per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.24",
+    "field": "Generation of hazardous waste",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of hazardous waste generated for the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.25",
+    "field": "Generation of waste (all types)",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of waste generated by the validation of transactions and the maintenance of the integrity of the distributed ledger",
+    "form_and_standards": "Amount in t {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.26",
+    "field": "Non-recycled waste ratio (all types)",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total amount of waste generated for the validation of transactions and the maintenance of the integrity of the distributed ledger not recycled per calendar year",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.27",
+    "field": "Waste intensity (all types)",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total amount of waste generated per transaction validated",
+    "form_and_standards": "Amount in grams (g) per Tx {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.28",
+    "field": "Waste reduction targets or commitments (all types)",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Waste reduction targets or commitments, expressed in absolute or relative reduction in waste generation over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.29",
+    "field": "Impact of the use of equipment on natural resources",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Description of the impact on natural resources of the production, the use and the disposal of the devices of the DLT network nodes",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.30",
+    "field": "Natural resources use reduction targets or commitments",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Natural resources use reduction targets or commitments, expressed in absolute or relative reduction in use of natural resources over one calendar year",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.31",
+    "field": "Water use",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Total water consumption linked to the validation of transactions and the maintenance of the integrity of the distributed ledger, expressed in cubic meters",
+    "form_and_standards": "Amount in cubic meters {DECIMAL-18/5}"
+  },
+  {
+    "no": "S.32",
+    "field": "Non-recycled water ratio",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Share of the total water consumed not recycled and not reused linked to the validation of transactions and the maintenance of the integrity of the distributed ledger per calendar year, expressed as a percentage",
+    "form_and_standards": "Percentage {DECIMAL-11/10}"
+  },
+  {
+    "no": "S.33",
+    "field": "Other energy sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Other energy sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.34",
+    "field": "Other GHG sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Other GHG sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.35",
+    "field": "Waste sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Waste sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  },
+  {
+    "no": "S.36",
+    "field": "Natural resources sources and methodologies",
+    "section_name": "Part G: Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts",
+    "content_to_be_reported": "Natural resources sources and methodologies",
+    "form_and_standards": "Free alphanumerical text"
+  }
+]

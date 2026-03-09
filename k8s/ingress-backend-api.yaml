@@ -1,0 +1,84 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: esf-backend-api
+  namespace: esf
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    nginx.ingress.kubernetes.io/use-regex: "true"
+    nginx.ingress.kubernetes.io/proxy-read-timeout: "6000"
+    nginx.ingress.kubernetes.io/proxy-send-timeout: "6000"
+    # Optional, enable cautiously after validating behavior
+    # nginx.ingress.kubernetes.io/limit-rps: "10"
+    # nginx.ingress.kubernetes.io/limit-burst-multiplier: "5"
+    nginx.ingress.kubernetes.io/configuration-snippet: |
+      more_set_headers "Strict-Transport-Security: max-age=31536000; includeSubDomains";
+      more_set_headers "X-Frame-Options: SAMEORIGIN";
+      more_set_headers "X-Content-Type-Options: nosniff";
+      more_set_headers "X-XSS-Protection: 1; mode=block";
+spec:
+  tls:
+    - hosts:
+        - app.example.com
+      secretName: esf-tls
+  rules:
+    - host: app.example.com
+      http:
+        paths:
+          - path: /health
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /api
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /files
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /generate
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /regenerate
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /follow-up-questions
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /dummy
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+          - path: /public
+            pathType: Prefix
+            backend:
+              service:
+                name: esf-backend
+                port:
+                  number: 8000
+

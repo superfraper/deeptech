@@ -1,0 +1,123 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: esf-postgres
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-esf}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-esfpass}
+      # Default DB just for the server to start; target DBs will be created by pgloader if not exist
+      - POSTGRES_DB=${POSTGRES_DB:-postgres}
+    ports:
+      - "5432:5432"
+    volumes:
+      - db-data:/var/lib/postgresql/data
+      - ./postgres-init:/docker-entrypoint-initdb.d:ro
+    networks:
+      - esf-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-esf} -d ${POSTGRES_DB:-postgres}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  # One-shot migration job: imports selected SQLite DBs into Postgres using pgloader
+  db-migrate:
+    image: dimitri/pgloader:latest
+    container_name: esf-db-migrate
+    depends_on:
+      - postgres
+    environment:
+      - POSTGRES_USER=${POSTGRES_USER:-esf}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-esfpass}
+    volumes:
+      - ./backend/data/databases:/app/data/databases:ro
+    command: |
+      sh -lc "set -e; \
+        echo 'Starting SQLite -> Postgres migration with pgloader'; \
+        for SRC in data_context.db; do \
+          echo \"Migrating $$SRC ...\"; \
+          DBNAME=$${SRC%.db}; \
+          until pgloader sqlite:///app/data/databases/$$SRC postgresql://$${POSTGRES_USER}:$${POSTGRES_PASSWORD}@postgres:5432/$$DBNAME; do \
+            echo 'Postgres not ready or migration failed, retrying in 5s...'; \
+            sleep 5; \
+          done; \
+          echo \"Done: $$SRC -> $$DBNAME\"; \
+        done; \
+        echo 'All migrations completed.'"
+    networks:
+      - esf-network
+    restart: "no"
+
+  backend:
+    build: ./backend
+    container_name: esf-backend
+    depends_on:
+      postgres:
+        condition: service_healthy
+      db-migrate:
+        condition: service_completed_successfully
+    ports:
+      - "8000:8000"
+    environment:
+      - DB_BACKEND=${DB_BACKEND:-postgres}
+      - POSTGRES_HOST=postgres
+      - POSTGRES_PORT=${POSTGRES_PORT:-5432}
+      - POSTGRES_USER=${POSTGRES_USER:-esf}
+      - POSTGRES_PASSWORD=${POSTGRES_PASSWORD:-esfpass}
+      - AWS_ACCESS_KEY=${AWS_ACCESS_KEY}
+      - AWS_SECRET_KEY=${AWS_SECRET_KEY}
+      - AWS_REGION=${AWS_REGION}
+      - S3_BUCKET=${S3_BUCKET}
+      - OPENSEARCH_ENDPOINT=${OPENSEARCH_ENDPOINT}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - AUTH0_DOMAIN=${AUTH0_DOMAIN:-dev-lzz2sk107uunqvja.us.auth0.com}
+      - AUTH0_AUDIENCE=${AUTH0_AUDIENCE:-https://esf-dash-rag-api}
+      - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+    volumes:
+      - ./backend/data/databases/data_context.db:/app/data/databases/data_context.db
+      - ./backend/data/json/dtidata.json:/app/data/json/dtidata.json
+      - ./logs:/app/logs
+    networks:
+      - esf-network
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "python -c \"import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://localhost:8000/health').getcode()==200 else 1)\""]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 40s
+
+  frontend:
+    build: ./esf-ui/frontend
+    container_name: esf-frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - esf-network
+    restart: unless-stopped
+
+  nginx:
+    image: nginx:alpine
+    container_name: esf-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./esf-ui/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./esf-ui/nginx/ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - frontend
+      - backend
+    networks:
+      - esf-network
+    restart: unless-stopped
+
+networks:
+  esf-network:
+    driver: bridge
+
+volumes:
+  db-data:

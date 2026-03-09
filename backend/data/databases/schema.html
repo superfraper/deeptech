@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Database Schemas</title>
+    <style>
+      body { font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif; margin: 24px; }
+      h1 { margin-bottom: 8px; }
+      h2 { margin-top: 32px; }
+      .diagram { margin: 16px 0 32px; }
+      .note { color: #555; font-size: 0.9em; }
+    </style>
+    <script type="module">
+      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+      mermaid.initialize({ startOnLoad: true, securityLevel: 'loose', theme: 'default' });
+    </script>
+  </head>
+  <body>
+    <h1>Database schema diagrams</h1>
+    <h2>data_context.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    GENERATION_STATUS {
+        TEXT generation_id PK
+        TEXT user_id
+        TEXT status
+        INTEGER progress
+        INTEGER total_fields
+        INTEGER completed_fields
+        TEXT current_field
+        TEXT whitepaper_type
+        TEXT results
+        TEXT error_message
+        TIMESTAMP started_at
+        TIMESTAMP updated_at
+    }
+    USER_CONTEXT {
+        INTEGER id PK
+        TEXT auth0_user_id
+        TEXT context_data
+        TIMESTAMP created_at
+        TIMESTAMP updated_at
+    }
+    </div>
+
+    <h2>guidelines.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    GUIDELINES_ART {
+        VARCHAR No
+        VARCHAR FIELD
+        VARCHAR content_to_be_reported
+        VARCHAR form_and_standards_to_be_used_for_reporting
+        VARCHAR example_of_good_answer
+        VARCHAR example_of_bad_answer
+        VARCHAR section_name
+        INT order_in_section
+    }
+    GUIDELINES_EMT {
+        VARCHAR No
+        VARCHAR FIELD
+        VARCHAR content_to_be_reported
+        VARCHAR form_and_standards_to_be_used_for_reporting
+        VARCHAR example_of_good_answer
+        VARCHAR example_of_bad_answer
+        VARCHAR section_name
+        INT order_in_section
+    }
+    GUIDELINES_OTH {
+        VARCHAR No
+        VARCHAR FIELD
+        VARCHAR content_to_be_reported
+        VARCHAR form_and_standards_to_be_used_for_reporting
+        VARCHAR example_of_good_answer
+        VARCHAR example_of_bad_answer
+        VARCHAR section_name
+        INT order_in_section
+    }
+    </div>
+
+    <h2>subquestions.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    SUBQUESTIONS_ART {
+        VARCHAR field_id
+        VARCHAR question
+        VARCHAR type
+        VARCHAR relevant_field
+        VARCHAR relevant_variable
+    }
+    SUBQUESTIONS_EMT {
+        VARCHAR field_id
+        VARCHAR question
+        VARCHAR type
+        VARCHAR relevant_field
+        VARCHAR relevant_variable
+    }
+    SUBQUESTIONS_OTH {
+        VARCHAR field_id
+        VARCHAR question
+        VARCHAR type
+        VARCHAR relevant_field
+        VARCHAR relevant_variable
+    }
+    </div>
+
+    <h2>oth_whitepaper_fields.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    OTH_SECTION1 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION2 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION3 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION4 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION5 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    OTH_SECTION6 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    OTH_SECTION7 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION8 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION9 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION10 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION11 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    OTH_SECTION13 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    </div>
+
+    <h2>emt_whitepaper_fields.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    EMT_SECTION1 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION2 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION3 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION4 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION5 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    EMT_SECTION6 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    EMT_SECTION7 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION8 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    EMT_SECTION13 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    </div>
+
+    <h2>art_whitepaper_fields.db</h2>
+    <div class="diagram mermaid">
+erDiagram
+    ART_SECTION1 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION2 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION3 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION4 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION5 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    ART_SECTION6 {
+        INTEGER id PK
+        VARCHAR field_name
+        VARCHAR field_id
+    }
+    ART_SECTION7 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION8 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION9 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION10 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    ART_SECTION13 {
+        INTEGER id PK
+        TEXT field_name
+        TEXT field_id
+    }
+    </div>
+
+  </body>
+  </html>
+
+

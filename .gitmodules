@@ -1,0 +1,4 @@
+[submodule "esf-ui"]
+	path = esf-ui
+	url = git@github.com:superfraper/deeptech-ui.git
+	branch = main

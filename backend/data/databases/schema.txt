@@ -1,0 +1,225 @@
+data_context.db
+
+generation_status|CREATE TABLE generation_status (
+                generation_id TEXT PRIMARY KEY,
+                user_id TEXT NOT NULL,
+                status TEXT NOT NULL,
+                progress INTEGER DEFAULT 0,
+                total_fields INTEGER DEFAULT 0,
+                completed_fields INTEGER DEFAULT 0,
+                current_field TEXT,
+                whitepaper_type TEXT,
+                results TEXT,
+                error_message TEXT,
+                started_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+            )
+user_context|CREATE TABLE user_context (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    auth0_user_id TEXT NOT NULL,
+    context_data TEXT NOT NULL, -- Stored as JSON blob
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+)
+
+guidelines.db
+
+art|CREATE TABLE art (
+    `No`                                        VARCHAR(255),
+    `FIELD`                                     VARCHAR(255),
+    `CONTENT TO BE REPORTED`                    VARCHAR(255),
+    `FORM AND STANDARDS TO BE USED FOR REPORTING` VARCHAR(255),
+    `example of good answer`                    VARCHAR(255),
+    `example of bad answer`                     VARCHAR(255),
+    `section_name`                              VARCHAR(255),
+    `order_in_section`                          INT
+)
+emt|CREATE TABLE emt (
+    `No`                                        VARCHAR(255),
+    `FIELD`                                     VARCHAR(255),
+    `CONTENT TO BE REPORTED`                    VARCHAR(255),
+    `FORM AND STANDARDS TO BE USED FOR REPORTING` VARCHAR(255),
+    `example of good answer`                    VARCHAR(255),
+    `example of bad answer`                     VARCHAR(255),
+    `section_name`                              VARCHAR(255),
+    `order_in_section`                          INT
+)
+oth|CREATE TABLE oth (
+    `No`                                        VARCHAR(255),
+    `FIELD`                                     VARCHAR(255),
+    `CONTENT TO BE REPORTED`                    VARCHAR(255),
+    `FORM AND STANDARDS TO BE USED FOR REPORTING` VARCHAR(255),
+    `example of good answer`                    VARCHAR(255),
+    `example of bad answer`                     VARCHAR(255),
+    `section_name`                              VARCHAR(255),
+    `order_in_section`                          INT
+)
+
+subquestions.db
+
+art|CREATE TABLE art (
+    field_id          VARCHAR(255),
+    question          VARCHAR(255),
+    type              VARCHAR(255),
+    relevant_field    VARCHAR(255),
+    relevant_variable VARCHAR(255)
+)
+emt|CREATE TABLE emt (
+    field_id          VARCHAR(255),
+    question          VARCHAR(255),
+    type              VARCHAR(255),
+    relevant_field    VARCHAR(255),
+    relevant_variable VARCHAR(255)
+)
+oth|CREATE TABLE oth (
+    field_id          VARCHAR(255),
+    question          VARCHAR(255),
+    type              VARCHAR(255),
+    relevant_field    VARCHAR(255),
+    relevant_variable VARCHAR(255)
+)
+
+oth_whitepaper_fields.db
+
+Section1|CREATE TABLE Section1 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section10|CREATE TABLE Section10 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section11|CREATE TABLE Section11 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section13|CREATE TABLE Section13 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section2|CREATE TABLE Section2 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section3|CREATE TABLE Section3 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section4|CREATE TABLE Section4 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section5|CREATE TABLE Section5 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section6|CREATE TABLE Section6 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section7|CREATE TABLE Section7 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section8|CREATE TABLE Section8 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section9|CREATE TABLE Section9 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+
+
+emt_whitepaper_fields.db
+
+Section1|CREATE TABLE Section1 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section13|CREATE TABLE Section13 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section2|CREATE TABLE Section2 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section3|CREATE TABLE Section3 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section4|CREATE TABLE Section4 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section5|CREATE TABLE Section5 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section6|CREATE TABLE Section6 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section7|CREATE TABLE Section7 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section8|CREATE TABLE Section8 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+
+
+art_whitepaper_fields.db
+
+Section1|CREATE TABLE Section1 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section10|CREATE TABLE Section10 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section13|CREATE TABLE Section13 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section2|CREATE TABLE Section2 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section3|CREATE TABLE Section3 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section4|CREATE TABLE Section4 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section5|CREATE TABLE Section5 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section6|CREATE TABLE Section6 (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    field_name VARCHAR(255) NOT NULL,
+    field_id VARCHAR(10) NOT NULL
+)
+Section7|CREATE TABLE Section7 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section8|CREATE TABLE Section8 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)
+Section9|CREATE TABLE Section9 (
+        id INTEGER PRIMARY KEY AUTOINCREMENT,
+        field_name TEXT NOT NULL
+    , field_id TEXT)

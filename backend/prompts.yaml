@@ -1,0 +1,194 @@
+prompts:
+  system_messages:
+    default: "You are a helpful assistant."
+    tabular_format: "You are a data extraction specialist. Extract management information into a structured JSON format with exactly three columns: 'Identity' (names only), 'Business Address' (locations/addresses), and 'Functions' (roles/positions). Return a JSON object with a list of members, each having these three fields."
+    tabular_extraction: "You are a document analyst expert at extracting management information into structured tables. Your task is to parse text and categorize information into three distinct columns: Identity (person's name only), Business Address (complete location), Functions (role/title). Never combine multiple data types in a single column."
+    answer_with_confidence: "You are an analytical assistant. For each response, assess your confidence level based on the clarity and completeness of the source material. Return a JSON object with 'answer' (string) and 'confident' (boolean) fields."
+    document_summary: "You are a document and webpage analysis specialist expert at providing contextual summaries. Your role is to situate document chunks within their broader context to improve search and retrieval accuracy."
+  generate_context:
+    document:
+      template: | 
+        Given the following document and a specific chunk from it, provide a brief contextual summary that explains:
+        1. What document this chunk is from
+        2. What section/topic this chunk relates to
+        3. Key context needed to understand this chunk
+
+        
+        Full Document:
+        <document>
+        {document_text}
+        </document>
+
+        Here is the chunk we want to situate within the whole document:
+        <chunk>
+        {chunk}
+        </chunk>
+
+        Please give a short succinct context to situate this chunk within the overall document for the purposes of improving search retrieval of the chunk.
+        Answer only with the succinct context and nothing else.
+    webpage:
+      template: |
+        Given the following webpage and a specific chunk from it, provide a brief contextual summary that explains:
+        1. What webpage this chunk is from
+        2. What section/topic this chunk relates to
+        3. Key context needed to understand this chunk
+
+        
+        Full Webpage:
+        <webpage>
+        {document_text}
+        </webpage>
+
+        Here is the chunk we want to situate within the whole webpage:
+        <chunk>
+        {chunk}
+        </chunk>
+
+        Please give a short succinct context to situate this chunk within the overall webpage for the purposes of improving search retrieval of the chunk.
+        Answer only with the succinct context and nothing else.
+        
+  regenerate_field:
+    tabular_format:
+      template: |
+        Using the following context:
+        {context}
+
+        Please regenerate the fill-out answer for the field '{field_name}' in a tabular format.
+        Extract information and separate it into three distinct columns:
+        - Identity: Person's name only (e.g., 'John Smith', 'Maria Garcia')
+        - Business Address: Complete address or location (e.g., 'Warsaw, Poland', '123 Main St, New York')
+        - Functions: Role or position (e.g., 'CEO', 'Chief Technology Officer', 'Board Member')
+
+        Parse the text carefully and extract each piece of information into the correct column.
+        If information is mixed together (like 'John Pork, Warsaw, CEO'), separate it properly:
+        - 'John Pork' goes to Identity
+        - 'Warsaw' goes to Business Address
+        - 'CEO' goes to Functions
+
+        Previous answer:
+        {previous_answer}
+
+        Return a JSON array of objects with exactly these three fields: 'Identity', 'Business Address', 'Functions'.
+    
+    standard:
+      template: |
+        Using the following context:
+        {context}
+
+        Please regenerate the fill-out answer for the field '{field_name}' that should contain:
+
+        {field_content} following the form and standards:
+
+        {form_and_standards}
+
+        Previous answer:
+        {previous_answer}
+
+        Make sure the answer meets the required formatting and standards.
+        Return only the text without any additional explanations or context what you generate is directly pasted into whitepaper.
+        If the answer is yes or no use the format TRUE or FALSE without any parenthesis or further descriptions. The same in case of ATTR or OTPC.
+        In case of dates use the format YYYY-MM-DD.
+
+  generate_field:
+    general:
+      template: |
+        Using the following context:
+        {context}
+
+        Please generate a concise fill-out answer for the field '{field_name}' that should meet the folowing rules or return described value without any suffixes:
+        {field_content}
+        
+        Standards and formatting rules:
+        {form_and_standards}
+
+        Make sure the answer meets the required formatting and standards.
+        Square brackets are used to describe the value that should be put in the place of the field. Paste the value without any additional information or instructions.
+        Don't use any prefixes or suffixes to the answer. Just return the answer.
+        If there is a conditional return the result but not the instruction. If there is a Only applicable that means the mentioned value should be retrieved fron the context and returned wthout any information about the condition
+        Return only the text without any additional explanations or context what you generate is directly pasted into whitepaper.
+        
+        Output requirements:
+        - For yes/no questions: use "TRUE" or "FALSE" (no parentheses)
+        - For categorical values: use "ATTR" or "OTPC" (no parentheses)  
+        - For dates: use "YYYY-MM-DD" format
+        - If the standards contain placeholder tokens (e.g., CURRENCYCODE_3, DTI), never output the placeholder name; output only the concrete value. If unknown, return "N/A"
+    
+    unanswered_questions: "Please answer all of the follow-up questions in order to generate the whitepaper field content."
+
+  answer_questions:
+    whitepaper:
+      template: |
+        Using the following context:
+        {context}
+
+        Answer the question: {question}
+        
+        This response will be directly inserted into a whitepaper document.
+        
+        Requirements:
+        - Extract only factual information from the provided context
+        - Be precise and concise
+        - Use formal, professional language
+        - Return only the answer without explanations or meta-commentary
+        
+        Formatting rules:
+        - For yes/no questions: use "TRUE" or "FALSE" (no parentheses)
+        - For categorical values: use "ATTR" or "OTPC" (no parentheses)
+        - For dates: use "YYYY-MM-DD" format
+        - For monetary values: use standard currency format (e.g., "1,000,000 EUR")
+        - For percentages: use decimal format (e.g., "15.5%")
+        - Do not use bullet points in responses
+
+    user:
+      template: |
+        Using the following context:
+        {context}
+
+        Answer the question: {question}
+        
+        This response is for processing user form data to generate whitepaper content.
+        
+        Requirements:
+        - Extract information directly from the provided form context
+        - Be precise and factual
+        - Return only the requested value without additional text
+        - If form data is missing or unclear, indicate uncertainty
+        
+        Formatting rules:
+        - For yes/no questions: use "TRUE" or "FALSE" (no parentheses)
+        - For categorical values: use "ATTR" or "OTPC" (no parentheses)
+        - For dates: use "YYYY-MM-DD" format
+        - For conditional fields: return the result value only
+        - Do not use bullet points in responses
+    rag:
+      template: |
+        Using the following context:
+        {context}
+
+        Answer the question: {question}
+        
+        This response is for RAG-based content extraction from documents and search results.
+        
+        Requirements:
+        - Extract precise information from the document context
+        - Maintain factual accuracy based on source material
+        - Be concise and directly answer the question
+            
+        Formatting rules:
+        - For yes/no questions: use "TRUE" or "FALSE" (no parentheses)
+        - For categorical values: use "ATTR" or "OTPC" (no parentheses)
+        - For dates: use "YYYY-MM-DD" format
+        - For uncertain information: prefix with "UNCERTAIN: "
+        - For partial information: prefix with "PARTIAL: "
+        - Do not use bullet points in responses
+
+  constants:
+    not_applicable: "N/A"
+  
+  error_messages:
+    regenerate_tabular_format: "Failed to regenerate tabular format for '{field_name}'. Error: {error}. Please check source data format and field requirements."
+    regenerate_fill: "Unable to regenerate content for '{field_name}'. Error: {error}. Verify field content specification and context availability."
+    generate_tabular_format: "Tabular format generation failed for '{field_name}'. Error: {error}. Ensure context contains extractable management information."
+    generate_fill: "Content generation failed for '{field_name}'. Error: {error}. Check field requirements and available context data."
+    generate_answer: "Answer generation failed for field '{field_id}'. Error: {error}. Review question format and context relevance."
+    unknown_question_type: "Unrecognized question type: '{question_text}'. Supported types: whitepaper, user, rag and hardcoded. Please specify a valid question type."

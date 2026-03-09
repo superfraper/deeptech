@@ -1,0 +1,3012 @@
+[
+  {
+    "field_id": "I.00",
+    "question": "I. Compliance with duties of information\nII. Summary \nPart A – Information about the issuer of the asset-referenced token\nPart AA - information on other persons offering to the public or seeking admission to trading of asset-referenced tokens other than the issuer and on other persons drawing up the crypto-asset white paper in accordance with Article 19(1), second subparagraph, of Regulation (EU) 2023/1114\nPart B - Information about the asset-referenced token \nPart C - Information about the offer to the public of the asset-referenced token or its admission to trading \nPart D - Information on the rights and obligations attached to the asset-referenced token \nPart E - Information on the underlying technology \nPart F - Information on the risks \nPart G - Information on the reserve of assets \nPart H – Information on the sustainability indicators in relation to adverse impact on the climate and other environment-related adverse impacts\n\n",
+    "type": "hardcoded",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.01",
+    "question": "What is the notification date?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "dateOfNotification"
+  },
+  {
+    "field_id": "I.02",
+    "question": "The asset-referenced token referred to in this crypto-asset white paper may lose its value in part or in full, may not always be transferable and may not be liquid. The asset-refenced token referred to in this crypto-asset white paper is not covered by the investor compensation schemes under Directive 97/9/EC of the European Parliament and of the Council or the deposit guarantee schemes under Directive 2014/49/EU of the European Parliament and of the Council.’",
+    "type": "hardcoded",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.03",
+    "question": "‘This crypto-asset white paper complies with Title III of Regulation (EU) 2023/1114 of the European Parliament and of the Council and to the best of the knowledge of the management body, the information presented in this crypto-asset white paper is fair, clear and not misleading and the crypto-asset white paper makes no omission likely to affect its import.’",
+    "type": "hardcoded",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.04",
+    "question": "‘Warning This summary should be read as an introduction to the crypto-asset white paper. The prospective holder should base any decision to purchase this asset-referenced token on the content of the crypto-asset white paper as a whole and not on the summary alone.The offer to the public of this crypto-asset does not constitute an offer or solicitation to purchase financial instruments and any such offer or solicitation can be made only by means of a prospectus or other offer documents pursuant to the applicable national law. This crypto-asset white paper does not constitute a prospectus as referred to in Regulation (EU) 2017/1129 of the European Parliament and of the Council or any other offer document pursuant to Union or national law.’",
+    "type": "hardcoded",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.05",
+    "question": "A brief, clear and non-technical description of the characteristics of the crypto asset including information about rights and obligations of the purchaser, procedure and conditions for the exercise of those rights and conditions, if any, under which these rights and obligations may be modified.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.06",
+    "question": "Please describe the conditions of the redemption",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "What are the key information about the offer to the public or admission to trading",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "keyInformation"
+  },
+  {
+    "field_id": "I.07",
+    "question": "When applicable, a brief and non-technical description of the admission to trading, including the name of the trading platform for which the admission is sought.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "A brief and non-technical description of the offer to the public",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "What is the amount of the offer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "What are the minimum and maximum target subscription goals if applicable?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "What is the issue price of the crypto-asset and subscription fees",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "the total number of crypto-assets to be offered",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "prospective holders",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "description, where applicable, of the various phases of the offer to the public of crypto-assets, including information on discounted purchase price for early purchasers of crypto-assets and subscription period.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "I.07",
+    "question": "When applicable, the name of the crypto-asset service provider in charge of the placing of crypto-assets and the form of such placement (with or without a firm commitment basis);",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.1",
+    "question": "What is the name of the issuer?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerName"
+  },
+  {
+    "field_id": "A.2",
+    "question": "What is the trading name?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.3",
+    "question": "What ISO standard does the crypto asset meet?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLegalForm"
+  },
+  {
+    "field_id": "A.3",
+    "question": "Is LEI provided?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.4",
+    "question": "Provide Address and country of registration.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerRegisteredAddress"
+  },
+  {
+    "field_id": "A.4",
+    "question": "Is LEI provided?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.5",
+    "question": "Provide Address of the Head office.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerHeadOffice"
+  },
+  {
+    "field_id": "A.5",
+    "question": "Is LEI provided?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.6",
+    "question": "Date of the registration.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerRegistrationDate"
+  },
+  {
+    "field_id": "A.7",
+    "question": "Please provide the LEI",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.8",
+    "question": "Is the LEI provided?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.8",
+    "question": "What is the national identifier based on the nationality of the issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.8",
+    "question": "Is it required under the applicable national law to have a national identifier?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.9",
+    "question": "What is the name of the parent company?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerParentCompanyName"
+  },
+  {
+    "field_id": "A.9",
+    "question": "Is LEI provided in B.7?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerLeiNumber"
+  },
+  {
+    "field_id": "A.10",
+    "question": "What is the dentity, business address, and functions of each of the persons that are members of the management body, as defined in Article 3(1), point (27), of Regulation (EU) 2023/1114, of the issuer.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.11",
+    "question": "What is the business or professional activity of the issuer including principal activities, principal markets and\nrecent financial condition?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.12",
+    "question": "Is there a parent company?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerParentCompanyName"
+  },
+  {
+    "field_id": "A.12",
+    "question": "Where applicable, business or professional activity\nof the parent company, including principal\nactivities and principal markets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.13",
+    "question": "What is the registration date?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuerRegistrationDate"
+  },
+  {
+    "field_id": "A.14",
+    "question": "Is A.13 True?",
+    "type": "whitepaper",
+    "relevant_field": "A.13",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.14",
+    "question": "How has the business developed each year (and any interim periods) since the registration?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.14",
+    "question": "Can you explain any unusual or infrequent events, or new developments, that significantly affected the income or operations?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.14",
+    "question": "What are the available capital resources, both short-term and long-term?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.14",
+    "question": "Can you describe your cash flows since registration?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.14",
+    "question": "Where financial statements exist, can you reference and explain key figures from those statements?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.15",
+    "question": "Is A.13 False?",
+    "type": "whitepaper",
+    "relevant_field": "A.13",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.15",
+    "question": "How has the business developed each year (and any interim periods) since the registration?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.15",
+    "question": "Can you explain any unusual or infrequent events, or new developments, that significantly affected the income or operations?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.15",
+    "question": "What are the available capital resources, both short-term and long-term?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.15",
+    "question": "Can you describe your cash flows since registration?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.15",
+    "question": "Where financial statements exist, can you reference and explain key figures from those statements?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "financialCondition"
+  },
+  {
+    "field_id": "A.16",
+    "question": "Who makes the key decisions for the project (e.g. protocol changes, reserve management), and how are those decisions made?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "keyDecisionMakers"
+  },
+  {
+    "field_id": "A.16",
+    "question": "What formal structures (e.g. boards, committees, governance bodies) are in place to oversee the project?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "formalStructures"
+  },
+  {
+    "field_id": "A.17",
+    "question": "Has the market value of the token (including other versions of the same token issued by “linked issuers”) averaged below 5 million EUR over the past 12 months?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "artMarketValueBelow5M"
+  },
+  {
+    "field_id": "A.17",
+    "question": "Can the ART only be held by qualified investors, and is the offer exclusively addressed to them?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "artOnlyQualifiedInvestors"
+  },
+  {
+    "field_id": "A.17",
+    "question": "Is the issuer a credit institution?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "artIssuerCreditInstitution"
+  },
+  {
+    "field_id": "A.18",
+    "question": "If not exempted from authorisation, provide details about the authorisation as an issuer of an asset-referenced token",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.19",
+    "question": "What is the name of the competent authority that granted the autorisation as issuer of asset-referenced tokens",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.20",
+    "question": "Is the issuer a credit institution authorised in an EU Member State? If yes, which country is it authorised in?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.20",
+    "question": "What is the name of the competent supervisory authority that regulates the issuer in that country?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.21",
+    "question": "Does the issuer of the asset-referenced token also issues other crypto-assets",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.22",
+    "question": "Does the issuer of the asset-referenced token also has activities related to other crypto-assets",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.23",
+    "question": "Is there  any connection between the issuer and the entity running the distributed ledger technology used to issue the crypto-asset, including if the protocols are run or controlled by a person closely connected to the project participants",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.24",
+    "question": "Is the A.23 field false?",
+    "type": "whitepaper",
+    "relevant_field": "A.23",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "A.24",
+    "question": "Provide a description of the connection between the issuer and entity running the distributed ledger technology used to issue the crypto-asset, including if the protocols are run or controlled by a person closely connected to the project participants",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.1",
+    "question": "Are there Persons other than the issuer offering to the public or seeking admission to trading of the asset referenced token? ",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.1",
+    "question": "Is the Lei of the person offering to the public or seeking admission to trading of the asset referenced token available?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.1.2",
+    "question": "Is lei provided in field AA.1?",
+    "type": "whitepaper",
+    "relevant_field": "AA.1",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.1.2",
+    "question": "National identifier based on the nationality of the person other than the issuer offering to the public or seeking admission to trading, if required under the applicable national law.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.2",
+    "question": "Is the offeror or the person seeking admission to trading is different from the issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.2",
+    "question": "What is the reason for offering to the public or seeking admission to trading the asset-referenced token by other persons?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.3",
+    "question": "Is the person drawing up the whitepaper diffrenet form the issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.3.1",
+    "question": "Is lei provided in field AA.3?",
+    "type": "whitepaper",
+    "relevant_field": "AA.3",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.3.1",
+    "question": "What is the National identifier based on the nationality of the person drawing up the crypto-asset white paper, if required under the applicable national law.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.4",
+    "question": "Is the white paper being drawn up by a person different from the issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "AA.4",
+    "question": "What is the Reason for drawing the white paper by person different than the issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.1",
+    "question": "What is the crypto asset name?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetName"
+  },
+  {
+    "field_id": "B.1",
+    "question": "Is the DTI provided in field B.15",
+    "type": "whitepaper",
+    "relevant_field": "B.15",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.2",
+    "question": "Please provide the Abbreviation or ticker handler of the asset-referenced token",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.2",
+    "question": "Is the DTI provided in field B.15",
+    "type": "whitepaper",
+    "relevant_field": "B.15",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.3",
+    "question": "1. Who are the professional advisors involved in the\nimplementation of the crypto-asset project?\n- Who are the legal advisors?\n- Who are the financial advisors?\n- Who are the compliance advisors?\n- Who are the business consulting advisors?\n- Are there any other professional advisors?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.3",
+    "question": "2, Who are the technical advisors involved in the\nimplementation of the crypto-asset project?\n- Who are the development team?\n- Who are the founder(s)?\n- Who are the key developers?\n- Who are the financiers?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.3",
+    "question": "3. Are there any other key members of the\ndevelopment team?\n- Who are the crypto-asset service providers involved in\nthe implementation of the crypto-asset project?\n- Who provides exchange and trading and related\nservices?\n- Who provides custody services?\n- Who provides administrative services?\n- Who provides operational services?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.3",
+    "question": "4. Are there any other crypto-asset service providers?\n- Are there any other persons involved in the\nimplementation of the crypto-asset project?\n- Who are the parties responsible for the administration\nor management of the project?\n- Are there any other parties with a significant financial\ninterest in the project as a whole?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.4",
+    "question": "Are any third-party entities involved in managing or operating the reserve assets? If yes, who are they and what are their responsibilities?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "thirdPartyReserveManagement"
+  },
+  {
+    "field_id": "B.4",
+    "question": "Are any third parties authorised to invest the reserve assets? If so, what are their investment powers, limitations, and reporting obligations?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "thirdPartyInvestmentAuth"
+  },
+  {
+    "field_id": "B.4",
+    "question": "Are third parties involved in the distribution or sale of the asset-referenced token to the public? If yes, what role do they play and how are they held accountable?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "thirdPartyDistribution"
+  },
+  {
+    "field_id": "B.5",
+    "question": "What key research, development activities, publications, or releases have been completed so far? Please provide dates or timeframes.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.5",
+    "question": "What important events, partnerships, or achievements have occurred in the past relevant to the token?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.5",
+    "question": "What are the planned developments, launches, or releases for the token in the near future? Please specify expected dates or periods.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.5",
+    "question": "What are the long-term goals or strategic plans for the token’s growth and evolution?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.6",
+    "question": "Provide information about resources, including financial resources, already allocated to the project.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.7",
+    "question": "The type of white paper notified.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.8",
+    "question": "Type of submission.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "submissionType"
+  },
+  {
+    "field_id": "B.9",
+    "question": "Provide a description of the characteristics of the crypto-asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.10",
+    "question": "Website of the issuer.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.11",
+    "question": "Starting date or, if not available at the time of the notification by the competent authority, the intended starting date of offer to the public or admission to trading.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.12",
+    "question": "Eﬀective or intended publication date of\nthe white paper or of the modified white\npaper\nYYYY-MM-DD provided by the user in publicationDate.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "publicationDate"
+  },
+  {
+    "field_id": "B.13",
+    "question": "Are there anyother services provided by the issuer not covered by Regulation (EU) 2023/1114, with a reference to the applicable Union or national legal acts regulating those services",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.14",
+    "question": "what is the language or languages of the white paper?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.15",
+    "question": "What is the DTI number?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "selectedDTIs"
+  },
+  {
+    "field_id": "B.16",
+    "question": "what is the Functionally Fungible \ngroup Digital Token\n Identifier?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "selectedFungibleDTIs"
+  },
+  {
+    "field_id": "B.17",
+    "question": "Does the submitted white\npaper contain personal data?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.18",
+    "question": "Does A.7 field contain LEI?",
+    "type": "whitepaper",
+    "relevant_field": "A.7",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.18",
+    "question": "Do fields A.3 and A.4 have values?",
+    "type": "whitepaper",
+    "relevant_field": "A.3, A.4",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.19",
+    "question": "Home Member State as defined in Article 3(1), point (34), of Regulation (EU) 2023/1114.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "B.20",
+    "question": "Host member state as defined in Article 3 paragraph 34 of Regulation (EU) 2023/1114.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.1",
+    "question": "Indicate whether the crypto-asset white paper concerns an offer to the public of crypto-assets or their admission to trading.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.1",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.1",
+    "question": "Indicate whether the crypto-asset white paper concerns an offer to the public of crypto-assets or their admission to trading or BOTH.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.2",
+    "question": "Where applicable, the amount that the offer to the public intends to raise in funds or in any other crypto-asset in an official currency or any other crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.2",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.3",
+    "question": "what is the minTargetSubscription?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "minTargetSubscription"
+  },
+  {
+    "field_id": "C.3",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.4",
+    "question": "what is the maxTargetSubscription?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "maxTargetSubscription"
+  },
+  {
+    "field_id": "C.4",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.5",
+    "question": "Are oversubscriptions Accepted?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.5",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.6",
+    "question": "Where oversubscriptions are accepted, a description of how they are allocated.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.6",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.6",
+    "question": "Is C.5 field false?",
+    "type": "whitepaper",
+    "relevant_field": "C.5",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.7",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.7",
+    "question": "What is the numberOfCryptoAssets value?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "numberOfCryptoAssets"
+  },
+  {
+    "field_id": "C.8",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.8",
+    "question": "Indication of the prospective holders targeted by the offer to the public of the crypto-asset or admission of such crypto-asset to trading.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "prospectiveHolders"
+  },
+  {
+    "field_id": "C.9",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.9",
+    "question": "Indication of any restriction as regards the type of holders for such crypto-asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.10",
+    "question": "Purchasers participating in the oﬀer to the\npublic of cryptoassets will be able to be\nreimbursed if the minimum target\nsubscription goal is not reached at the end of\nthe oﬀer to the public, if they exercise the\nright to withdrawal foreseen in Article 13 of\nRegulation (EU) 2023/1114 or if the oﬀer is\ncancelled",
+    "type": "hardcoded",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.10",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.11",
+    "question": "Expected timeline of when the refunds will be completed.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.11",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.12",
+    "question": "Have you set a maximum subscription amount (hard cap) for the token offering? If yes, what is the amount?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.12",
+    "question": "What actions will you take if demand exceeds this maximum (e.g. refund excess contributions, allocate proportionally, reject transactions)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.12",
+    "question": "Are there any legal, operational, or financial consequences for the project or token holders if the maximum is exceeded? If yes, please describe.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.13",
+    "question": "will the offer be phased?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "isPhasedOffer"
+  },
+  {
+    "field_id": "C.13",
+    "question": "Information about the various phases of the offer to the public of the crypto-asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.13",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.14",
+    "question": "Information on discounted purchase price for early purchasers of the crypto-asset (pre-public sale) and in the case of discounted purchase price for some purchasers, an explanation as to why the purchase prices may be different and a description of the impact on the other investors.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.14",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.15",
+    "question": "Indication whether the offer is time-limited.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.15",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.16",
+    "question": "For time-limited offers, the beginning of the subscription period during which the offer to the public is open.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.16",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.17",
+    "question": "For time-limited offers, the end of the subscription period during which the offer to the public is open.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.17",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.18",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.18",
+    "question": "Methods of payment to purchase the crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.19",
+    "question": "Manner of transferring purchased crypto-assets to the holders.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.19",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.20",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.20",
+    "question": "Information about technical requirements that the purchaser is required to fulfil to hold the crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.21",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.21",
+    "question": "Where applicable, the name of the crypto-asset service provider (CASP) in charge of the placing of crypto-assets.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "caspInCharge"
+  },
+  {
+    "field_id": "C.22",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.22",
+    "question": "The legal entity identifier of the crypto-asset service provider in charge of the placing of crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.23",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.23",
+    "question": "Where applicable, the form of the placement.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.24",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.24",
+    "question": "Where applicable, the name of the trading platforms for crypto-assets where admission to trading is sought.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.25",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.25",
+    "question": "Segment MIC for the trading platform where the admission to trading of the crypto-asset is sought.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.26",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.26",
+    "question": "Where applicable, information about how investors can access the trading platforms.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.27",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.27",
+    "question": "Where applicable, information about the costs involved in relation to the access of investors to the trading platforms.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.28",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.28",
+    "question": "Expenses related to the offer to the public of crypto-assets, in an official currency or any other crypto-assets. If more than one type of offer expense, expenses should be presented in a tabular format.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.29",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.29",
+    "question": "Potential conflicts of interest of the persons involved in the offer to the public or admission to trading, arising in relation to the offer or admission to trading.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.30",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.30",
+    "question": "The law applicable to the offer to the public of the crypto-asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "C.31",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "C.31",
+    "question": "Competent court.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.1",
+    "question": "What is the token name?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetName"
+  },
+  {
+    "field_id": "D.1",
+    "question": "A description of the functionality of the crypto-assets being offered or admitted to trading.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.1",
+    "question": "Have all functionalities have been already applied?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.2",
+    "question": "Information about when the functionalities of the crypto-assets being offered or admitted to trading are planned to apply. [YYYY-MM-DD]",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.3",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.3",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.3",
+    "question": "A description of the rights and obligations, if any, of the purchaser",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.4",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.4",
+    "question": "Is there anything the token-holder must do\nbefore exercising such right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Is there anything the token-holder must do\nduring its exercising of such right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Is there anything the token-holder must do after\nhaving exercised such a right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Are there any time limits on the token-holders\nenjoyment of the right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Does the token-holder require any permissions\nbefore enjoying such a right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Does the token-holder need to interact with any\nthird parties before enjoying such a right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Are there any limits to the token-holders\nexercising such a right?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.4",
+    "question": "Is D.3 N/A?",
+    "type": "whitepaper",
+    "relevant_field": "D.3",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.5",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.5",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.5",
+    "question": "Does anything have to happen before a\nmodification takes eﬀect?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.5",
+    "question": "May a party make that modification unilaterally or\ndoes it require the consent of the other party?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.5",
+    "question": "If unilaterally, does that party have to notify the\nother party of the modification? If Y, how is that notification to be provided?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.5",
+    "question": "Is D.3 N/A?",
+    "type": "whitepaper",
+    "relevant_field": "D.3",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.6",
+    "question": "Are any future public offers of crypto-assets planned by the issuer?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "futureCryptoOffers"
+  },
+  {
+    "field_id": "D.6",
+    "question": "What are the minimum target\nsubscription goals?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "minTargetSubscription"
+  },
+  {
+    "field_id": "D.6",
+    "question": "What are the maximum target\nsubscription goals?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "maxTargetSubscription"
+  },
+  {
+    "field_id": "D.6",
+    "question": "What is the issue price of the\ncrypto-asset?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "issuePrice"
+  },
+  {
+    "field_id": "D.6",
+    "question": "What are the subscription fees?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "subscriptionFees"
+  },
+  {
+    "field_id": "D.6",
+    "question": "How many crypto-assets will be oﬀered?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "numberOfCryptoAssets"
+  },
+  {
+    "field_id": "D.6",
+    "question": "Who will the oﬀer be made to (e.g. retail\ninvestors, professional investors, current\nholders, etc)?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "offerTargetAudience"
+  },
+  {
+    "field_id": "D.6",
+    "question": "Will any conditions or restrictions attach\nto the oﬀer?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "offerConditionsRestrictions"
+  },
+  {
+    "field_id": "D.6",
+    "question": "Will the oﬀer be phased, e.g. will there be\ndiscounts for early purchasers?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "isPhasedOffer"
+  },
+  {
+    "field_id": "D.6",
+    "question": "Who is the CASP in charge of placing the\ncrypto-assets?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "caspInCharge"
+  },
+  {
+    "field_id": "D.6",
+    "question": "When will the oﬀer be made?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "offerDate"
+  },
+  {
+    "field_id": "D.6",
+    "question": "In which jurisdictions will the oﬀer be\nmade?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "offerJurisdiction"
+  },
+  {
+    "field_id": "D.6",
+    "question": "What is the planned use of collected\nfunds",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "plannedUseOfFunds"
+  },
+  {
+    "field_id": "D.7",
+    "question": "Where applicable, information on the number of crypto-assets retained by the issuer itself.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.8",
+    "question": "Indication whether an admission to trading is sought.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.9",
+    "question": "how and where the crypto-assets\ncan be purchased or sold after the oﬀer to the\npublic",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.9",
+    "question": "Indication whether an admission to trading is sought.",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.9",
+    "question": "Is the D.8 field false?",
+    "type": "whitepaper",
+    "relevant_field": "D.8",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.10",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.10",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.10",
+    "question": "Are there any restrictions on the transferability\nof the crypto-assets?\nFor example, do any of the following restrictions\napply:\n- Restrictions on transferring the\ncrypto-assets to other holders?\n- Restrictions on where crypto-assets may\nbe used to purchase goods or services?\n- Time limits on transferring the\ncrypto-assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.11",
+    "question": "Indication as to whether the crypto-asset has protocols for the increase or decrease of its supply in response to changes in demand.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.12",
+    "question": "State if the total\nsupply is fixed and provide a brief overview\nof the supply schedule.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.12",
+    "question": "Describe the factors\nthat influence the supply, such as release\nschedules, agreements, and reward rates.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.12",
+    "question": "Explain how the\ngoverning body or protocol can influence\nsupply adjustments through decisions on\nreward rates or other mechanisms.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.12",
+    "question": "Is the D.11 field false?",
+    "type": "whitepaper",
+    "relevant_field": "D.11",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.13",
+    "question": "Indication as to whether the crypto-asset has a protection scheme protecting the value of the crypto-asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.14",
+    "question": "Provide a description of the protection schemes protecting the value of the crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.14",
+    "question": "Is the D.13 field true?",
+    "type": "whitepaper",
+    "relevant_field": "D.13",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.15",
+    "question": "Indication as to whether the crypto-asset has a compensation scheme.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.16",
+    "question": "Provide description of the compensation schemes",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.16",
+    "question": "Is the D.15 field TRUE?",
+    "type": "whitepaper",
+    "relevant_field": "D.15",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.17",
+    "question": "What specific legal rights do token holders have in relation to the asset-referenced token (e.g. redemption, claims on reserves)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.17",
+    "question": "Are there any differences in rights between types or classes of holders? If yes, what are the reasons for such differences, and are they applied in a non-discriminatory way?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.17",
+    "question": "What legal or contractual mechanisms ensure that these rights are enforceable under relevant national laws?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.18",
+    "question": "What types of assets back the token (e.g. fiat currencies, commodities, crypto-assets, government bonds)? Please list each one.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.18",
+    "question": "What proportion or percentage of the reserve is allocated to each referenced asset?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.18",
+    "question": "Are there any restrictions or conditions on holding or changing the composition of these referenced assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.19",
+    "question": "What is the nominal or market value of the reserve assets held to back the token?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.19",
+    "question": "What is the amount or value that each token holder can claim against the reserve (e.g. per token)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.19",
+    "question": "How often is the size of the reserve updated or re-evaluated?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.20",
+    "question": "How is the amount that a holder can claim linked to the value of the referenced assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.20",
+    "question": "Is the claim fixed, floating, or subject to market fluctuations?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.21",
+    "question": "Who is responsible for valuing the referenced assets and the related claims (internal team or independent third party)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.21",
+    "question": "What methodology is used to determine the fair value of the claim?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.21",
+    "question": "Are independent auditors, valuation agents, or other third parties involved in verifying the claim value?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.22",
+    "question": "Are there any limitations, conditions, or exceptions to the claim (e.g. thresholds, redemption limits)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.23",
+    "question": "What mechanisms or arrangements are in place to ensure holders can buy/sell tokens without significant delay or price impact?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.23",
+    "question": "Are there designated market makers, exchanges, or automated systems that support liquidity?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.23",
+    "question": "Is the issuer obligated to provide or support secondary market liquidity directly or through partners?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.24",
+    "question": "Who are the named entities responsible for providing liquidity (e.g. market makers, platforms, counterparties)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.24",
+    "question": "What are their roles, and under what agreements or terms do they operate?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.25",
+    "question": "What is the designated contact point (email, phone, postal address) for submitting complaints related to the token or issuer?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.26",
+    "question": "What are the steps a token holder must follow to submit a complaint?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.27",
+    "question": "Is there a formal dispute resolution mechanism in place for token holders? If yes, please describe it.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.28",
+    "question": "What specific rights do token holders have if the issuer is unable to fulfil its obligations (e.g. repayment, asset backing)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.28",
+    "question": "How are token holders protected in the event of the issuer’s insolvency or bankruptcy?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.28",
+    "question": "Are there any mechanisms in place that allow holders to claim or recover value if the issuer defaults?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.29",
+    "question": "What rights do token holders have when the recovery plan is put into effect?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.29",
+    "question": "How can holders participate in or influence decisions related to the recovery plan?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.30",
+    "question": "What rights do token holders have when the redemption plan is activated?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.30",
+    "question": "How are holders informed about the redemption process and their options?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.31",
+    "question": "Can holders choose how they want to receive value when redeeming tokens (e.g. cash vs assets)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.31",
+    "question": "If no choice is offered, what is the default redemption form?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.32",
+    "question": "In what form can tokens be redeemed (e.g. fiat currency, underlying assets)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.32",
+    "question": "What is the official currency used for redemption (e.g. EUR, USD)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.33",
+    "question": "Can holders choose between different transfer methods when redeeming tokens?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.33",
+    "question": "If only one method is offered, what is it and why?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.34",
+    "question": "How are redeemed assets or funds transferred to the holder (e.g. SEPA, SWIFT, blockchain transfer)?\n",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.34",
+    "question": "Are there any operational steps or requirements holders must follow to receive their redeemed value?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.35",
+    "question": "What is the official currency in which redemptions are made (e.g. EUR, USD)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.35",
+    "question": "Is the redemption currency fixed or dependent on holder location or preference?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.36",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.36",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.36",
+    "question": "The laws applicable to the crypto-asset",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "D.37",
+    "question": "What is the crypto asset situation?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "cryptoAssetSituation"
+  },
+  {
+    "field_id": "D.37",
+    "question": "Is there a smart contract or legal contract other set of legal terms provided by the issuer that govern how token-holders may hold or use the crypto-asset tokens?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "hasContractTerms"
+  },
+  {
+    "field_id": "D.37",
+    "question": "Competent court.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "What is the DTI number?",
+    "type": "user",
+    "relevant_field": "",
+    "relevant_variable": "selectedDTIs"
+  },
+  {
+    "field_id": "E.1",
+    "question": "What is the unique nature of the DLT being used, and what advantages does it offer over traditional systems?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "What consensus mechanism is implemented, and what makes it unique or innovative?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "How does the network handle information propagation—what communication protocols or methods are used?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "How does information spread among nodes in the network?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "What is the process for achieving consensus within the network?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "How are transactions and events structured and timestamped in the system?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "What are the key performance, latency, and security characteristics of the network?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "How is transaction integrity maintained and how is the order of transactions ensured?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.1",
+    "question": "What roles do different node types play in the network? Please describe:\nValidator Nodes\nCommunity Nodes\nHistorical Nodes",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.2",
+    "question": "What protocols and technical standards are used in the token’s design and operation? Provide a brief overview.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.2",
+    "question": "What type of Distributed Ledger Technology (DLT) is used, and what are its key features and advantages?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.2",
+    "question": "What security protocols and standards are in place to ensure network robustness and data protection?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.2",
+    "question": "How does the protocol handle holding, storing, and transferring of the token?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.2",
+    "question": "What technical standards support these data handling functions (e.g. ERC-20, BEP-20, ISO standards)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.3",
+    "question": "What is the technology used allowing\nfor the holding, storing and transfer of\nasset-referenced tokens, if relevant]",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "What is the consensus mechanism used and what unique aspects distinguish it?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "How do nodes communicate to propagate information (e.g., gossip protocol), and how efficient is this process across the network?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "Which specific algorithm or method is used to achieve consensus (e.g., Proof of Work, Proof of Stake), and how are transactions structured and ordered?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "What are the key data structures used to link transactions or events, and are there any special mechanisms such as voting involved?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "What security protocols protect the network against malicious activities, and how is fair transaction ordering ensured?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "What types of nodes exist in the network (e.g., validator, leader), and what are the responsibilities of each node type?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.4",
+    "question": "Are there any additional optimizations or features (such as sharding) included, and how do these improve the system’s overall performance?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Brief overview of the incentive\nmechanisms and fee structure used by the\ncrypto-asset project.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Describe how validators\nor miners are incentivised, including any\nrewards or penalties",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Explain\nmechanisms to prevent and penalise\nmalicious or underperforming validators.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Detail the fees for various\ntransaction types and services, including\nspecific amounts and any conditions",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Explain how fees\nare calculated, the currency used for\npayments, and any exchange rate\nconsiderations.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Mention the governing body\nresponsible for setting fees and how they are\ndetermined",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.5",
+    "question": "Provide information on where to\nfind the latest fee structure and any regular\nupdates.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.6",
+    "question": "Indication as to whether the crypto-assets are issued, transferred, and stored using distributed ledger technology that is operated by the issuer, the offeror, or a third party acting on their behalf.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Detailed description of the functioning of such\ndistributed ledger technology",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Briefly introduce the DLT and its\nmain capabilities.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Describe Core Functionalities:\nAsset Management: Manage digital\nassets: creation, transfer, lifecycle.\nData Integrity: Ensure data integrity\nand immutability through\ncryptographic methods.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Describe Advanced Functionalities:\nSmart Contract creation and\nexecution.\nIdentity Management: Support of\ndigital identities.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Describe Interoperability: How it enables the interaction\nwith other networks and systems.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Describe User Interaction:\nUser Interfaces.\nDeveloper Tools.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Describe Performance and Scalability:\nEﬃciency Measures: Features for\noptimising transaction speed and\nperformance.\nScalability Solutions: Methods for\nscaling the network to support growth.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.7",
+    "question": "Is the field E.6 false?",
+    "type": "whitepaper",
+    "relevant_field": "E.6",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.8",
+    "question": "Indication as to whether an audit of the technology\nused was conducted",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "Provide a brief overview of the\naudit, including its purpose and scope, and\nhighlight the significance of the audit\noutcome",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "Methodology: The audit employed\n[tools/methods], such as formal verification\nusing [specific tool or framework].",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "The audit confirmed key findings, such\nas [key findings].",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "Received certifications or\nconfirmations.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "Independent Review:\nThe audit was conducted by\n[auditors/entities], known for their\nexpertise in [relevant field].\nLed by [names/titles].",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "The review included\n[components/services], assessing the\nsecurity, stability, and correctness of\nthe technology.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "E.9",
+    "question": "Is the field E.8 false?",
+    "type": "whitepaper",
+    "relevant_field": "E.8",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.1",
+    "question": "What are the risks related to the reserve of assets, when the \nissuer is not able to fulfil its obligations?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "What are the main financial risks related to the issuer’s treasury or financial reserves, including risks from insufficient revenue or unexpected shortfalls?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "How does the issuer manage internal efficiency and resource allocation, and what risks arise from potential mismanagement or inefficient use of resources?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "What internal control risks exist, such as those affecting operational integrity, fraud prevention, error management, and operational efficiency?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "What governance practices are in place, and what risks are associated with transparency, decision-making processes, and the balance between centralisation and decentralisation?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "Which key partnerships does the issuer rely on for operations and strategy, and what risks could arise from disruptions or failures in these partnerships?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.2",
+    "question": "What regulatory risks affect the issuer, including compliance challenges, changes in laws, and potential legal issues?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Briefly introduce the context, mentioning if\nthe oﬀer to the public has already passed\nand the relevance of trading risks.]",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Irreversibility of Transactions:\n○\nDescribe if payments can be\nreversed, deleted, or frozen by the\nnetwork or governing body.\n○\nDescribe if payments made under\ncoercion, deceit, mistakes, or\nunlawfully are irreversible, similar to\nphysical cash.\n○\nDescribe if courts can mandate\ncompensatory transactions, but lack\nthe technical means to enforce such\norders without private keys.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Standard Trading Risks:\n○\nPricing Volatility: Crypto-asset prices\nare susceptible to significant\nfluctuations due to market dynamics.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Liquidity Conditions: Insuﬃcient liquidity on\nexchanges or trading platforms could lead to\nlarge price swings, impacting the ability to\nsell assets without significant price\nconcessions.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Market Demand: There is a risk that the DLT\nmay not achieve expected levels of market\nadoption, impacting the utility and value of\nthe asset.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Impact of Large Transactions: Large\ntransactions by major holders could\nsignificantly influence the price, leading to\npotential manipulation or unintended price\ndestabilisation.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Broader Economic Conditions: Wider\neconomic downturns or financial market\ninstability could lead to decreased\ninvestment in crypto-assets, adversely\naﬀecting their price and liquidity",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Regulatory Changes: Evolving regulatory\nlandscapes may impact the oﬀer and trading\nof crypto-assets.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.3",
+    "question": "Mitigation Strategies: Use of intermediaries,\nparticularly regulated ones with robust\ncustomer support, can help mitigate some of\nthese risks, although it reintroduces\nconventional risks associated with\ndependence on third parties.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What are the key risks associated with holding and trading crypto-assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "How susceptible is the crypto-asset to significant price fluctuations due to market volatility?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What liquidity risks exist, including challenges in buying or selling without large price concessions?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What risks of market manipulation exist from large holders or coordinated activities?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What broader market risks could affect the value and stability of the crypto-asset?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What risks are associated with the irreversibility of blockchain transactions?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What risks arise from private key management, including loss, theft, or improper handling?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What custodial risks exist when relying on third-party custodians for private key management?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.4",
+    "question": "What privacy risks arise from the public recording of transactions on the blockchain and potential exposure of user identities?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.5",
+    "question": "What are the risks related \nto \noperationalisa\n tion of the \nAsset-Referen\n ced Token \nProject",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Provide a brief overview of the technology-related risks associated with the crypto-asset project.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Describe the risk of network disruption or manipulation if a majority of the networks computational power or stake is compromised.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Highlight vulnerabilities related to network proxies and specific services, such as potential exploits in smart contracts or APIs.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Explain the risk of software bugs and defects in new releases or updates that could compromise system functionality, security, and user trust.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Discuss risks associated with updates to the protocol, including the potential for introducing vulnerabilities or disruptions.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Describe the risks associated with current cryptographic methods, including the potential future threat posed by quantum computing.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Highlight the risks and technical challenges associated with scaling the network, such as implementing sharding or other scaling solutions.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Discuss the importance of interoperability with other blockchain projects and traditional systems, and the risks of delays in achieving it.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.6",
+    "question": "Describe other conceivable attacks, such as denial-of-service attacks or network partitioning, which could disrupt network communication.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "Provide a brief overview of the mitigation measures in place to address various risks associated with the crypto-asset project.",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.1",
+    "question": "What mechanisms are used to ensure that the value of the reserve consistently matches or supports the value of the claims attached to the ART (e.g. 1:1 pegging, overcollateralisation)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.1",
+    "question": "Are there automated or algorithmic tools in place to maintain this alignment (e.g. smart contracts, rebalancing protocols)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.1",
+    "question": "What happens if the value of the reserve deviates from the value of the claims (e.g. corrective actions, buffer usage)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.2",
+    "question": "What assets are included in the reserve (e.g. fiat currencies, securities, crypto-assets)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.2",
+    "question": "Where and how are the reserve assets held (e.g. custodians, wallets, bank accounts)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.3",
+    "question": "What process is followed for issuing new ARTs (e.g. purchase method, reserve increase, minting rules)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.3",
+    "question": "What process is followed for redeeming ARTs, including eligibility criteria and procedures?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.3",
+    "question": "Are there any limits, fees, or timeframes associated with issuance or redemption?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.3",
+    "question": "Who is responsible for executing the issuance and redemption operations (e.g. issuer, smart contract, third party)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.5",
+    "question": "Are any reserve assets invested? If yes, what proportion of the reserve is subject to investment?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.5",
+    "question": "What types of financial instruments or assets are eligible for investment (e.g. government bonds, money market funds)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.5",
+    "question": "Who is responsible for managing these investments, and are they internally or externally managed?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.6",
+    "question": "Where are the reserve assets held, and by whom (e.g. custodians, banks, wallets)?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.6",
+    "question": "Are reserve assets held in segregated accounts from the issuer’s own assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.6",
+    "question": "What safeguards are in place to protect reserve assets in the event of custodian insolvency?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.7",
+    "question": "What is the name of each entity appointed as a custodian for the reserve assets?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.1",
+    "question": "Name",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.10",
+    "question": "Renewable energy consumption",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.11",
+    "question": "Energy intensity",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.12",
+    "question": "Scope 1 DLT GHG emissions – controlled",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.13",
+    "question": "Scope 2 DLT GHG emissions – purchased",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.14",
+    "question": "GHG intensity",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.15",
+    "question": "Key energy course and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.16",
+    "question": "Key GHG sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.17",
+    "question": "Energy mix",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.19",
+    "question": "Carbon intensity",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.2",
+    "question": "Relevant legal entity identifier",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.22",
+    "question": "Generation of waste electrical and electronic equipment (WEEE)",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.23",
+    "question": "Non-recycled WEEE ratio",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.24",
+    "question": "Generation of hazardous waste",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.25",
+    "question": "Generation of waste (all types)",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.26",
+    "question": "Non-recycled waste ratio (all types)",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.27",
+    "question": "Waste intensity (all types)",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.29",
+    "question": "Impact of the use of equipment on natural resources",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.3",
+    "question": "Name of the crypto-asset",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.31",
+    "question": "Water use",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.32",
+    "question": "Non-recycled water ratio",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.33",
+    "question": "Other energy sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.34",
+    "question": "Other GHG sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.35",
+    "question": "Waste sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.36",
+    "question": "Natural resources sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.4",
+    "question": "Consensus Mechanism",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.5",
+    "question": "Incentive Mechanisms and Applicable Fees",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.6",
+    "question": "Beginning of the period to which the disclosure relates",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.7",
+    "question": "End of the period to which the disclosure relates",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.8",
+    "question": "Energy consumption",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.9",
+    "question": "Energy consumption sources and methodologies",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "G.8",
+    "question": "LEI of the CASP providing custody and administration of crypto-assets on behalf of clients, credit institutions, or investment firms appointed as custodians of the reserve assets",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How does the project educate current and potential token holders about market risks?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What is the purpose and structure of the Treasury Allocation Plan, and how does it prevent market disruption?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "In what ways does the project engage with regulators to mitigate the risks of regulatory changes?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How are financial reserves managed, and what budgeting practices are in place to ensure financial stability?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What role do internal audits play in improving operational control and accountability?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How does the project ensure transparency in decision-making and governance disclosures?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How is network decentralisation achieved, and why is it important for risk mitigation?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What steps are taken to diversify partnerships and reduce dependency on individual entities?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How does the project maintain regulatory compliance in a rapidly evolving legal landscape?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What operational security measures are implemented for managing cryptographic keys and critical infrastructure?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How are holders educated about best practices related to crypto-assets without influencing asset prices?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How does the project ensure ongoing security through regular assessments and updates?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What mechanisms are in place to encourage meaningful community engagement and feedback?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How does the project encourage developer activity and proposals through partnerships?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What strategies are used to reduce dependency on specific partners?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How are high standards in human resources and operational efficiency maintained?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How are new council members vetted, and how is network decentralisation used to prevent majority attacks?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What is the process and frequency of internal security audits?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What does the code review process look like, and how does it help prevent bugs and vulnerabilities?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How is the bug bounty programme structured, and what role does it play in external security testing?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "How is the project preparing for the potential impact of quantum computing through advanced cryptographic standards?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "F.7",
+    "question": "What measures are being taken to ensure interoperability and scalability, including sharding and post-quantum readiness?",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.20",
+    "question": "Scope 3 DLT GHG emissions – Value chain",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.18",
+    "question": "Energy use reduction",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.21",
+    "question": "GHG emissions reduction targets or commitments",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.28",
+    "question": "Waste reduction targets or commitments (all types)",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  },
+  {
+    "field_id": "S.30",
+    "question": "Natural resources use reduction targets or commitments",
+    "type": "rag",
+    "relevant_field": "",
+    "relevant_variable": ""
+  }
+]

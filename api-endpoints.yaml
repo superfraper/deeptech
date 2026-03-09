@@ -1,0 +1,617 @@
+openapi: 3.0.0
+info:
+  title: RAG System API (extracted)
+  version: "0.1.0"
+  description: Extracted from backend/data/databases/index-api.html
+servers:
+  - url: http://localhost
+security:
+  - HTTPBearer: []
+components:
+  securitySchemes:
+    HTTPBearer:
+      type: http
+      scheme: bearer
+  schemas:
+    HTTPValidationError:
+      type: object
+      description: Placeholder for HTTPValidationError (see original spec)
+    GenerateRequest:
+      type: object
+      description: Placeholder for GenerateRequest
+    ELFRequest:
+      type: object
+      description: Placeholder for ELFRequest
+    RegenerateRequest:
+      type: object
+      description: Placeholder for RegenerateRequest
+    GenerationFormRequest:
+      type: object
+      description: Placeholder for Save Generation Form request
+    UserContextRequest:
+      type: object
+      description: Placeholder for UserContextRequest
+    GenerationStatus:
+      type: object
+      description: Placeholder for GenerationStatus
+    LEIRequest:
+      type: object
+      description: Placeholder for LEI lookup request
+    FollowUpQuestionRequest:
+      type: object
+      description: Placeholder for follow-up question request
+    UploadRequest:
+      type: object
+      description: Placeholder for upload request
+paths:
+  /api/upload/abort/{filename}:
+    delete:
+      summary: Abort File Upload
+      description: Endpoint to abort file upload/processing. Client-side cleanup only.
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: filename
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/generation/{generation_id}/cancel:
+    post:
+      summary: Cancel Generation
+      description: Cancel an active generation
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /debug/opensearch:
+    get:
+      summary: Debug Opensearch
+      description: Debug endpoint to inspect OpenSearch index content
+      security:
+        - HTTPBearer: []
+      responses:
+        "200":
+          description: Successful Response
+  /files/{file_id}:
+    delete:
+      summary: Delete User File
+      description: Delete a specific file
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: file_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /files/delete/{file_id}:
+    post:
+      summary: Delete User File S3
+      description: Delete a user's file from S3
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: file_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/whitepaper/{generation_id}:
+    delete:
+      summary: Delete Whitepaper
+      description: Delete a whitepaper generation for the current user
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /dummy:
+    post:
+      summary: Dummy Endpoint
+      description: Dummy endpoint for testing purposes. Accepts form data but returns static dummy data.
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/elf-lookup:
+    post:
+      summary: Elf Lookup
+      description: Lookup ELF (Entity Legal Form) information from the local CSV database
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ELFRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /generate:
+    post:
+      summary: Generate Endpoint
+      description: Start background generation of field fill-outs for whitepapers. Returns generation_id immediately.
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/all-section-fields:
+    get:
+      summary: Get All Section Fields
+      description: Get all fields from all sections
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: token_type
+          in: query
+          required: false
+          schema:
+            type: string
+            default: OTH
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/dti/{dti}:
+    get:
+      summary: Get Dti
+      description: Get a specific DTI record by DTI code
+      parameters:
+        - name: dti
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /follow-up-questions:
+    post:
+      summary: Get Follow Up Questions
+      description: Generate follow-up questions based on field information
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/FollowUpQuestionRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/generation/{generation_id}/status:
+    get:
+      summary: Get Generation Status
+      description: Get the status of a generation by id
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/GenerationStatus'
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/sections/{section_number}/field/{field_id}:
+    get:
+      summary: Get Section Field
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: section_number
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: field_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/sections/{section_number}/fields:
+    get:
+      summary: Get Section Fields
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: section_number
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/generation/user/active:
+    get:
+      summary: Get User Active Generation
+      security:
+        - HTTPBearer: []
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/user-context/{auth0_user_id}:
+    get:
+      summary: Get User Context
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: auth0_user_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /files:
+    get:
+      summary: Get User Files
+      security:
+        - HTTPBearer: []
+      responses:
+        "200":
+          description: Successful Response
+  /api/user/whitepapers:
+    get:
+      summary: Get User Whitepapers
+      security:
+        - HTTPBearer: []
+      responses:
+        "200":
+          description: Successful Response
+  /api/whitepaper/{generation_id}/form:
+    get:
+      summary: Get Whitepaper Form
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /health:
+    get:
+      summary: Health Check
+      responses:
+        "200":
+          description: Successful Response
+  /api/lei-lookup:
+    post:
+      summary: LEI Lookup
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/LEIRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /public/dummy:
+    post:
+      summary: Public Dummy Endpoint
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerateRequest'
+      responses:
+        "200":
+          description: Successful Response
+  /regenerate:
+    post:
+      summary: Regenerate Endpoint
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RegenerateRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/whitepaper/{generation_id}/reset:
+    post:
+      summary: Reset Whitepaper Progress
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/generation/{generation_id}/form:
+    post:
+      summary: Save Generation Form
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/GenerationFormRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/user-context:
+    post:
+      summary: Save User Context
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserContextRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/whitepaper/{generation_id}/save:
+    post:
+      summary: Save Whitepaper Progress
+      description: Save progress to a specific whitepaper
+      security:
+        - HTTPBearer: []
+      parameters:
+        - name: generation_id
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserContextRequest'
+      responses:
+        "200":
+          description: Successful Response
+        "422":
+          description: Validation Error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HTTPValidationError'
+  /api/dti/search:
+    get:
+      summary: Search DTI
+      description: Search for DTIs. Type can be "012" (regular) or "3" (fungible)
+      parameters:
+        - name: query
+          in: query
+          required: false
+          schema:
+            type: string
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+            default: "012"
+      responses:
+        "200":
+          description: Successful Response
+  /files/test:
+    get:
+      summary: Test Files Endpoint
+      security:
+        - HTTPBearer: []
+      responses:
+        "200":
+          description: Successful Response
+  /upload:
+    post:
+      summary: Upload File
+      security:
+        - HTTPBearer: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UploadRequest'
+      responses:
+        "200":
+          description: Successful Response

@@ -1,0 +1,1160 @@
+[
+  {
+    "section_number": 1,
+    "id": 1,
+    "field_id": "I.00",
+    "field_name": "Table of content"
+  },
+  {
+    "section_number": 1,
+    "id": 2,
+    "field_id": "I.01",
+    "field_name": "Date of notification"
+  },
+  {
+    "section_number": 1,
+    "id": 3,
+    "field_id": "I.02",
+    "field_name": "Statement in accordance with Article 6(3) of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 1,
+    "id": 4,
+    "field_id": "I.03",
+    "field_name": "Compliance statement in accordance with Article 6(6) of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 1,
+    "id": 5,
+    "field_id": "I.04",
+    "field_name": "Statement in accordance with Article 6(5), points (a), (b), (c) of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 1,
+    "id": 6,
+    "field_id": "I.05",
+    "field_name": "Statement in accordance with Article (5), point (d) of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 1,
+    "id": 7,
+    "field_id": "I.06",
+    "field_name": "Statement in accordance with Article 6(5), points (e) and (f) of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 10,
+    "id": 1,
+    "field_id": "G.1",
+    "field_name": "Purchaser Rights and Obligations"
+  },
+  {
+    "section_number": 10,
+    "id": 2,
+    "field_id": "G.2",
+    "field_name": "Exercise of Rights and obligations"
+  },
+  {
+    "section_number": 10,
+    "id": 3,
+    "field_id": "G.3",
+    "field_name": "Conditions for modifications of rights and obligations"
+  },
+  {
+    "section_number": 10,
+    "id": 4,
+    "field_id": "G.4",
+    "field_name": "Future Public Offers"
+  },
+  {
+    "section_number": 10,
+    "id": 5,
+    "field_id": "G.5",
+    "field_name": "Issuer Retained Crypto-Assets"
+  },
+  {
+    "section_number": 10,
+    "id": 6,
+    "field_id": "G.6",
+    "field_name": "Utility Token Classification"
+  },
+  {
+    "section_number": 10,
+    "id": 7,
+    "field_id": "G.7",
+    "field_name": "Key Features of Goods/ Services of Utility Tokens"
+  },
+  {
+    "section_number": 10,
+    "id": 8,
+    "field_id": "G.8",
+    "field_name": "Utility Tokens Redemption"
+  },
+  {
+    "section_number": 10,
+    "id": 9,
+    "field_id": "G.9",
+    "field_name": "Non-Trading request"
+  },
+  {
+    "section_number": 10,
+    "id": 10,
+    "field_id": "G.10",
+    "field_name": "Crypto-Assets purchase or sale modalities"
+  },
+  {
+    "section_number": 10,
+    "id": 11,
+    "field_id": "G.11",
+    "field_name": "Crypto-Assets Transfer Restrictions"
+  },
+  {
+    "section_number": 10,
+    "id": 12,
+    "field_id": "G.12",
+    "field_name": "Supply Adjustment Protocols"
+  },
+  {
+    "section_number": 10,
+    "id": 13,
+    "field_id": "G.13",
+    "field_name": "Supply Adjustment Mechanisms"
+  },
+  {
+    "section_number": 10,
+    "id": 14,
+    "field_id": "G.14",
+    "field_name": "Token Value Protection Schemes"
+  },
+  {
+    "section_number": 10,
+    "id": 15,
+    "field_id": "G.15",
+    "field_name": "Token Value Protection Schemes description"
+  },
+  {
+    "section_number": 10,
+    "id": 16,
+    "field_id": "G.16",
+    "field_name": "Compensation Schemes"
+  },
+  {
+    "section_number": 10,
+    "id": 17,
+    "field_id": "G.17",
+    "field_name": "Compensation Schemes description"
+  },
+  {
+    "section_number": 10,
+    "id": 18,
+    "field_id": "G.18",
+    "field_name": "Applicable law"
+  },
+  {
+    "section_number": 10,
+    "id": 19,
+    "field_id": "G.19",
+    "field_name": "Competent court"
+  },
+  {
+    "section_number": 11,
+    "id": 1,
+    "field_id": "H.1",
+    "field_name": "Distributed ledger technology"
+  },
+  {
+    "section_number": 11,
+    "id": 2,
+    "field_id": "H.2",
+    "field_name": "Protocols and technical standards"
+  },
+  {
+    "section_number": 11,
+    "id": 3,
+    "field_id": "H.3",
+    "field_name": "Technology Used"
+  },
+  {
+    "section_number": 11,
+    "id": 4,
+    "field_id": "H.4",
+    "field_name": "Consensus Mechanism"
+  },
+  {
+    "section_number": 11,
+    "id": 5,
+    "field_id": "H.5",
+    "field_name": "Incentive Mechanisms and Applicable Fees"
+  },
+  {
+    "section_number": 11,
+    "id": 6,
+    "field_id": "H.6",
+    "field_name": "Use of Distributed Ledger Technology"
+  },
+  {
+    "section_number": 11,
+    "id": 7,
+    "field_id": "H.7",
+    "field_name": "DLT Functionality Description"
+  },
+  {
+    "section_number": 11,
+    "id": 8,
+    "field_id": "H.8",
+    "field_name": "Audit"
+  },
+  {
+    "section_number": 11,
+    "id": 9,
+    "field_id": "H.9",
+    "field_name": "Audit outcome"
+  },
+  {
+    "section_number": 13,
+    "id": 1,
+    "field_id": "S.1",
+    "field_name": "Name"
+  },
+  {
+    "section_number": 13,
+    "id": 2,
+    "field_id": "S.2",
+    "field_name": "Relevant legal entity identifier"
+  },
+  {
+    "section_number": 13,
+    "id": 3,
+    "field_id": "S.3",
+    "field_name": "Name of the crypto-asset"
+  },
+  {
+    "section_number": 13,
+    "id": 4,
+    "field_id": "S.4",
+    "field_name": "Consensus Mechanism"
+  },
+  {
+    "section_number": 13,
+    "id": 5,
+    "field_id": "S.5",
+    "field_name": "Incentive Mechanisms and Applicable Fees"
+  },
+  {
+    "section_number": 13,
+    "id": 6,
+    "field_id": "S.6",
+    "field_name": "Beginning of the period to which the disclosure relates"
+  },
+  {
+    "section_number": 13,
+    "id": 7,
+    "field_id": "S.7",
+    "field_name": "End of the period to which the disclosure relates"
+  },
+  {
+    "section_number": 13,
+    "id": 8,
+    "field_id": "S.8",
+    "field_name": "Energy consumption"
+  },
+  {
+    "section_number": 13,
+    "id": 9,
+    "field_id": "S.9",
+    "field_name": "Energy consumption sources and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 10,
+    "field_id": "S.10",
+    "field_name": "Renewable energy consumption"
+  },
+  {
+    "section_number": 13,
+    "id": 11,
+    "field_id": "S.11",
+    "field_name": "Energy intensity"
+  },
+  {
+    "section_number": 13,
+    "id": 12,
+    "field_id": "S.12",
+    "field_name": "Scope 1 DLT GHG emissions – controlled"
+  },
+  {
+    "section_number": 13,
+    "id": 13,
+    "field_id": "S.13",
+    "field_name": "Scope 2 DLT GHG emissions – purchased"
+  },
+  {
+    "section_number": 13,
+    "id": 14,
+    "field_id": "S.14",
+    "field_name": "GHG intensity"
+  },
+  {
+    "section_number": 13,
+    "id": 15,
+    "field_id": "S.15",
+    "field_name": "Key energy course and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 16,
+    "field_id": "S.16",
+    "field_name": "Key GHG sources and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 17,
+    "field_id": "S.17",
+    "field_name": "Energy mix"
+  },
+  {
+    "section_number": 13,
+    "id": 18,
+    "field_id": "S.18",
+    "field_name": "Energy use reduction"
+  },
+  {
+    "section_number": 13,
+    "id": 19,
+    "field_id": "S.19",
+    "field_name": "Carbon intensity"
+  },
+  {
+    "section_number": 13,
+    "id": 20,
+    "field_id": "S.20",
+    "field_name": "Scope 3 DLT GHG emissions – Value chain"
+  },
+  {
+    "section_number": 13,
+    "id": 21,
+    "field_id": "S.21",
+    "field_name": "GHG emissions reduction targets or commitments"
+  },
+  {
+    "section_number": 13,
+    "id": 22,
+    "field_id": "S.22",
+    "field_name": "Generation of waste electrical and electronic equipment (WEEE)"
+  },
+  {
+    "section_number": 13,
+    "id": 23,
+    "field_id": "S.23",
+    "field_name": "Non-recycled WEEE ratio"
+  },
+  {
+    "section_number": 13,
+    "id": 24,
+    "field_id": "S.24",
+    "field_name": "Generation of hazardous waste"
+  },
+  {
+    "section_number": 13,
+    "id": 25,
+    "field_id": "S.25",
+    "field_name": "Generation of waste (all types)"
+  },
+  {
+    "section_number": 13,
+    "id": 26,
+    "field_id": "S.26",
+    "field_name": "Non-recycled waste ratio (all types)"
+  },
+  {
+    "section_number": 13,
+    "id": 27,
+    "field_id": "S.27",
+    "field_name": "Waste intensity (all types)"
+  },
+  {
+    "section_number": 13,
+    "id": 28,
+    "field_id": "S.28",
+    "field_name": "Waste reduction targets or commitments (all types)"
+  },
+  {
+    "section_number": 13,
+    "id": 29,
+    "field_id": "S.29",
+    "field_name": "Impact of the use of equipment on natural resources"
+  },
+  {
+    "section_number": 13,
+    "id": 30,
+    "field_id": "S.30",
+    "field_name": "Natural resources use reduction targets or commitments"
+  },
+  {
+    "section_number": 13,
+    "id": 31,
+    "field_id": "S.31",
+    "field_name": "Water use"
+  },
+  {
+    "section_number": 13,
+    "id": 32,
+    "field_id": "S.32",
+    "field_name": "Non-recycled water ratio"
+  },
+  {
+    "section_number": 13,
+    "id": 33,
+    "field_id": "S.33",
+    "field_name": "Other energy sources and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 34,
+    "field_id": "S.34",
+    "field_name": "Other GHG sources and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 35,
+    "field_id": "S.35",
+    "field_name": "Waste sources and methodologies"
+  },
+  {
+    "section_number": 13,
+    "id": 36,
+    "field_id": "S.36",
+    "field_name": "Natural resources sources and methodologies"
+  },
+  {
+    "section_number": 2,
+    "id": 1,
+    "field_id": "I.07",
+    "field_name": "Warning in accordance with Article 6(7), second subparagraph of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 2,
+    "id": 2,
+    "field_id": "I.08",
+    "field_name": "Characteristics of the crypto-asset"
+  },
+  {
+    "section_number": 2,
+    "id": 3,
+    "field_id": "I.09",
+    "field_name": "Information about the quality and quantity of goods or services to which the utility tokens give access and restrictions on the transferability"
+  },
+  {
+    "section_number": 2,
+    "id": 4,
+    "field_id": "I.10",
+    "field_name": "Key information about the offer to the public or admission to trading"
+  },
+  {
+    "section_number": 3,
+    "id": 1,
+    "field_id": "I.1",
+    "field_name": "Offer-Related Risks"
+  },
+  {
+    "section_number": 3,
+    "id": 2,
+    "field_id": "I.2",
+    "field_name": "Issuer-Related Risks"
+  },
+  {
+    "section_number": 3,
+    "id": 3,
+    "field_id": "I.3",
+    "field_name": "Crypto-Assets - related Risks"
+  },
+  {
+    "section_number": 3,
+    "id": 4,
+    "field_id": "I.4",
+    "field_name": "Project Implementation -Related Risks"
+  },
+  {
+    "section_number": 3,
+    "id": 5,
+    "field_id": "I.5",
+    "field_name": "Technology-Related Risks"
+  },
+  {
+    "section_number": 3,
+    "id": 6,
+    "field_id": "I.6",
+    "field_name": "Mitigation measures"
+  },
+  {
+    "section_number": 4,
+    "id": 1,
+    "field_id": "A.1",
+    "field_name": "Name"
+  },
+  {
+    "section_number": 4,
+    "id": 4,
+    "field_id": "A.2",
+    "field_name": "Legal form"
+  },
+  {
+    "section_number": 4,
+    "id": 5,
+    "field_id": "A.3",
+    "field_name": "Registered address"
+  },
+  {
+    "section_number": 4,
+    "id": 6,
+    "field_id": "A.4",
+    "field_name": "Head office"
+  },
+  {
+    "section_number": 4,
+    "id": 7,
+    "field_id": "A.5",
+    "field_name": "Registration date"
+  },
+  {
+    "section_number": 4,
+    "id": 8,
+    "field_id": "A.6",
+    "field_name": "Legal entity identifier"
+  },
+  {
+    "section_number": 4,
+    "id": 9,
+    "field_id": "A.7",
+    "field_name": "Another identifier required pursuant to applicable national law"
+  },
+  {
+    "section_number": 4,
+    "id": 10,
+    "field_id": "A.8",
+    "field_name": "Contact telephone number"
+  },
+  {
+    "section_number": 4,
+    "id": 11,
+    "field_id": "A.9",
+    "field_name": "E-mail address"
+  },
+  {
+    "section_number": 4,
+    "id": 12,
+    "field_id": "A.10",
+    "field_name": "Response time (Days)"
+  },
+  {
+    "section_number": 4,
+    "id": 13,
+    "field_id": "A.11",
+    "field_name": "Parent company"
+  },
+  {
+    "section_number": 4,
+    "id": 14,
+    "field_id": "A.12",
+    "field_name": "Members of management body"
+  },
+  {
+    "section_number": 4,
+    "id": 15,
+    "field_id": "A.13",
+    "field_name": "Business activity"
+  },
+  {
+    "section_number": 4,
+    "id": 16,
+    "field_id": "A.14",
+    "field_name": "Parent company business activity"
+  },
+  {
+    "section_number": 4,
+    "id": 17,
+    "field_id": "A.15",
+    "field_name": "Newly established"
+  },
+  {
+    "section_number": 4,
+    "id": 18,
+    "field_id": "A.16",
+    "field_name": "Recent financial condition for the past 3 years"
+  },
+  {
+    "section_number": 4,
+    "id": 19,
+    "field_id": "A.17",
+    "field_name": "Financial condition since registration"
+  },
+  {
+    "section_number": 5,
+    "id": 1,
+    "field_id": "B.1",
+    "field_name": "Issuer different from offeror or person seeking admission to trading"
+  },
+  {
+    "section_number": 5,
+    "id": 2,
+    "field_id": "B.2",
+    "field_name": "Name"
+  },
+  {
+    "section_number": 5,
+    "id": 3,
+    "field_id": "B.3",
+    "field_name": "Legal form"
+  },
+  {
+    "section_number": 5,
+    "id": 4,
+    "field_id": "B.4",
+    "field_name": "Registered address"
+  },
+  {
+    "section_number": 5,
+    "id": 5,
+    "field_id": "B.5",
+    "field_name": "Head office"
+  },
+  {
+    "section_number": 5,
+    "id": 6,
+    "field_id": "B.6",
+    "field_name": "Registration date"
+  },
+  {
+    "section_number": 5,
+    "id": 7,
+    "field_id": "B.7",
+    "field_name": "Legal entity identifier"
+  },
+  {
+    "section_number": 5,
+    "id": 8,
+    "field_id": "B.8",
+    "field_name": "Another identifier required pursuant to applicable national law"
+  },
+  {
+    "section_number": 5,
+    "id": 9,
+    "field_id": "B.9",
+    "field_name": "Parent company"
+  },
+  {
+    "section_number": 5,
+    "id": 10,
+    "field_id": "B.10",
+    "field_name": "Members of management body"
+  },
+  {
+    "section_number": 5,
+    "id": 11,
+    "field_id": "B.11",
+    "field_name": "Business activity"
+  },
+  {
+    "section_number": 5,
+    "id": 12,
+    "field_id": "B.12",
+    "field_name": "Parent company business activity"
+  },
+  {
+    "section_number": 6,
+    "id": 1,
+    "field_id": "C.1",
+    "field_name": "Name"
+  },
+  {
+    "section_number": 6,
+    "id": 2,
+    "field_id": "C.2",
+    "field_name": "Legal form"
+  },
+  {
+    "section_number": 6,
+    "id": 3,
+    "field_id": "C.3",
+    "field_name": "Registered address"
+  },
+  {
+    "section_number": 6,
+    "id": 4,
+    "field_id": "C.4",
+    "field_name": "Head office"
+  },
+  {
+    "section_number": 6,
+    "id": 5,
+    "field_id": "C.5",
+    "field_name": "Registration date"
+  },
+  {
+    "section_number": 6,
+    "id": 6,
+    "field_id": "C.6",
+    "field_name": "Legal entity identifier of the operator of the trading platform"
+  },
+  {
+    "section_number": 6,
+    "id": 7,
+    "field_id": "C.7",
+    "field_name": "Another identifier required pursuant to applicable national law"
+  },
+  {
+    "section_number": 6,
+    "id": 8,
+    "field_id": "C.8",
+    "field_name": "Parent company"
+  },
+  {
+    "section_number": 6,
+    "id": 9,
+    "field_id": "C.9",
+    "field_name": "Reason for crypto-asset white paper preparation"
+  },
+  {
+    "section_number": 6,
+    "id": 10,
+    "field_id": "C.10",
+    "field_name": "Members of management body"
+  },
+  {
+    "section_number": 6,
+    "id": 11,
+    "field_id": "C.11",
+    "field_name": "Operator business activity"
+  },
+  {
+    "section_number": 6,
+    "id": 12,
+    "field_id": "C.12",
+    "field_name": "Business activity of parent company"
+  },
+  {
+    "section_number": 6,
+    "id": 13,
+    "field_id": "C.13",
+    "field_name": "Other persons drawing up the crypto-asset white paper according to Article 6(1), second subparagraph, of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 6,
+    "id": 14,
+    "field_id": "C.14",
+    "field_name": "Reason for drawing the white paper by persons referred to in Article 6(1), second subparagraph, of Regulation (EU) 2023/1114"
+  },
+  {
+    "section_number": 7,
+    "id": 1,
+    "field_id": "D.1",
+    "field_name": "Crypto-asset project name"
+  },
+  {
+    "section_number": 7,
+    "id": 2,
+    "field_id": "D.2",
+    "field_name": "Crypto-asset’s name"
+  },
+  {
+    "section_number": 7,
+    "id": 3,
+    "field_id": "D.3",
+    "field_name": "Abbreviation"
+  },
+  {
+    "section_number": 7,
+    "id": 4,
+    "field_id": "D.4",
+    "field_name": "Crypto-asset project description"
+  },
+  {
+    "section_number": 7,
+    "id": 5,
+    "field_id": "D.5",
+    "field_name": "Details of all natural or legal persons involved in the implementation of the crypto-asset project"
+  },
+  {
+    "section_number": 7,
+    "id": 6,
+    "field_id": "D.6",
+    "field_name": "Utility Token Classification"
+  },
+  {
+    "section_number": 7,
+    "id": 7,
+    "field_id": "D.7",
+    "field_name": "Key Features of Goods/Services for Utility Token Projects"
+  },
+  {
+    "section_number": 7,
+    "id": 8,
+    "field_id": "D.8",
+    "field_name": "Plans for the token"
+  },
+  {
+    "section_number": 7,
+    "id": 9,
+    "field_id": "D.9",
+    "field_name": "Resource Allocation"
+  },
+  {
+    "section_number": 7,
+    "id": 10,
+    "field_id": "D.10",
+    "field_name": "Planned Use of Collected Funds or Crypto-Assets"
+  },
+  {
+    "section_number": 8,
+    "id": 1,
+    "field_id": "F.1",
+    "field_name": "Crypto-Asset Type"
+  },
+  {
+    "section_number": 8,
+    "id": 2,
+    "field_id": "F.2",
+    "field_name": "Crypto-Asset Functionality"
+  },
+  {
+    "section_number": 8,
+    "id": 3,
+    "field_id": "F.3",
+    "field_name": "Planned Application of Functionalities"
+  },
+  {
+    "section_number": 8,
+    "id": 4,
+    "field_id": "F.4",
+    "field_name": "Type of crypto-asset white paper"
+  },
+  {
+    "section_number": 8,
+    "id": 5,
+    "field_id": "F.5",
+    "field_name": "\nThe type of submission"
+  },
+  {
+    "section_number": 8,
+    "id": 6,
+    "field_id": "F.6",
+    "field_name": "Crypto-Asset Characteristics"
+  },
+  {
+    "section_number": 8,
+    "id": 7,
+    "field_id": "F.7",
+    "field_name": "Commercial name or trading name"
+  },
+  {
+    "section_number": 8,
+    "id": 8,
+    "field_id": "F.8",
+    "field_name": "Website of the issuer"
+  },
+  {
+    "section_number": 8,
+    "id": 9,
+    "field_id": "F.9",
+    "field_name": "Starting date of offer to the public or admission to trading"
+  },
+  {
+    "section_number": 8,
+    "id": 10,
+    "field_id": "F.10",
+    "field_name": "Publication date"
+  },
+  {
+    "section_number": 8,
+    "id": 11,
+    "field_id": "F.11",
+    "field_name": "Any other services provided by the issuer"
+  },
+  {
+    "section_number": 8,
+    "id": 13,
+    "field_id": "F.12",
+    "field_name": "Languages or languages of the white paper"
+  },
+  {
+    "section_number": 8,
+    "id": 14,
+    "field_id": "F.13",
+    "field_name": "Digital Token Identifier"
+  },
+  {
+    "section_number": 8,
+    "id": 15,
+    "field_id": "F.14",
+    "field_name": "Functionally Fungible group Digital Token Identifier"
+  },
+  {
+    "section_number": 8,
+    "id": 16,
+    "field_id": "F.15",
+    "field_name": "Voluntary data flag"
+  },
+  {
+    "section_number": 8,
+    "id": 17,
+    "field_id": "F.16",
+    "field_name": "Personal data flag"
+  },
+  {
+    "section_number": 8,
+    "id": 18,
+    "field_id": "F.17",
+    "field_name": "LEI Eligibility"
+  },
+  {
+    "section_number": 8,
+    "id": 19,
+    "field_id": "F.18",
+    "field_name": "Home member state"
+  },
+  {
+    "section_number": 8,
+    "id": 20,
+    "field_id": "F.19",
+    "field_name": "Host member states"
+  },
+  {
+    "section_number": 9,
+    "id": 1,
+    "field_id": "E.1",
+    "field_name": "Public Offering and/or Admission to trading"
+  },
+  {
+    "section_number": 9,
+    "id": 2,
+    "field_id": "E.2",
+    "field_name": "Reasons for Public Offer and/or Admission to trading"
+  },
+  {
+    "section_number": 9,
+    "id": 3,
+    "field_id": "E.3",
+    "field_name": "Fundraising Target"
+  },
+  {
+    "section_number": 9,
+    "id": 4,
+    "field_id": "E.4",
+    "field_name": "Minimum Subscription Goals"
+  },
+  {
+    "section_number": 9,
+    "id": 5,
+    "field_id": "E.5",
+    "field_name": "Maximum Subscription Goal"
+  },
+  {
+    "section_number": 9,
+    "id": 6,
+    "field_id": "E.6",
+    "field_name": "Oversubscription Acceptance"
+  },
+  {
+    "section_number": 9,
+    "id": 7,
+    "field_id": "E.7",
+    "field_name": "Oversubscription Allocation"
+  },
+  {
+    "section_number": 9,
+    "id": 8,
+    "field_id": "E.8",
+    "field_name": "Issue Price"
+  },
+  {
+    "section_number": 9,
+    "id": 9,
+    "field_id": "E.9",
+    "field_name": "Official currency or any other crypto-assets determining the issue price"
+  },
+  {
+    "section_number": 9,
+    "id": 10,
+    "field_id": "E.10",
+    "field_name": "Subscription fee"
+  },
+  {
+    "section_number": 9,
+    "id": 11,
+    "field_id": "E.11",
+    "field_name": "Offer Price Determination Method"
+  },
+  {
+    "section_number": 9,
+    "id": 12,
+    "field_id": "E.12",
+    "field_name": "Total Number of Offered/Traded CryptoAssets"
+  },
+  {
+    "section_number": 9,
+    "id": 13,
+    "field_id": "E.13",
+    "field_name": "Targeted Holders"
+  },
+  {
+    "section_number": 9,
+    "id": 14,
+    "field_id": "E.14",
+    "field_name": "Holder restrictions"
+  },
+  {
+    "section_number": 9,
+    "id": 15,
+    "field_id": "E.15",
+    "field_name": "Reimbursement"
+  },
+  {
+    "section_number": 9,
+    "id": 16,
+    "field_id": "E.16",
+    "field_name": "Refund Mechanism"
+  },
+  {
+    "section_number": 9,
+    "id": 17,
+    "field_id": "E.17",
+    "field_name": "Refund Timeline"
+  },
+  {
+    "section_number": 9,
+    "id": 18,
+    "field_id": "E.18",
+    "field_name": "Offer Phases"
+  },
+  {
+    "section_number": 9,
+    "id": 19,
+    "field_id": "E.19",
+    "field_name": "Early Purchase Discount"
+  },
+  {
+    "section_number": 9,
+    "id": 20,
+    "field_id": "E.20",
+    "field_name": "Time-limited offer"
+  },
+  {
+    "section_number": 9,
+    "id": 21,
+    "field_id": "E.21",
+    "field_name": "Subscription period beginning"
+  },
+  {
+    "section_number": 9,
+    "id": 22,
+    "field_id": "E.22",
+    "field_name": "Subscription period end"
+  },
+  {
+    "section_number": 9,
+    "id": 23,
+    "field_id": "E.23",
+    "field_name": "Safeguarding Arrangements for Offered Funds /CryptoAssets"
+  },
+  {
+    "section_number": 9,
+    "id": 24,
+    "field_id": "E.24",
+    "field_name": "Payment Methods for Crypto-Asset Purchase"
+  },
+  {
+    "section_number": 9,
+    "id": 25,
+    "field_id": "E.25",
+    "field_name": "Value Transfer Methods for Reimbursement"
+  },
+  {
+    "section_number": 9,
+    "id": 26,
+    "field_id": "E.26",
+    "field_name": "Right of Withdrawal"
+  },
+  {
+    "section_number": 9,
+    "id": 27,
+    "field_id": "E.27",
+    "field_name": "Transfer of Purchased Crypto-Assets"
+  },
+  {
+    "section_number": 9,
+    "id": 28,
+    "field_id": "E.28",
+    "field_name": "Transfer Time Schedule"
+  },
+  {
+    "section_number": 9,
+    "id": 29,
+    "field_id": "E.29",
+    "field_name": "Purchaser's Technical Requirements"
+  },
+  {
+    "section_number": 9,
+    "id": 30,
+    "field_id": "E.30",
+    "field_name": "CASP name"
+  },
+  {
+    "section_number": 9,
+    "id": 31,
+    "field_id": "E.31",
+    "field_name": "CASP identifier"
+  },
+  {
+    "section_number": 9,
+    "id": 32,
+    "field_id": "E.32",
+    "field_name": "Placement form"
+  },
+  {
+    "section_number": 9,
+    "id": 33,
+    "field_id": "E.33",
+    "field_name": "Trading Platforms name"
+  },
+  {
+    "section_number": 9,
+    "id": 34,
+    "field_id": "E.34",
+    "field_name": "Trading platforms Market identifier code (MIC)"
+  },
+  {
+    "section_number": 9,
+    "id": 35,
+    "field_id": "E.35",
+    "field_name": "Trading Platforms Access"
+  },
+  {
+    "section_number": 9,
+    "id": 36,
+    "field_id": "E.36",
+    "field_name": "Involved costs"
+  },
+  {
+    "section_number": 9,
+    "id": 37,
+    "field_id": "E.37",
+    "field_name": "Offer Expenses"
+  },
+  {
+    "section_number": 9,
+    "id": 38,
+    "field_id": "E.38",
+    "field_name": "Conflicts of Interest"
+  },
+  {
+    "section_number": 9,
+    "id": 39,
+    "field_id": "E.39",
+    "field_name": "Applicable law"
+  },
+  {
+    "section_number": 9,
+    "id": 40,
+    "field_id": "E.40",
+    "field_name": "Competent court"
+  }
+]

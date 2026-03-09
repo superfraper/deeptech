@@ -1,0 +1,19 @@
+name: Backend CI
+
+on:
+  push:
+    paths: &backend_paths
+      - "backend/**.py"
+      - .github/workflows/backend-ci.yaml
+      - .github/workflows/ruff-check.yaml
+      - .github/workflows/mypy-check.yaml
+  pull_request:
+    paths: *backend_paths
+
+jobs:
+  ruff:
+    uses: ./.github/workflows/ruff-check.yaml
+
+  mypy:
+    needs: ruff
+    uses: ./.github/workflows/mypy-check.yaml

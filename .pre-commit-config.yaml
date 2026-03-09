@@ -1,0 +1,28 @@
+repos:
+  # Ruff linting and formatting (matches CI)
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.8.4  # Use the latest version
+    hooks:
+      # Run ruff linter
+      - id: ruff
+        args: [--fix, --exit-non-zero-on-fix]
+        files: ^backend/.*\.py$
+      
+      # Run ruff formatter
+      - id: ruff-format
+        files: ^backend/.*\.py$
+
+  # General Python checks
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v5.0.0
+    hooks:
+      - id: trailing-whitespace
+        files: ^backend/.*\.py$
+      - id: end-of-file-fixer
+        files: ^backend/.*\.py$
+      - id: check-yaml
+        files: ^backend/.*\.ya?ml$
+      - id: check-json
+        files: ^backend/.*\.json$
+      - id: check-added-large-files
+        args: [--maxkb=1000]

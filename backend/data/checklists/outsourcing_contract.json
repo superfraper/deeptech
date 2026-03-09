@@ -1,0 +1,79 @@
+{
+  "id": "outsourcing_contract",
+  "name": "Outsourcing Contract Checklist",
+  "description": "Checklist for outsourcing agreements with third-party service providers",
+  "questions": [
+    {
+      "id": "out_1",
+      "question": "Does the contract clearly define the outsourced functions and responsibilities?",
+      "category": "scope",
+      "required": true
+    },
+    {
+      "id": "out_2",
+      "question": "Are key performance indicators (KPIs) established for measuring service quality?",
+      "category": "kpi",
+      "required": true
+    },
+    {
+      "id": "out_3",
+      "question": "Does the contract include governance and oversight mechanisms?",
+      "category": "governance",
+      "required": true
+    },
+    {
+      "id": "out_4",
+      "question": "Are transition and knowledge transfer arrangements defined?",
+      "category": "transition",
+      "required": true
+    },
+    {
+      "id": "out_5",
+      "question": "Does the contract address staff qualifications and training requirements?",
+      "category": "personnel",
+      "required": true
+    },
+    {
+      "id": "out_6",
+      "question": "Are business continuity and disaster recovery requirements specified?",
+      "category": "business_continuity",
+      "required": true
+    },
+    {
+      "id": "out_7",
+      "question": "Does the contract include audit rights and access to records?",
+      "category": "audit",
+      "required": true
+    },
+    {
+      "id": "out_8",
+      "question": "Are data protection and privacy requirements addressed?",
+      "category": "data_protection",
+      "required": true
+    },
+    {
+      "id": "out_9",
+      "question": "Does the contract define the process for approving subcontractors?",
+      "category": "subcontracting",
+      "required": true
+    },
+    {
+      "id": "out_10",
+      "question": "Are exit management and reversibility procedures defined?",
+      "category": "exit",
+      "required": true
+    },
+    {
+      "id": "out_11",
+      "question": "Does the contract specify insurance requirements?",
+      "category": "insurance",
+      "required": false
+    },
+    {
+      "id": "out_12",
+      "question": "Are dispute resolution mechanisms established?",
+      "category": "disputes",
+      "required": false
+    }
+  ]
+}

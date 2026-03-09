@@ -1,0 +1,85 @@
+{
+  "services": [
+    {
+      "id": "S01",
+      "name": "ICT project management",
+      "description": "Provision of services related to Project Management Officer (PMO)."
+    },
+    {
+      "id": "S02",
+      "name": "ICT Development",
+      "description": "Provision of services related to business analysis, software design and development, testing."
+    },
+    {
+      "id": "S03",
+      "name": "ICT help desk and first level support",
+      "description": "Provision of services related to helpdesk support and first level support on ICT incident."
+    },
+    {
+      "id": "S04",
+      "name": "ICT security management services",
+      "description": "Provision of services related to ICT security (protection, detection, response and recovering), including security incident handling and forensics."
+    },
+    {
+      "id": "S05",
+      "name": "Provision of data",
+      "description": "Subscription to the services of data providers. (digital data service)"
+    },
+    {
+      "id": "S06",
+      "name": "Data analysis",
+      "description": "Provision of services related to the support for data/analysis. (digital data service)"
+    },
+    {
+      "id": "S07",
+      "name": "ICT facilities and hosting services (excluding Cloud services)",
+      "description": "Provision of ICT infrastructure, facilities and hosting services, including the provision of utilities (energy, heat management etc.), telecom access and physical security (excluding cloud services), payment processing activities, or operating payment infrastructures."
+    },
+    {
+      "id": "S08",
+      "name": "Computation",
+      "description": "Provision of digital processing capabilities (including data computation), excluding the computation services performed in the context of a cloud environment."
+    },
+    {
+      "id": "S09",
+      "name": "Non-Cloud Data storage",
+      "description": "Provision of data storage platform (excluding cloud services)."
+    },
+    {
+      "id": "S10",
+      "name": "Telecom carrier",
+      "description": "Operations for telecommunication systems and flow management. Traditional analogue telephone services are explicitly excluded pursuant to Article 3, point (21), of Regulation (EU) 2022/2554."
+    },
+    {
+      "id": "S11",
+      "name": "Network infrastructure",
+      "description": "Provision of network infrastructure."
+    },
+    {
+      "id": "S12",
+      "name": "Hardware and physical devices",
+      "description": "Provision of workstations, phones, servers, data storage devices, appliances, etc. in a form of a service."
+    },
+    {
+      "id": "S13",
+      "name": "Software licencing (excluding SaaS)",
+      "description": "Provision of software run on premises."
+    },
+    {
+      "id": "S14",
+      "name": "ICT operation management (including maintenance)",
+      "description": "Provision of services related to infrastructure (systems and hardware except networks) configuration, maintenance, installing, capacity management, business continuity management, etc. Including Managed Service Providers (MSP)."
+    },
+    {
+      "id": "S15",
+      "name": "ICT Consulting",
+      "description": "Provision of intellectual / ICT expertise services."
+    },
+    {
+      "id": "S16",
+      "name": "ICT Risk management",
+      "description": "Verification of compliance with ICT risk management requirements in accordance with Article 6(10) of Regulation (EU) 2022/2554."
+    }
+  ],
+  "ict_services_definition": "ICT services means digital and data services provided through ICT systems to one or more internal or external users on an ongoing basis, including hardware as a service and hardware services which includes the provision of technical support via software or firmware updates by the hardware provider, excluding traditional analogue telephone services."
+}

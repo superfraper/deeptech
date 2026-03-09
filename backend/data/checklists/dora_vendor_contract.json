@@ -1,0 +1,112 @@
+{
+  "id": "dora_vendor_contract",
+  "name": "DORA Vendor Contract Checklist",
+  "description": "Comprehensive checklist for DORA compliance in ICT third-party service provider contracts",
+  "questions": [
+    {
+      "id": "dora_1",
+      "question": "Does the contract clearly define the ICT services to be provided, including service levels and performance targets?",
+      "category": "service_definition",
+      "required": true,
+      "article": "Article 30(2)(a)"
+    },
+    {
+      "id": "dora_2",
+      "question": "Does the contract specify the locations where ICT services will be provided and where data will be processed and stored?",
+      "category": "data_location",
+      "required": true,
+      "article": "Article 30(2)(b)"
+    },
+    {
+      "id": "dora_3",
+      "question": "Does the contract include provisions regarding the protection of personal data and confidential information?",
+      "category": "data_protection",
+      "required": true,
+      "article": "Article 30(2)(c)"
+    },
+    {
+      "id": "dora_4",
+      "question": "Does the contract contain audit rights allowing the financial entity to conduct audits and inspections?",
+      "category": "audit_rights",
+      "required": true,
+      "article": "Article 30(3)(e)"
+    },
+    {
+      "id": "dora_5",
+      "question": "Does the contract specify incident management and reporting obligations of the ICT third-party provider?",
+      "category": "incident_management",
+      "required": true,
+      "article": "Article 30(2)(d)"
+    },
+    {
+      "id": "dora_6",
+      "question": "Does the contract include business continuity arrangements and disaster recovery plans?",
+      "category": "business_continuity",
+      "required": true,
+      "article": "Article 30(2)(e)"
+    },
+    {
+      "id": "dora_7",
+      "question": "Does the contract contain termination clauses and exit strategies, including data portability provisions?",
+      "category": "exit_strategy",
+      "required": true,
+      "article": "Article 30(2)(f)"
+    },
+    {
+      "id": "dora_8",
+      "question": "Does the contract address subcontracting arrangements and require prior approval for material subcontracting?",
+      "category": "subcontracting",
+      "required": true,
+      "article": "Article 30(2)(g)"
+    },
+    {
+      "id": "dora_9",
+      "question": "Does the contract ensure the ICT third-party provider cooperates with competent authorities?",
+      "category": "regulatory_cooperation",
+      "required": true,
+      "article": "Article 30(3)(a)"
+    },
+    {
+      "id": "dora_10",
+      "question": "Does the contract specify security requirements and measures to protect against ICT-related risks?",
+      "category": "security_requirements",
+      "required": true,
+      "article": "Article 30(2)(h)"
+    },
+    {
+      "id": "dora_11",
+      "question": "Does the contract include notification requirements for material changes to the service?",
+      "category": "change_management",
+      "required": true,
+      "article": "Article 30(2)(i)"
+    },
+    {
+      "id": "dora_12",
+      "question": "Does the contract define escalation procedures and contact points for critical incidents?",
+      "category": "escalation",
+      "required": true,
+      "article": "Article 30(2)(j)"
+    },
+    {
+      "id": "dora_13",
+      "question": "Does the contract include provisions for regular performance reviews and reporting?",
+      "category": "performance_monitoring",
+      "required": false,
+      "article": "Article 30(3)(b)"
+    },
+    {
+      "id": "dora_14",
+      "question": "Does the contract address concentration risk and dependency on the ICT third-party provider?",
+      "category": "concentration_risk",
+      "required": false,
+      "article": "Article 29"
+    },
+    {
+      "id": "dora_15",
+      "question": "Does the contract include provisions for threat-led penetration testing (TLPT) support if applicable?",
+      "category": "testing",
+      "required": false,
+      "article": "Article 26"
+    }
+  ]
+}
