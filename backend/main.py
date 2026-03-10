@@ -214,7 +214,6 @@ origins = [
     "http://127.0.0.1:3000",
     "https://127.0.0.1:3000",
     "https://deeptech-ui.vercel.app",
-    "https://*.vercel.app",
 ]
 
 # Add any additional origins from environment variable
