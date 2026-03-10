@@ -213,7 +213,14 @@ origins = [
     "https://localhost",
     "http://127.0.0.1:3000",
     "https://127.0.0.1:3000",
+    "https://deeptech-ui.vercel.app",
+    "https://*.vercel.app",
 ]
+
+# Add any additional origins from environment variable
+extra_origins = os.getenv("CORS_ORIGINS", "")
+if extra_origins:
+    origins.extend([o.strip() for o in extra_origins.split(",") if o.strip()])
 app.add_middleware(
     CORSMiddleware,
     allow_origins=origins,
