@@ -39,4 +39,4 @@ EXPOSE 8000
 # PORT is set by Railway, default to 8000 for local development
 ENV PORT=8000
 
-CMD uv run --no-sync uvicorn main:app --host 0.0.0.0 --port $PORT --workers 4 --log-level info
+CMD uv run --no-sync uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1 --log-level info
