@@ -34,9 +34,9 @@ RUN useradd -m -u 1000 appuser && \
 
 USER appuser
 
-EXPOSE 8000
-
-# PORT is set by Railway, default to 8000 for local development
+# PORT is set by Railway at runtime; default 8000 for local dev
 ENV PORT=8000
 
-CMD uv run --no-sync uvicorn main:app --host 0.0.0.0 --port $PORT --workers 1 --log-level info
+EXPOSE ${PORT}
+
+CMD uv run --no-sync uvicorn main:app --host 0.0.0.0 --port ${PORT} --workers 1 --log-level info
