@@ -4265,7 +4265,7 @@ If the information is not found, state that clearly.
 Include relevant quotes from the source documents to support your answer."""
 
         # Use hybrid search to find relevant context
-        search_results = await hybrid_search(request.question_text, user_id, top_k=5)
+        search_results = await hybrid_search(request.question_text, os_client, logger, k=5, user_id=user_id)
 
         context_chunks = []
         source_document = None
