@@ -204,26 +204,10 @@ def get_dti_record_count():
 
 app = FastAPI(title="RAG System API")
 
-origins = [
-    "http://localhost",
-    "http://localhost:8000",
-    "http://localhost:8888",
-    "https://localhost:3000",
-    "http://localhost:3000",
-    "https://localhost",
-    "http://127.0.0.1:3000",
-    "https://127.0.0.1:3000",
-    "https://deeptech-ui.vercel.app",
-]
-
-# Add any additional origins from environment variable
-extra_origins = os.getenv("CORS_ORIGINS", "")
-if extra_origins:
-    origins.extend([o.strip() for o in extra_origins.split(",") if o.strip()])
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=origins,
-    allow_credentials=True,
+    allow_origins=["*"],
+    allow_credentials=False,
     allow_methods=["*"],
     allow_headers=["*"],
     expose_headers=["*"],
@@ -4255,54 +4239,161 @@ async def generate_qualification_answer(
             if not cursor.fetchone():
                 raise HTTPException(status_code=404, detail="Vendor qualification not found")
 
-        # Build the prompt for RAG
-        prompt = f"""Based on the provided documents, answer the following question about vendor services:
+        source_document = None
+        source_quote = None
+        context_chunks = []
+
+        # Use additional_context (uploaded doc / pasted text) as primary context if provided
+        if request.additional_context and request.additional_context.strip():
+            context = request.additional_context.strip()
+            source_document = "Provided document"
+            source_quote = context[:500]
+        else:
+            # Fall back to hybrid search over OpenSearch
+            from app.utils.search import hybrid_search
+            search_results = await hybrid_search(request.question_text, os_client, logger, k=5, user_id=user_id)
+            if search_results and search_results.get("results"):
+                for result in search_results["results"][:3]:
+                    chunk_text = result.get("chunk_text", "")
+                    doc_name = result.get("document_name", "Unknown")
+                    context_chunks.append(f"[From {doc_name}]: {chunk_text}")
+                    if not source_document:
+                        source_document = doc_name
+                        source_quote = chunk_text[:500] if chunk_text else None
+            context = "\n\n".join(context_chunks) if context_chunks else "No relevant documents found."
+
+        is_ict_provider_suggestion = None
+
+        if request.question_id == "q1_services":
+            dora_ict_definition = (
+                "ICT services means digital and data services provided through ICT systems to one or more "
+                "internal or external users on an ongoing basis, including hardware as a service and hardware "
+                "services which includes the provision of technical support via software or firmware updates "
+                "by the hardware provider, excluding traditional analogue telephone services."
+            )
+            prompt = f"""Based on the provided context, answer the following question about vendor services:
 
 Question: {request.question_text}
 
-Please provide a clear, detailed answer based on the information found in the documents.
-If the information is not found, state that clearly.
+Context:
+{context}
+
+DORA ICT services definition: {dora_ict_definition}
+
+Please provide a clear, detailed answer listing all services the vendor intends to provide.
 Include relevant quotes from the source documents to support your answer."""
 
-        # Use hybrid search to find relevant context
-        search_results = await hybrid_search(request.question_text, os_client, logger, k=5, user_id=user_id)
+            system_content = (
+                "You are an expert in vendor qualification and DORA compliance. "
+                "Answer questions based on the provided document context."
+            )
+            messages = [
+                {"role": "system", "content": system_content},
+                {"role": "user", "content": prompt},
+            ]
 
-        context_chunks = []
-        source_document = None
-        source_quote = None
+            response = await asyncio.to_thread(
+                openai.chat.completions.create,
+                model="gpt-4o-mini",
+                messages=messages,
+                temperature=0.3,
+                max_tokens=1000,
+            )
+            answer = response.choices[0].message.content.strip()
 
-        if search_results and search_results.get("results"):
-            for result in search_results["results"][:3]:
-                chunk_text = result.get("chunk_text", "")
-                doc_name = result.get("document_name", "Unknown")
-                context_chunks.append(f"[From {doc_name}]: {chunk_text}")
-                if not source_document:
-                    source_document = doc_name
-                    source_quote = chunk_text[:500] if chunk_text else None
+            # Determine ICT provider classification
+            ict_check_prompt = (
+                f"Based on this description of services a vendor will provide:\n\n{answer}\n\n"
+                f"DORA definition of ICT services: {dora_ict_definition}\n\n"
+                "Does this vendor qualify as an ICT service provider under DORA? "
+                "Answer with only YES or NO."
+            )
+            ict_response = await asyncio.to_thread(
+                openai.chat.completions.create,
+                model="gpt-4o-mini",
+                messages=[{"role": "user", "content": ict_check_prompt}],
+                temperature=0.0,
+                max_tokens=10,
+            )
+            ict_answer = ict_response.choices[0].message.content.strip().upper()
+            is_ict_provider_suggestion = "YES" in ict_answer
 
-        context = "\n\n".join(context_chunks) if context_chunks else "No relevant documents found."
+        elif request.question_id == "q2_service_types":
+            dora_services_list = (
+                "S01-Data analytics services, S02-Cloud computing services, S03-Data centre services, "
+                "S04-Software development services, S05-IT infrastructure management, "
+                "S06-Cybersecurity services, S07-Network services, S08-IT support and maintenance, "
+                "S09-Payment processing services, S10-Core banking systems, "
+                "S11-Trading platforms, S12-Risk management systems, "
+                "S13-Compliance monitoring services, S14-Communication services, "
+                "S15-Identity and access management, S16-Other ICT services"
+            )
+            prompt = f"""You are a DORA compliance expert. Based on the vendor services described below, map each service to the appropriate DORA ICT service type.
 
-        system_content = "You are an expert in vendor qualification and DORA compliance. " "Answer questions based on the provided document context."
-        messages = [
-            {"role": "system", "content": system_content},
-            {"role": "user", "content": f"Context from documents:\n{context}\n\n{prompt}"},
-        ]
+Vendor services context:
+{context}
 
-        response = await asyncio.to_thread(
-            openai.chat.completions.create,
-            model="gpt-4o-mini",
-            messages=messages,
-            temperature=0.3,
-            max_tokens=1000,
-        )
+Available DORA ICT service types: {dora_services_list}
 
-        answer = response.choices[0].message.content.strip()
+Return ONLY a valid JSON array (no markdown, no explanation) in this exact format:
+[
+  {{"name": "service name from document", "service_type_id": "S02", "is_critical": true, "source_quote": "brief quote from source"}}
+]
+
+Rules:
+- "name" must be the actual service name from the document
+- "service_type_id" must be one of S01-S16
+- "is_critical" is true if the service supports critical or important functions
+- "source_quote" is a brief supporting quote (max 100 chars) or empty string
+- Include all services identified"""
+
+            system_content = "You are a DORA compliance expert. Return only valid JSON arrays, no other text."
+            messages = [
+                {"role": "system", "content": system_content},
+                {"role": "user", "content": prompt},
+            ]
+            response = await asyncio.to_thread(
+                openai.chat.completions.create,
+                model="gpt-4o-mini",
+                messages=messages,
+                temperature=0.2,
+                max_tokens=1500,
+            )
+            answer = response.choices[0].message.content.strip()
+
+        else:
+            prompt = f"""Based on the provided context, answer the following question:
+
+Question: {request.question_text}
+
+Context:
+{context}
+
+Please provide a clear, detailed answer."""
+
+            system_content = (
+                "You are an expert in vendor qualification and DORA compliance. "
+                "Answer questions based on the provided document context."
+            )
+            messages = [
+                {"role": "system", "content": system_content},
+                {"role": "user", "content": prompt},
+            ]
+            response = await asyncio.to_thread(
+                openai.chat.completions.create,
+                model="gpt-4o-mini",
+                messages=messages,
+                temperature=0.3,
+                max_tokens=1000,
+            )
+            answer = response.choices[0].message.content.strip()
 
         return GenerateAnswerResponse(
             answer=answer,
             source_document=source_document,
             source_quote=source_quote,
-            confidence=0.8 if context_chunks else 0.3,
+            confidence=0.8 if (request.additional_context or context_chunks) else 0.3,
+            is_ict_provider_suggestion=is_ict_provider_suggestion,
         )
 
     except HTTPException:

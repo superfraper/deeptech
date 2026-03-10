@@ -67,6 +67,7 @@ class GenerateAnswerRequest(BaseModel):
     question_id: str
     question_text: str
     documents: list[str] | None = None
+    additional_context: str | None = None
 
 
 class GenerateAnswerResponse(BaseModel):
@@ -74,6 +75,7 @@ class GenerateAnswerResponse(BaseModel):
     source_document: str | None = None
     source_quote: str | None = None
     confidence: float | None = None
+    is_ict_provider_suggestion: bool | None = None
 
 
 class DoraIctService(BaseModel):
